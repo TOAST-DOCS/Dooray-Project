@@ -1,1 +1,1 @@
-## Dooray > Project > 개요
+## Dooray > Project > Overview

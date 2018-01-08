@@ -1,1 +1,1 @@
-## Dooray > Project > 릴리스 노트
+## Dooray > Project > Release Notes
