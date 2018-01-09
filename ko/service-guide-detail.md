@@ -1,4 +1,4 @@
-## Dooray! Project 사용자 가이드 
+## Dooray > Project > 서비스 상세 가이드  
 
 ### 프로젝트 만들기
 
