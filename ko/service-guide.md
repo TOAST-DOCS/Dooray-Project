@@ -149,5 +149,6 @@ PM(Project Manager)이라면 본인이 맡고 있는 프로젝트의 업무 상�
 http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png
 
 ‘담당 업무함’과 같이 필터를 이용하여 원하는 업무를 골라서 볼 수도 있습니다. 
+
 \[그림\] 담당 업무함
 http://static.toastoven.net/prod_dooray_project/13_pjt_mytaskbox.png
