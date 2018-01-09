@@ -146,8 +146,8 @@ http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png
 PM(Project Manager)이라면 본인이 맡고 있는 프로젝트의 업무 상태가 궁금할 것입니다. 이 때는 ‘내 프로젝트’에 있는 프로젝트별 링크를 이용하면 됩니다.
 
 \[그림\] 프로젝트 대쉬보드
-
 http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png
 
-‘담당 업무함’과 같이 필터를 이용하여 원하는 업무를 골라서 볼 수도 있습니다.
+‘담당 업무함’과 같이 필터를 이용하여 원하는 업무를 골라서 볼 수도 있습니다. 
+\[그림\] 담당 업무함
 http://static.toastoven.net/prod_dooray_project/13_pjt_mytaskbox.png
