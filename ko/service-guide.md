@@ -35,8 +35,9 @@ http://static.toastoven.net/prod_dooray_project/03_pjt_editor.png
 \[그림\] 에디터 본문 \* 입력 예시
 http://static.toastoven.net/prod_dooray_project/04_pjt_list.png
 
-자세한 도움말은 다음 링크를 참고해주세요.
-[*https://dooray.com/htmls/guides/markdown\_ko\_KR.html*](https://dooray.com/htmls/guides/markdown_ko_KR.html)
+자세한 도움말은 다음 링크를 참고해주세요. 
+> [참고]  
+> [*https://dooray.com/htmls/guides/markdown\_ko\_KR.html*](https://dooray.com/htmls/guides/markdown_ko_KR.html)
 
 ### 프로젝트 만들기 
 
