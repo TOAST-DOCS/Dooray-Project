@@ -5,14 +5,12 @@
 Dooray! Project에 처음 접속하면 다음과 같은 환영 메시지를 보게 됩니다.
 
 \[그림\] 프로젝트 환영 가이드
-![](media/image1.png) 
+http://static.toastoven.net/prod_dooray_project/01_pjt_welcome.png
 
 이후 Dooray!에서 매우 중요한 편집기 설정 화면이 나타납니다. 설정한 값은 새로운 업무를 등록하는 창이나, 빠른 업무 등록 창, 댓글 쓰기 창, 스트림의 댓글 쓰기 창 등에서 사용합니다. 설정한 편집기가 마음에 들지않을 때는 언제든지 에디터 우측 끝에 \*설정 아이콘\[그림\]을 클릭해 디폴트 편집기를 변경할 수 있습니다.
 
 \[그림\] 에디터 우측 끝 설정 아이콘
-
-![](media/image2.png){width="3.937007874015748in"
-height="3.2913385826771653in"}
+http://static.toastoven.net/prod_dooray_project/02_pjt_settings.png
 
 ### 위지윅(WYSIWYG) 편집기
 
@@ -27,8 +25,7 @@ height="3.2913385826771653in"}
 ‘\#’의 개수에 따라 글자 크기가 달라집니다. ‘\#’은 제목1에 해당하고 ‘\#\#\#\#\#\#’은 제목6으로 제목을 위한 가장 작은 글자 크기 서식입니다.
 
 \[그림\] 에디터 본문 \#제목 예시
-
-![](media/image3.png){width="3.937007874015748in" height="3.3070866141732282in"}
+http://static.toastoven.net/prod_dooray_project/03_pjt_editor.png
 
 ##### 목록
 
@@ -36,8 +33,7 @@ height="3.2913385826771653in"}
 들여쓰기를 할 때는 \[TAB\]키를 입력하고, 반대로 내어쓰기를 할 때는 \[Shift\]+\[TAB\]을 입력하면 됩니다. 마이크로소프트 워드와 동일한 방식으로 동작합니다.
 
 \[그림\] 에디터 본문 \* 입력 예시
-
-![](media/image4.png){width="3.937007874015748in" height="3.2992125984251968in"}
+http://static.toastoven.net/prod_dooray_project/04_pjt_list.png
 
 자세한 도움말은 다음 링크를 참고해주세요.
 [*https://dooray.com/htmls/guides/markdown\_ko\_KR.html*](https://dooray.com/htmls/guides/markdown_ko_KR.html)
@@ -49,19 +45,19 @@ Dooray! Project에서는 업무를 묶어 관리할 수 있는 여러가지 방�
 Dooray! 우측 상단의 설정 아이콘을 클릭 후 프로젝트 메뉴에서 ‘프로젝트 추가’를 선택합니다.
 
 \[그림\] 설정&gt; 프로젝트 &gt;프로젝트 추가
-![](media/image5.png){width="3.937007874015748in" height="1.3503937007874016in"}
+http://static.toastoven.net/prod_dooray_project/05_setting_add_project.png
 
 이미 ‘내 프로젝트’ 가 생성된 경우라면, 옆의 + 아이콘을 클릭해 ‘프로젝트 추가’를 선택합니다. 프로젝트명을 입력하고 ‘추가’를 클릭합니다.
 
 \[그림\] 내 프로젝트 추가
 
-![](media/image6.png){width="0.7871423884514436in" height="2.111111111111111in"}
+http://static.toastoven.net/prod_dooray_project/06_pjt_lnb_add_project.png
 
 ### 초대하기
 
 프로젝트를 만들면 바로 함께 일할 동료를 초대할 수 있습니다.
 \[그림\] 프로젝트 명 우측 설정 아이콘을 눌러 프로젝트 멤버 초대하기
-![](media/image7.png){width="4.263888888888889in" height="1.9448392388451443in"}
+http://static.toastoven.net/prod_dooray_project/07_pjt_invite.png
 
 ### 업무 등록하기
 
@@ -81,7 +77,7 @@ Dooray! 우측 상단의 설정 아이콘을 클릭 후 프로젝트 메뉴에�
 업무 본문 영역과 댓글란 사이에 히스토리를 눌러 확인할 수 있습니다.
 \[그림\] 1. 완료일 설정 및 변경
 
-![](media/image8.png){width="5.976744313210848in"> height="0.98793416447944in"}
+http://static.toastoven.net/prod_dooray_project/08_pjt_day.png
 
 ### 업무 수정하기
 
@@ -95,7 +91,7 @@ Dooray! Project에서는 내가 담당자인 업무를 쉽게 모아볼 수 있�
 
 \[그림\] 완료 제외 필터 설정
 
-![](media/image9.png){width="4.330555555555556in" height="2.6471861329833772in"}
+http://static.toastoven.net/prod_dooray_project/09_pjt_filter.png
 
 업무는 완료(요청)일, 등록일, 업데이트일 기준으로 정렬해서 볼 수 있고, ‘완료 업무 제외’를 비롯한 여러 필터 옵션도 적용할 수 있습니다.
 
@@ -108,7 +104,7 @@ Dooray! Project에서는 내가 담당자인 업무를 쉽게 모아볼 수 있�
 
 \[그림\] 업무 상태 확인 및 변경하기
 
-![](media/image10.png){width="5.177083333333333in" height="1.1784547244094488in"}
+http://static.toastoven.net/prod_dooray_project/10_pjt_status.png
 
 ### 댓글로 커뮤니케이션하기
 
@@ -140,7 +136,7 @@ Dooray! Project에서는 내가 담당자인 업무를 쉽게 모아볼 수 있�
 동료나 프로젝트 구성원, 혹은 팀원들에게 업무를 등록했다면 해당 업무의 진척 상황이 궁금할 때가 있습니다. 이 때 ‘보낸 업무함’이 굉장히 유용합니다. ‘담당 업무함’에 내가 담당자인 업무를 모아 놓았다면, ‘보낸 업무함’에는 내가 등록한 업무를 모아 놓았습니다.
 
 \[그림\] 보낸 업무함 업무 상태 및 업무별 개인 상태
-![](media/image11.png){width="4.724409448818897in" height="1.6456692913385826in"}\
+http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png
 
 ‘보낸 업무함’에서 담당자 이름의 색깔을 보면 현재 어떤 상태인지 알 수 있습니다. ‘등록’은 검정, ‘진행’은 파랑, ‘완료’는 회색입니다. 업무 목록에서 업무별 진행 상태 뿐 아니라, 클릭하여 업무에 대한 개인별 업무 상태도 직관적으로 알 수 있습니다.
 
@@ -150,8 +146,7 @@ PM(Project Manager)이라면 본인이 맡고 있는 프로젝트의 업무 상�
 
 \[그림\] 프로젝트 대쉬보드
 
-![](media/image12.png){width="4.724409448818897in" height="2.559055118110236in"}
+http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png
 
 ‘담당 업무함’과 같이 필터를 이용하여 원하는 업무를 골라서 볼 수도 있습니다.
-
-![](media/image13.png){width="4.330708661417323in" height="2.62992125984252in"}
+http://static.toastoven.net/prod_dooray_project/13_pjt_mytaskbox.png
