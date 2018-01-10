@@ -137,6 +137,7 @@ http://static.toastoven.net/prod_dooray_project/10_pjt_status.png
 동료나 프로젝트 구성원, 혹은 팀원들에게 업무를 등록했다면 해당 업무의 진척 상황이 궁금할 때가 있습니다. 이 때 ‘보낸 업무함’이 굉장히 유용합니다. ‘담당 업무함’에 내가 담당자인 업무를 모아 놓았다면, ‘보낸 업무함’에는 내가 등록한 업무를 모아 놓았습니다.
 
 \[그림\] 보낸 업무함 업무 상태 및 업무별 개인 상태
+
 http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png
 
 ‘보낸 업무함’에서 담당자 이름의 색깔을 보면 현재 어떤 상태인지 알 수 있습니다. ‘등록’은 검정, ‘진행’은 파랑, ‘완료’는 회색입니다. 업무 목록에서 업무별 진행 상태 뿐 아니라, 클릭하여 업무에 대한 개인별 업무 상태도 직관적으로 알 수 있습니다.
@@ -146,9 +147,11 @@ http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png
 PM(Project Manager)이라면 본인이 맡고 있는 프로젝트의 업무 상태가 궁금할 것입니다. 이 때는 ‘내 프로젝트’에 있는 프로젝트별 링크를 이용하면 됩니다.
 
 \[그림\] 프로젝트 대쉬보드
+
 http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png
 
 ‘담당 업무함’과 같이 필터를 이용하여 원하는 업무를 골라서 볼 수도 있습니다. 
 
 \[그림\] 담당 업무함
+
 http://static.toastoven.net/prod_dooray_project/13_pjt_mytaskbox.png
