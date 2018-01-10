@@ -4,8 +4,8 @@
 
 Dooray! Project에 처음 접속하면 다음과 같은 환영 메시지를 보게 됩니다.
 
-\[그림\] 프로젝트 환영 가이드
-http://static.toastoven.net/prod_dooray_project/01_pjt_welcome.png
+![웰컴](http://static.toastoven.net/prod_dooray_project/01_pjt_welcome.png)
+<center>[그림 1]프로젝트 환영 가이드</center>
 
 이후 Dooray!에서 매우 중요한 편집기 설정 화면이 나타납니다. 설정한 값은 새로운 업무를 등록하는 창이나, 빠른 업무 등록 창, 댓글 쓰기 창, 스트림의 댓글 쓰기 창 등에서 사용합니다. 설정한 편집기가 마음에 들지않을 때는 언제든지 에디터 우측 끝에 \*설정 아이콘\[그림\]을 클릭해 디폴트 편집기를 변경할 수 있습니다.
 
