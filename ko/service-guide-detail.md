@@ -11,12 +11,11 @@
 > ‘내 프로젝트’ 옆의 \[+\] 아이콘을 클릭하여 프로젝트를 추가합니다.
 > 프로젝트 추가 시, 프로젝트 멤버만으로 공개 대상을 설정합니다.
 
-  --------------------------------------------------------------------------------- ----------------------------------------------------
-  \[그림\] 내 프로젝트 옆 \[+\]                                                     \[그림\] 프로젝트 추가 &gt; 프로젝트 멤머만 선택
+  http://static.toastoven.net/prod_dooray_project/detail/01_pjt_detail_addpjt.png   
+  \[그림\] 내 프로젝트 옆 \[+\] 
+  http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png
+  \[그림\] 프로젝트 추가 &gt; 프로젝트 멤버만 선택
                                                                                     
-  ![](media/image6.png){width="0.9285706474190726in" height="2.49042104111986in"}   ![](media/image14.png){width="4.0236220472440944in" height="2.3622047244094486in"}
-  --------------------------------------------------------------------------------- ------------------------------------------------------------------------------------
-
 ##### 소속
 
 > 멤버가 여러 조직의 멤버일 때 생성할 프로젝트가 어떤 조직에 속할 것인지
@@ -43,10 +42,9 @@
 > 자유롭게 읽고 쓰게 하고 싶다면 ‘조직 멤버 전체’로 바꿉니다. 이런
 > 권한을 부여한 프로젝트를 ‘공개 프로젝트’라고 합니다.
 >
+> http://static.toastoven.net/prod_dooray_project/detail/03_pjt_detail_member01.png
 > \[그림\] 프로젝트 만들 때 공개 대상 설정 가능
 >
-> ![](media/image14.png){width="4.330708661417323in"
-> height="2.543307086614173in"}
 
 #### 공개 프로젝트 만들기
 
@@ -64,11 +62,9 @@
 > ‘조직 멤버 전체’를 선택하면 바로 옆에 ‘조직 선택’ 옵션이 나옵니다.
 > 클릭하면 테넌트 전체 조직 목록이 나오고 그 중에서 공개하고 싶은 조직을
 > 선택할 수 있습니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/04_pjt_detail_member02.png
 > \[그림\] 공개 대상 선택
->
-> ![](media/image15.png){width="4.330708661417323in"
-> height="0.905511811023622in"}
 >
 > 공개 프로젝트는 테넌트 전체에게는 공개이지만 테넌트 손님은 접근할 수
 > 없습니다. 테넌트 손님이 공개 프로젝트에 접근하기 위해서는 프로젝트
@@ -95,10 +91,8 @@
 > 프로젝트를 만들어서 바꿔보시기 바랍니다. 커다란 서비스를 Dooray!
 > Project의 작은 기능 하나로 대체할 수 있습니다.
 >
+> http://static.toastoven.net/prod_dooray_project/detail/05_pjt_detail_member03_w.png
 > \[그림\] 쓰기만 공개 설정
->
-> ![](media/image16.png){width="5.201643700787401in"
-> height="1.1770833333333333in"}
 
 ### 프로젝트 관리자를 위한 프로젝트 설정
 ------------------------------------
@@ -129,11 +123,10 @@
 
 > ‘사용함’으로 설정하면 Dooray! Drive에서 해당 프로젝트의 드라이브가
 > 생성되어 멤버들이 함께 파일을 공유 및 관리할 수 있습니다.
->
+
+> http://static.toastoven.net/prod_dooray_project/detail/06_pjt_detail_default_setting.png
 > \[그림\] 프로젝트 기본 설정
->
-> ![](media/image17.png){width="3.3541666666666665in"
-> height="3.260250437445319in"}
+
 
 #### 웹 훅
 
@@ -168,11 +161,9 @@
 > 해당 웹 훅을 잠시 멈추고 싶을 때는 웹 훅을 삭제하지 않고 사용 중인 웹
 > 훅 목록에서 ‘편집’을 눌러 사용 여부를 ‘사용 안 함’으로 설정하면
 > 됩니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_add_webhook.png
 > \[그림\] 웹 훅 추가 화면
->
-> ![](media/image18.png){width="4.792208005249344in"
-> height="1.6997222222222221in"}
 
 ##### 로그 
 
@@ -202,10 +193,9 @@
 > 프로젝트 이름 옆에 있는 \[그림\] + 아이콘을 클릭합니다. 커다른 쓰기
 > 창이 아니라 아주 간략한 쓰기 창을 볼 수 있습니다.
 >
+> http://static.toastoven.net/prod_dooray_project/detail/08_pjt_detail_w.png
 > \[그림\] 간편 쓰기창
 >
-> ![](media/image19.png){width="4.722222222222222in"
-> height="1.6666666666666667in"}
 >
 > 이 레이어 팝업에서 첫 줄은 제목이고 두 번째 줄부터는 본문입니다.
 > 제목만 입력하고 싶다면 첫 줄만 입력하고 ‘등록’ 버튼을 클릭하면 됩니다.
@@ -240,10 +230,8 @@
 
 ##### 기존 업무를 하위로 등록하기
 
+> http://static.toastoven.net/prod_dooray_project/detail/09_pjt_detail_addtask.png
 > \[그림\] 상/하위 업무 추가
->
-> ![](media/image20.png){width="3.1496062992125986in"
-> height="1.547244094488189in"}
 >
 > 제목으로 검색하여 원하는 업무를 지정합니다.
 >
@@ -274,11 +262,10 @@
 > 여러 명을 담당자로 지정할 경우 각 담당자 이름 색깔을 보고 진행 상태를
 > 바로 파악할 수 있도록 하였습니다.\
 > 등록 상태 : 검정, 진행 상태: 파랑, 완료 상태 : 회색입니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/10_pjt_detail_add_npeople.png
 > \[그림\] 담당자,참조자 여러 명 지정
 >
-> ![](media/image21.png){width="3.1496062992125986in"
-> height="1.7598425196850394in"}
 
 ##### 담당자 참조자 변경 
 
@@ -312,17 +299,13 @@
 > 선택합니다. 만일 목록에 원하는 업무가 없다면 키워드를 입력하여 제목
 > 검색을 할 수 있습니다.
 >
+> http://static.toastoven.net/prod_dooray_project/detail/11_pjt_detail_ref_task.png
 > \[그림\] 편집기에 \[ 입력
->
-> ![](media/image22.png){width="3.1496062992125986in"
-> height="1.3503937007874016in"}
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/12_pjt_detail_ref_task_select.png 
 > \[그림\] 업무 목록에서 참조할 업무 항목을 선택
 >
-> \[그림\] 참조할 업무 선택
->
-> ![](media/image23.png){width="3.1496062992125986in"
-> height="2.4763779527559056in"}
+
 
 #### 멘션
 
@@ -338,11 +321,10 @@
 > 파랑색으로 표현하여 당사자가 자기를 멘션했다는 것을 더 잘 인지할 수
 > 있도록 도와줍니다. 또한 손님을 멘션하면 옅은 검정색으로 표현해서
 > 테넌트의 정식 멤버가 아닌 것을 표현합니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/13_pjt_detail_mention.png
 > \[그림\] 멘션 시 3가지 케이스
 >
-> ![](media/image24.png){width="3.937007874015748in"
-> height="2.2244094488188977in"}
 
 ### 프로젝트 멤버를 위한 프로젝트 설정
 ----------------------------------
@@ -354,11 +336,9 @@
 ##### 멤버 그룹
 
 > ‘그룹 추가’ 버튼을 클릭합니다.
->
+> http://static.toastoven.net/prod_dooray_project/detail/14_pjt_detail_add_group.png
 > \[그림\] 프로젝트 설정 &gt; 멤버 &gt; 그룹 추가
->
-> ![](media/image25.png){width="3.937007874015748in"
-> height="1.7598425196850394in"}
+> 
 >
 > 그룹 이름을 입력하고, 그룹에 넣고 싶은 멤버를 선택하고, ‘생성’ 버튼을
 > 클릭합니다.
@@ -394,16 +374,14 @@
 > ‘마일스톤 추가’ 버튼을 클릭하여 마일스톤을 추가할 수 있습니다. 그리고
 > 추가한 마일스톤으로 업무 목록에서 특정 마일스톤을 필터링해서 보는 것이
 > 가능합니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/15_pjt_detail_add_milestone.png
 > \[그림\] 프로젝트 설정 &gt; 마일스톤 추가
 >
-> ![](media/image26.png){width="3.937007874015748in"
-> height="1.141732283464567in"}
->
+> http://static.toastoven.net/prod_dooray_project/detail/16_pjt_detail_milestone_filtering.png
 > \[그림\] 프로젝트 목록 &gt; 마일스톤 필터링
->
-> ![](media/image27.png){width="2.2916666666666665in"
-> height="1.4185411198600175in"}
+
+
 
 ##### 마일스톤명
 
@@ -418,11 +396,10 @@
 
 > 업무를 분류하기 위한 목적으로 사용합니다. ‘태그 추가’ 버튼을 클릭하여
 > 추가할 수 있습니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/17_pjt_detail_tag.png
 > \[그림\] 프로젝트 설정 &gt; 태그
 >
-> ![](media/image28.png){width="3.937007874015748in"
-> height="1.1181102362204725in"}
 
 ##### 태그명
 
@@ -432,11 +409,11 @@
 > 태그 그룹을 만들면, 그룹 단위로 반드시 입력하도록 필수 값으로
 > 지정하거나 그룹 중에서 1개만 선택하도록 강제할 수도 있습니다. 정형적인
 > 입력을 받을 때 유용합니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/18_pjt_detail_tag_group.png
 > \[그림\] 태그 그룹 설정
 >
-> ![](media/image29.png){width="4.330708661417323in"
-> height="3.3149606299212597in"}
+
 
 #### 템플릿
 
@@ -455,11 +432,11 @@
 > 띄운 다음 ‘템플릿’을 고를 수 있고, 프로젝트 대쉬보드의 템플릿 목록에서
 > 바로 원하는 템플릿 링크를 클릭해서 업무를 등록할 수도 있습니다.
 
-  ----------------------------------------------------------------------------------- --------------------------------------------------
-  \[그림\] 쓰기 창에서 템플릿 선택                                                    \[그림\] 프로젝트 대쉬보드 &gt; 템플릿 목록
-                                                                                      
-  ![](media/image30.png){width="3.500693350831146in" height="1.8018864829396326in"}   ![](media/image31.png){width="3.502318460192476in" height="1.5660367454068242in"}
-  ----------------------------------------------------------------------------------- -----------------------------------------------------------------------------------
+  http://static.toastoven.net/prod_dooray_project/detail/19_pjt_detail_template.png  
+  \[그림\] 쓰기 창에서 템플릿 선택                                                    
+  
+http://static.toastoven.net/prod_dooray_project/detail/20_pjt_detail_template_list.png
+  \[그림\] 프로젝트 대쉬보드 &gt; 템플릿 목록
 
 > 링크를 다른 곳(예, 메일, 위키 등)에 전달하여 업무를 쉽게 등록하도록
 > 가이드할 수도 있습니다.
@@ -474,18 +451,16 @@
 > 템플릿 설정은 프로젝트 설정 &gt; 템플릿 탭 선택 &gt; 템플릿 추가를
 > 클릭해 템플릿 설정 화면에서 합니다.
 >
+  http://static.toastoven.net/prod_dooray_project/detail/21_pjt_detail_setting_add_template.png
 > \[그림\] 프로젝트 설정 &gt; 템플릿
 >
-> ![](media/image32.png){width="5.170598206474191in"
-> height="1.3490562117235345in"}
->
+> 
 > 템플릿 설정 시, ‘기본 템플릿’을 체크하면 해당 프로젝트에서 쓰기 창을
 > 열면 자동으로 해당 템플릿을 적용합니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/22_pjt_detail_default_template.png
 > \[그림\] 기본 템플릿 설정
 >
-> ![](media/image33.png){width="4.330708661417323in"
-> height="1.0275590551181102in"}
 
 #### 공유 링크
 
@@ -497,11 +472,10 @@
 > 있습니다.
 >
 > ‘추가 작업 &gt; 공유하기’를 선택합니다. ‘링크 추가’를 클릭합니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/23_pjt_detail_share_task.png
 > \[그림\] 공유하기
 >
-> ![](media/image34.png){width="3.1496062992125986in"
-> height="2.0118110236220472in"}
 
 ##### 공유 기간
 
@@ -511,21 +485,19 @@
 
 > 첨부 파일까지 공유할 것인지 설정합니다.
 >
+> http://static.toastoven.net/prod_dooray_project/detail/24_pjt_detail_share_setting.png
 > \[그림\] 공유 설정
 >
-> ![](media/image35.png){width="5.6981124234470695in"
-> height="1.6605916447944007in"}
 >
 > 이렇게 특정 업무를 공유하면 업무 상단에 공유 중이라고 표시가 되고,
 > 프로젝트 관리자는 ‘프로젝트 설정 &gt; 공유 링크’에서 프로젝트 내에
 > 공유된 업무를 한 눈에 파악할 수 있습니다. 조직 관리자도 해당 조직 내
 > 공유된 업무 목록 전체를 화면 우측의 설정 &gt; 조직관리 &gt; 서비스
 > 설정 하위의 ‘공유 링크’에서 확인할 수 있습니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/25_pjt_detail_share_task_list.png
 > \[그림\] 공유 업무 목록
 >
-> ![](media/image36.png){width="5.735849737532808in"
-> height="1.158137576552931in"}
 
 ### 업무 상태
 
@@ -590,10 +562,9 @@
 > 담당자와 참조만 바꾸고 싶을 때는 담당자, 참조에서 \[그림\] 연필
 > 아이콘을 클릭합니다.
 >
+> http://static.toastoven.net/prod_dooray_project/detail/26_pjt_detail_edit_to.png 
 > \[그림\] 담당자 편집
 >
-> ![](media/image37.png){width="4.330708661417323in"
-> height="1.2401574803149606in"}
 >
 > 담당자 영역에 마우스를 올리면 ‘내가 하기’ 버튼이 나타납니다. 해당
 > 버튼을 클릭하면 기존 담당자들은 참조에 추가되고, 나만 담당자에 남게
@@ -601,32 +572,29 @@
 >
 > 멤버 그룹에게 업무를 주고, 멤버 그룹 중 실제로 업무를 할 사람이
 > ‘내가하기’를 눌러 담당자를 명확하게 할 때 사용하면 유용합니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/27_pjt_detail_edit_to_me.png
 > \[그림\] 내가하기로 담당자 변경
 >
-> ![](media/image38.png){width="4.330708661417323in"
-> height="1.4488188976377954in"}
 
 #### 제목 인플레이스 편집
 
 > 제목에 마우스를 올려 \[그림\] 연필 아이콘을 클릭하면 제목만 편집할 수
 > 있습니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/28_pjt_detail_inplace_title.png
 > \[그림\] 제목 편집
 >
-> ![](media/image39.png){width="4.330555555555556in"
-> height="1.479261811023622in"}
+
 
 #### 본문 인플레이스 편집
 
 > 업무 읽는 화면에서 \[그림\] 연필 아이콘을 클릭하면 본문만 편집할 수
 > 있습니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/29_pjt_detail_inplace_body.png
 > \[그림\] 본문 편집
->
-> ![](media/image40.png){width="4.330708661417323in"
-> height="1.4606299212598426in"}
->
+> 
 > ‘저장’을 누르면 저장을 하고 바로 읽기 화면으로 바뀌지만, ‘저장 후
 > 계속’을 클릭하면 저장하고 계속 편집 모드를 유지합니다. ‘저장 후
 > 계속’을 클릭했을 때, 임시 저장을 하는 것이 아니라 실제로 서버에
@@ -636,41 +604,40 @@
 
 > 업무 우측 상단 영역에 완료일을 클릭하면 편집할 수 있습니다.
 >
+> http://static.toastoven.net/prod_dooray_project/detail/30_pjt_detail_inplace_duedate.png
 > \[그림\] 완료일 편집
 >
-> ![](media/image41.png){width="4.330708661417323in"
-> height="1.4409448818897639in"}
 
 #### 태그 인플레이스 편집
 
 > 제목 바로 아래 \[그림\] 태그+ 를 클릭하면 태그를 편집할 수 있습니다.
 > 그룹으로 묶은 태그는 속성에 따라 한 개만 선택할 수도 있고, 반드시
 > 선택해야하기도 합니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/31_pjt_detail_inplace_tag.png
 > \[그림\] 태그 편집
 >
-> ![](media/image42.png){width="3.937007874015748in"
-> height="0.7834645669291339in"}
+
 
 #### 마일스톤 인플레이스 편집
 
 > 상단 영역의 ‘마일스톤’을 클릭하여 마일스톤을 편집할 수 있습니다
 >
+> http://static.toastoven.net/prod_dooray_project/detail/32_pjt_detail_inplace_milestone.png
 > \[그림\] 마일스톤 편집
 >
-> ![](media/image43.png){width="2.5880139982502186in"
-> height="1.688678915135608in"}
+
 
 #### 다른 프로젝트로 이동
 
 > ‘추가 작업 &gt; 프로젝트 이동’을 선택하여 다른 프로젝트로 이동할 수
 > 있습니다. 이동할 때, 이동할 프로젝트의 태그나 마일스톤을 지정하여 한
 > 번에 변경하는 것도 가능합니다.
->
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/33_pjt_detail_move_project.png
 > \[그림\] 프로젝트 이동
 >
-> ![](media/image44.png){width="3.870768810148731in"
-> height="1.3860083114610673in"}
+
 
 ### 댓글 작성하기
 
@@ -708,11 +675,10 @@
 > 담당자, 일정, 본문 텍스트, 파일 첨부와 같은 업무 변경 외에도 덧글 변경
 > 사항을 확인하고 싶을 경우 업무 본문 우측 하단에 있는 ‘변경 사항 포함’
 > 항목을 체크하세요. 본문과 덧글의 모든 변경 정보를 확인할 수 있습니다.
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/34_pjt_detail_edit_history.png
+> \[그림\] 변경 히스토리
 
-\[그림\] 변경 히스토리
-
-> ![](media/image45.png){width="6.145833333333333in"
-> height="2.487711067366579in"}
 
 ### 창 크기 조절
 
@@ -751,11 +717,9 @@
 >
 > 본문 보기 아이콘을 클릭하고 ‘발표 모드’를 선택합니다. 참고로 단축키는
 > vp (View Presentation)입니다
-
-\[그림\] 발표 모드 선택
-
-> ![](media/image46.png){width="5.511811023622047in"
-> height="1.8503937007874016in"}
+> 
+> http://static.toastoven.net/prod_dooray_project/detail/35_pjt_detail_vp_mode.png
+> \[그림\] 발표 모드 선택
 >
 > 원하는 발표 화면의 스킨을 선택하고 ‘확인’을 클릭하면 발표 화면으로
 > 전환됩니다. 다음 화면 혹은 다음 효과로 이동하는 것은 키보드의 \[\]키를
@@ -780,7 +744,6 @@
 > 멘션 소식에 대한 알림도 선택할 수 있습니다. 알림 방법은 모바일 앱,
 > 메신저, 외부 메일로 받는 방법을 택할 수 있습니다.
 
-\[그림\] 알림 설정
+> http://static.toastoven.net/prod_dooray_project/detail/36_pjt_detail_setting.png
+> \[그림\] 알림 설정
 
-> ![](media/image47.png){width="5.511811023622047in"
-> height="2.5866141732283463in"}
