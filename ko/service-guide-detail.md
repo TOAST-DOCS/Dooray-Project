@@ -4,17 +4,18 @@
 
 #### 비공개 프로젝트 만들기
 
-> 가장 일반적인 형태의 프로젝트로 초대받은 멤버만 읽고 쓸 수 있는
-> 프로젝트입니다. 초대 받지 않았더라도 업무의 담당자나 참조에 있거나
-> 멘션되면 해당 업무에 국한해서 읽고 쓸 수 있습니다.
->
-> ‘내 프로젝트’ 옆의 \[+\] 아이콘을 클릭하여 프로젝트를 추가합니다.
-> 프로젝트 추가 시, 프로젝트 멤버만으로 공개 대상을 설정합니다.
+가장 일반적인 형태의 프로젝트로 초대받은 멤버만 읽고 쓸 수 있는
+프로젝트입니다. 초대 받지 않았더라도 업무의 담당자나 참조에 있거나
+멘션되면 해당 업무에 국한해서 읽고 쓸 수 있습니다.
 
-  ![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/01_pjt_detail_addpjt.png  )
-  <center>[그림 1]내 프로젝트 옆 \[+\]</center>
-  ![멤버](http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png)
-  <center>[그림 2]프로젝트 추가 &gt; 프로젝트 멤버만 선택</center>                                                                                    
+‘내 프로젝트’ 옆의 [+] 아이콘을 클릭하여 프로젝트를 추가합니다.
+프로젝트 추가 시, 프로젝트 멤버만으로 공개 대상을 설정합니다.
+
+![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/01_pjt_detail_addpjt.png  )
+<center>[그림 1]내 프로젝트 옆 [+]</center>
+
+![멤버](http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png)
+<center>[그림 2]프로젝트 추가 &gt; 프로젝트 멤버만 선택</center>                                                                                    
 ##### 소속
 
 > 멤버가 여러 조직의 멤버일 때 생성할 프로젝트가 어떤 조직에 속할 것인지
@@ -368,10 +369,10 @@
 > 추가한 마일스톤으로 업무 목록에서 특정 마일스톤을 필터링해서 보는 것이
 > 가능합니다.
 
-> ![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/15_pjt_detail_add_milestone.png)
-> <center>[그림 15]프로젝트 설정 &gt; 마일스톤 추가</center>   
-> ![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/16_pjt_detail_milestone_filtering.png)
-> <center>[그림 16]프로젝트 목록 &gt; 마일스톤 필터링</center>   
+![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/15_pjt_detail_add_milestone.png)
+ <center>[그림 15]프로젝트 설정 > 마일스톤 추가</center>   
+![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/16_pjt_detail_milestone_filtering.png)
+ <center>[그림 16]프로젝트 목록 > 마일스톤 필터링</center>   
 
 ##### 마일스톤명
 
@@ -387,8 +388,8 @@
 > 업무를 분류하기 위한 목적으로 사용합니다. ‘태그 추가’ 버튼을 클릭하여
 > 추가할 수 있습니다.
 
-> ![태그](http://static.toastoven.net/prod_dooray_project/detail/17_pjt_detail_tag.png)
-> <center>[그림 17]프로젝트 설정 &gt; 태그</center>  
+ ![태그](http://static.toastoven.net/prod_dooray_project/detail/17_pjt_detail_tag.png)
+ <center>[그림 17]프로젝트 설정 > 태그</center>  
 
 ##### 태그명
 
@@ -718,6 +719,5 @@
 > 멘션 소식에 대한 알림도 선택할 수 있습니다. 알림 방법은 모바일 앱,
 > 메신저, 외부 메일로 받는 방법을 택할 수 있습니다.
 
-> http://static.toastoven.net/prod_dooray_project/detail/36_pjt_detail_setting.png
-> \[그림\] 알림 설정
-
+> ![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/36_pjt_detail_setting.png)
+> <center>[그림 36] 알림 설정</center>  
