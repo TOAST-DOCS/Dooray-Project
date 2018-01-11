@@ -7,6 +7,7 @@ Dooray! Project에 처음 접속하면 다음과 같은 환영 메시지를 보�
 ![웰컴](http://static.toastoven.net/prod_dooray_project/01_pjt_welcome.png)
 <center>[그림 1]프로젝트 환영 가이드</center>
 
+
 이후 Dooray!에서 매우 중요한 편집기 설정 화면이 나타납니다. 설정한 값은 새로운 업무를 등록하는 창이나, 빠른 업무 등록 창, 댓글 쓰기 창, 스트림의 댓글 쓰기 창 등에서 사용합니다. 설정한 편집기가 마음에 들지않을 때는 언제든지 에디터 우측 끝에 설정 아이콘을 클릭해 디폴트 편집기를 변경할 수 있습니다.
 
 ![설정](http://static.toastoven.net/prod_dooray_project/02_pjt_settings.png)
@@ -24,16 +25,16 @@ Dooray! Project에 처음 접속하면 다음과 같은 환영 메시지를 보�
 
 ‘\#’의 개수에 따라 글자 크기가 달라집니다. ‘\#’은 제목1에 해당하고 ‘\#\#\#\#\#\#’은 제목6으로 제목을 위한 가장 작은 글자 크기 서식입니다.
 
-\[그림\] 에디터 본문 \#제목 예시
-http://static.toastoven.net/prod_dooray_project/03_pjt_editor.png
+![웰컴](http://static.toastoven.net/prod_dooray_project/03_pjt_editor.png)
+<center>[그림 3] 에디터 본문 \#제목 예시 </center>
 
 ##### 목록
 
 ‘\*’을 입력하고 공백 한 칸을 입력한 다음에 글을 작성하면 됩니다.
 들여쓰기를 할 때는 \[TAB\]키를 입력하고, 반대로 내어쓰기를 할 때는 \[Shift\]+\[TAB\]을 입력하면 됩니다. 마이크로소프트 워드와 동일한 방식으로 동작합니다.
 
-\[그림\] 에디터 본문 \* 입력 예시
-http://static.toastoven.net/prod_dooray_project/04_pjt_list.png
+![에디터](http://static.toastoven.net/prod_dooray_project/04_pjt_list.png)
+<center>[그림 4] 에디터 본문 \* 입력 예시 </center>
 
 자세한 도움말은 다음 링크를 참고해주세요. 
 > [참고]  
@@ -45,20 +46,20 @@ Dooray! Project에서는 업무를 묶어 관리할 수 있는 여러가지 방�
 
 Dooray! 우측 상단의 설정 아이콘을 클릭 후 프로젝트 메뉴에서 ‘프로젝트 추가’를 선택합니다.
 
-\[그림\] 설정&gt; 프로젝트 &gt;프로젝트 추가
-http://static.toastoven.net/prod_dooray_project/05_setting_add_project.png
+![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/05_setting_add_project.png)
+<center>[그림 5] 설정&gt; 프로젝트 &gt;프로젝트 추가 </center>
 
 이미 ‘내 프로젝트’ 가 생성된 경우라면, 옆의 + 아이콘을 클릭해 ‘프로젝트 추가’를 선택합니다. 프로젝트명을 입력하고 ‘추가’를 클릭합니다.
 
-\[그림\] 내 프로젝트 추가
-
-http://static.toastoven.net/prod_dooray_project/06_pjt_lnb_add_project.png
+![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/06_pjt_lnb_add_project.png)
+<center>[그림 6] 내 프로젝트 추가 </center>
 
 ### 초대하기
 
 프로젝트를 만들면 바로 함께 일할 동료를 초대할 수 있습니다.
-\[그림\] 프로젝트 명 우측 설정 아이콘을 눌러 프로젝트 멤버 초대하기
-http://static.toastoven.net/prod_dooray_project/07_pjt_invite.png
+
+![초대](http://static.toastoven.net/prod_dooray_project/07_pjt_invite.png)
+<center>[그림 7] 프로젝트 멤버 초대하기</center>
 
 ### 업무 등록하기
 
@@ -76,9 +77,9 @@ http://static.toastoven.net/prod_dooray_project/07_pjt_invite.png
 업무 상단 우측 영역에 완료일 설정을 클릭하면 원하는 날짜를 입력하고 저장하면 됩니다. 완료일은 업무를 등록한 사람만 수정할 수 있지 않습니다. 업무의 담당자, 참조자는 물론이고 프로젝트의 멤버면 누구나 수정할 수 있습니다. 업무 요청자가 해당 날짜로 요청했으나 그것이 어려울 경우, 담당자가 완료일을 변경하면 됩니다. 참고로 이런 모든 변경은 이력이 남아 언제든지 조회할 수 있습니다. 
 
 업무 본문 영역과 댓글란 사이에 히스토리를 눌러 확인할 수 있습니다.
-\[그림\] 1. 완료일 설정 및 변경
 
-http://static.toastoven.net/prod_dooray_project/08_pjt_day.png
+![완료일](http://static.toastoven.net/prod_dooray_project/08_pjt_day.png)
+<center>[그림 8] 완료일 설정 및 변경</center>
 
 ### 업무 수정하기
 
@@ -90,9 +91,8 @@ http://static.toastoven.net/prod_dooray_project/08_pjt_day.png
 Dooray! Project에서는 내가 담당자인 업무를 쉽게 모아볼 수 있습니다.
 담당 업무함에 담당자에 내가 포함되어 있는 모든 업무가 있습니다. 하지만 담당 업무함의 필터에는 이미 완료된 업무는 제외하는 옵션이 기본 적용되어 있어, 이미 끝낸 업무까지 모두 확인하고 싶다면 필터를 꺼야 합니다.
 
-\[그림\] 완료 제외 필터 설정
-
-http://static.toastoven.net/prod_dooray_project/09_pjt_filter.png
+![완료일](http://static.toastoven.net/prod_dooray_project/09_pjt_filter.png)
+[그림 9] 완료 제외 필터 설정 
 
 업무는 완료(요청)일, 등록일, 업데이트일 기준으로 정렬해서 볼 수 있고, ‘완료 업무 제외’를 비롯한 여러 필터 옵션도 적용할 수 있습니다.
 
@@ -103,9 +103,8 @@ http://static.toastoven.net/prod_dooray_project/09_pjt_filter.png
 
 업무의 상태를 바꿀 때마다 해당 담당자의 이름 색깔이 바뀝니다. ‘등록’일 때는 검정, ‘진행’일 때는 파랑, ‘완료’일 때는 회색입니다.
 
-\[그림\] 업무 상태 확인 및 변경하기
-
-http://static.toastoven.net/prod_dooray_project/10_pjt_status.png
+![업무상태](http://static.toastoven.net/prod_dooray_project/10_pjt_status.png)
+[그림 10] 업무 상태 확인 및 변경하기 
 
 ### 댓글로 커뮤니케이션하기
 
@@ -136,9 +135,8 @@ http://static.toastoven.net/prod_dooray_project/10_pjt_status.png
 
 동료나 프로젝트 구성원, 혹은 팀원들에게 업무를 등록했다면 해당 업무의 진척 상황이 궁금할 때가 있습니다. 이 때 ‘보낸 업무함’이 굉장히 유용합니다. ‘담당 업무함’에 내가 담당자인 업무를 모아 놓았다면, ‘보낸 업무함’에는 내가 등록한 업무를 모아 놓았습니다.
 
-\[그림\] 보낸 업무함 업무 상태 및 업무별 개인 상태
-
-http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png
+![업무상태](http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png)
+[그림 11] 보낸 업무함 업무 상태 및 업무별 개인 상태
 
 ‘보낸 업무함’에서 담당자 이름의 색깔을 보면 현재 어떤 상태인지 알 수 있습니다. ‘등록’은 검정, ‘진행’은 파랑, ‘완료’는 회색입니다. 업무 목록에서 업무별 진행 상태 뿐 아니라, 클릭하여 업무에 대한 개인별 업무 상태도 직관적으로 알 수 있습니다.
 
@@ -146,12 +144,12 @@ http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png
 
 PM(Project Manager)이라면 본인이 맡고 있는 프로젝트의 업무 상태가 궁금할 것입니다. 이 때는 ‘내 프로젝트’에 있는 프로젝트별 링크를 이용하면 됩니다.
 
-\[그림\] 프로젝트 대쉬보드
-
-http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png
+![대쉬보드](http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png)
+[그림 12] 프로젝트 대쉬보드
 
 ‘담당 업무함’과 같이 필터를 이용하여 원하는 업무를 골라서 볼 수도 있습니다. 
 
-\[그림\] 담당 업무함
+![담당 업무함](http://static.toastoven.net/prod_dooray_project/13_pjt_mytaskbox.png)
+[그림 13] 담당 업무함
 
-http://static.toastoven.net/prod_dooray_project/13_pjt_mytaskbox.png
+
