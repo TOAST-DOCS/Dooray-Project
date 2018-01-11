@@ -93,7 +93,7 @@
 >
 > ![쓰기만 공개](http://static.toastoven.net/prod_dooray_project/detail/05_pjt_detail_member03_w.png)
 > <center>[그림 5]쓰기만 공개 설정</center>    
-
+>
 ### 프로젝트 관리자를 위한 프로젝트 설정
 ------------------------------------
 
