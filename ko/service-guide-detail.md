@@ -11,7 +11,8 @@
 <center>[그림 1]내 프로젝트 옆 [+]</center>
 
 ![멤버](http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png)
-<center>[그림 2]프로젝트 추가 &gt; 프로젝트 멤버만 선택</center>                                                                                    
+<center>[그림 2]프로젝트 추가 &gt; 프로젝트 멤버만 선택</center>                                                                               
+
 ##### 소속
 
 > 멤버가 여러 조직의 멤버일 때 생성할 프로젝트가 어떤 조직에 속할 것인지 결정합니다. A 조직에 속한다 결정해도 B 조직 멤버와 협업할 수 있습니다.
