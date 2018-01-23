@@ -1,4 +1,4 @@
-## Dooray > 개요  
+## Dooray > Project > 개요  
 
 Dooray!란 NHN 엔터테인먼트에서 제공하는 협업 서비스입니다.<br>
 Windows, macOS, Android, iOS까지 모두 지원합니다.  
