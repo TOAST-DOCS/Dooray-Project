@@ -1,4 +1,4 @@
-## Dooray > Project > 릴리스 노트
+## Dooray > Project > Release Notes
 
 ### 2018.01.15
 #### 버그 수정
