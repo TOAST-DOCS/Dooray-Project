@@ -295,6 +295,41 @@ Dooray! 메일 서비스에서도 소개를 하겠지만, Dooray! 메일을 바�
 ![기본템플릿](http://static.toastoven.net/prod_dooray_project/detail/22_pjt_detail_default_template.png)
 <center>[그림 22]기본 템플릿 설정</center>   
 
+#### 매크로 
+
+- 템플릿을 만들 때 아래의 매크로들을 활용해보세요. 매크로를 통해 자동으로 데이터를 표기할 수 있습니다.    
+> 오늘 날짜가 2018/03/29 인 경우, 아래와 같이 매크로를 입력하면 자동으로 해당 데이터로 치환됩니다. 
+> ${year} 입력 시, 날짜의 년도를 표시합니다. (예:2018) 
+> ${month} 입력 시, 날짜의 월을 표시합니다. (예:3)
+> ${today} 입력 시, 날짜를 년/월/일 순으로 표시합니다. (예:2018/03/29)
+> ${day} 입력 시, 일자를 표시합니다. (예:29)  
+> ${month2} 입력 시, 월을 표시하되 표시 형식이 다릅니다.  (예:3) 
+> ${weekNum2} 입력 시, 주차를 표시합니다. 2018년 3월 29일은 5번째 주입니다. (예:5) 
+
+#### 템플릿 예시
+
+- 다음은 템플릿 예시입니다. 아래 그림과 같이 템플릿들을 추가해서 활용해보세요.
+
+- 회의록에 고정으로 들어가는 항목들을 템플릿에 넣어두면 매번 동일한 양식의 문서를 불러와서 활용하기 좋습니다. 특히 회의한 오늘 날짜가 자동으로 들어가도록 ${today} 매크로를 활용해보세요.  
+
+![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-1_pjt_detail_template1.png)
+<center>[그림 22-1] 회의록 템플릿</center>   
+
+- 주간회의 템플릿은 아래 본문에서 설명한 대로 활용해보세요. 회의 준비와 회의록 정리로 시간을 허비하지 않을 수 있습니다. 
+
+![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-2_pjt_detail_template2.png)
+<center>[그림 22-2] 주간회의 템플릿</center>   
+
+- 서비스 QA항목 템플릿은 서비스 주요 기능을 테스트할 때 본문에 체크할 수 있는 항목을 만들어 활용한 예시입니다. 
+
+![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-3_pjt_detail_template3.png)
+<center>[그림 22-3] 서비스 QA항목 템플릿</center> 
+
+- 버그 등록 템플릿은 서비스별로 만들어두면 편리합니다. 각 서비스별 담당자 혹은 그룹 지정을 쉽게 할 수 있고, 버그 확인을 위해 알아야 할 정보들을 본문에 작성하면 놓치지 않고 확인을 할 수 있습니다. 특히 태그 그룹을 만들고, 그룹의 속성(필수, 한 개만 선택)도 활용하면 편리합니다.
+
+![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-4_pjt_detail_template4.png)
+<center>[그림 22-4] 버그 등록 템플릿</center> 
+
 ### 공유 링크
 
 같은 테넌트에 있지 않은 사용자에게 특정 업무를 공유하고 싶을 때 사용합니다.
