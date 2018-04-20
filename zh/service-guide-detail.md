@@ -1,4 +1,4 @@
-# Dooray > Project > Service Detail Guide 
+## Dooray > Project > Service Detail Guide 
 
 ## 프로젝트 만들기
 
