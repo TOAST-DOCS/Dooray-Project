@@ -1,4 +1,4 @@
-## Dooray > Project > Service Guide 
+## Dooray! > Project > Service Guide 
 
 ### 편집기 선택
 

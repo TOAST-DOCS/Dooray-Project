@@ -1,4 +1,4 @@
-## Dooray > Overview 
+## Dooray! > Overview 
 
 TOAST Dooray!는 프로젝트, 메신저, 메일, 캘린더, 드라이브, 주소록과 같이 온라인에서 협업하는데 필요한 도구를 통합하여 제공하는 서비스입니다.
 
