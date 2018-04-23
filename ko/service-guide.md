@@ -55,9 +55,10 @@ Dooray! 우측 상단의 설정 아이콘을 클릭 후 프로젝트 메뉴에�
 ### 초대하기
 
 프로젝트를 만들면 바로 함께 일할 동료를 초대할 수 있습니다.
+이미 프로젝트 멤버가 되었다면, 프로젝트 관리자가 아니어도 멤버를 초대할 수 있습니다. 
 
 ![초대](http://static.toastoven.net/prod_dooray_project/07_pjt_invite.png)
-<center>[그림 7] 프로젝트 멤버 초대하기</center>
+<center>[그림 7] 프로젝트 멤버 초대하기</center> 
 
 ### 업무 등록하기
 
