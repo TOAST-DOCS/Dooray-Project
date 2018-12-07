@@ -48,12 +48,11 @@ GitLab Settings > Integration 페이지에 복사한 Dooray hook 연동 URL을 �
 
 commit을 push할 때 message에 "fix#my-dooray-project/1234" 라는 문구를 입력하면 my-dooray-project 프로젝트의 1234번 업무에 push 알림이 댓글로 등록됩니다. 만약 pull request를 올려 merge될 경우, 해당 태스크는 알림 댓글과 함께 자동으로 완료 됩니다. 
 
-> commit 시 문구 입력
-> fix이외에도 다음과 단어를 사용하면 자동 댓글, 완료 처리가 활성화 됩니다. 
-> fix, fixes, fixed
-> close, closes, closed
-> resolve, resolves, resolved
-> 해결, 완료 
+commit 시 fix이외에도 다음과 같은 단어를 사용하면 자동 댓글, 완료 처리가 활성화됩니다. 
+- fix, fixes, fixed
+- close, closes, closed
+- resolve, resolves, resolved
+- 해결, 완료 
 
 
 
