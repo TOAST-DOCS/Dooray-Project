@@ -26,23 +26,34 @@ Github의 설정 페이지로 이동합니다. Webhooks & services 메뉴를 눌
 ![연동](http://static.toastoven.net/prod_dooray_project/02_project_integraion.png)
 <center>[그림 2]Github 설정</center>
 
-Payload URL에 복사해둔 Dooray Hook URL을 입력 후 저장합니다. 
+Payload URL에 복사한 Dooray hook 연동 URL을 입력 후 저장합니다. 
 
 ![연동](http://static.toastoven.net/prod_dooray_project/03_project_integraion.png)
-<center>[그림 3]Hook 추가</center>
+<center>[그림 3]웹 훅 추가</center>
 
-이제 Github에 commit을 push할 때, commit message에 "fix #my-dooray-project/1234"라는 문구가 있으면 #my-dooray-project/1234에 push알림이 댓글로 달립니다.
-만약 pull request를 올려 merge될 경우, 해당 태스크는 알림 댓글과 함께 자동으로 완료 됩니다.
+이제 Github에 commit을 push할 때, commit message에 "fix #my-dooray-project/1234"라는 문구가 있으면 #my-dooray-project/1234에 push알림이 댓글로 달립니다. 만약 pull request를 올려 merge될 경우, 해당 태스크는 알림 댓글과 함께 자동으로 완료 됩니다.
 
-fix이외에도 다음과 같은 단어를 사용하면 자동 댓글, 완료 처리가 활성화 됩니다.
+#### GitLab 연동하기 
 
+Dooray! 설정 > 서비스 연동 > 서비스 추가 > GitLab ‘연동 추가’ 버튼을 클릭합니다. GitLab 이벤트 발생 시 연동하고자 하는 Dooray! 서비스를 선택합니다. 
+
+![연동](http://static.toastoven.net/prod_dooray_project/04_project_integraion.png)
+<center>[그림 4]Dooray! 서비스 연동 설정</center>
+
+GitLab Settings > Integration 페이지에 복사한 Dooray hook 연동 URL을 입력하고, Trigger를 선택합니다.
+트리거는 아래 파랜색 체크한 것들이 연동됩니다. 연동할 트리거를 선택 후 Add webhook 버튼을 클릭합니다. 
+
+![연동](http://static.toastoven.net/prod_dooray_project/05_project_integraion.png)
+<center>[그림 5]웹 훅 추가</center>
+
+commit을 push할 때 message에 "fix#my-dooray-project/1234" 라는 문구를 입력하면 my-dooray-project 프로젝트의 1234번 업무에 push 알림이 댓글로 등록됩니다. 만약 pull request를 올려 merge될 경우, 해당 태스크는 알림 댓글과 함께 자동으로 완료 됩니다. 
+
+> commit 시 문구 입력
+> fix이외에도 다음과 단어를 사용하면 자동 댓글, 완료 처리가 활성화 됩니다.
 > fix, fixes, fixed
 > close, closes, closed
 > resolve, resolves, resolved
 > 해결, 완료 
-
-
-
 
 
 
