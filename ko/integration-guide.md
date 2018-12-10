@@ -14,8 +14,7 @@ Bot 이름을 정하고 연결 URL을 클립보드로 복사한 후 연결할 �
 ![연동](http://static.toastoven.net/prod_dooray_project/01_project_integration.png)
 <center>[그림 1]Dooray! 서비스 연동 설정</center>
 
-Bot 연동 URL을 복사하였으면, 연동하고자 하는 서비스에 웹 훅을 걸어야 합니다.  
-Github의 설정 페이지로 이동합니다. Webhooks & services 메뉴를 눌러 웹 훅을 추가합니다.  
+Bot 연동 URL을 복사하였으면, 연동하고자 하는 서비스에 웹 훅을 걸어야 합니다. Github의 설정 페이지로 이동합니다. Webhooks & services 메뉴를 눌러 웹 훅을 추가합니다.  
 
 ![연동](http://static.toastoven.net/prod_dooray_project/02_project_integration.png)
 <center>[그림 2]Github 설정</center>
