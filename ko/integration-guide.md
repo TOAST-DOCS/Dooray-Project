@@ -37,7 +37,7 @@ Payload URL에 복사한 Dooray hook 연동 URL을 입력 후 저장합니다.
 
 Dooray! 설정 > 서비스 연동 > 서비스 추가 > GitLab ‘연동 추가’ 버튼을 클릭합니다. GitLab 이벤트 발생 시 연동하고자 하는 Dooray! 서비스를 선택합니다. 
 
-![연동](http://static.toastoven.net/prod_dooray_project/04_project_integration.png)
+![연동](http://static.toastoven.net/prod_dooray_project/042_project_integration.png)
 <center>[그림 4]Dooray! 서비스 연동 설정</center>
 
 GitLab Settings > Integration 페이지에 복사한 Dooray hook 연동 URL을 입력하고, Trigger를 선택합니다.
