@@ -1,7 +1,5 @@
 ## Dooray! > Project > Service Detail Guide 
 
-## Dooray! > Project > 서비스 상세 가이드  
-
 ## 프로젝트 만들기
 
 ### 비공개 프로젝트 만들기
