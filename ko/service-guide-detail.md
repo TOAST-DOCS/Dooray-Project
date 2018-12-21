@@ -481,10 +481,14 @@ Dooray! 메일 서비스에서도 소개를 하겠지만, Dooray! 메일을 바�
 
 | 유형   | 단축키  |  기능 |
 |--------|---------|-----------------------------| 
-|업무 읽기 화면 | vn | 새 창(View New window) | 
-|   | vp | 발표 모드(View Presentation mode) | 
-|   | vm | 회의 모드(View Meeting mode) | 
+|업무 읽기 화면 | vn | 새 창(View New window) |
+|   | vp | 발표 모드(View Presentation mode) |
+|   | vm | 회의 모드(View Meeting mode) |
 |   | vw | 넓게 보기 토글(View Wide) | 
+|   | cu | 퍼머넌트 주소를 클립보드로 복사(Copy Url)  |
+|   | cb | 본문을 클립보드로 복사(Copy Body) |
+|   | cn | "(문의)Dooray/56"이 업무 문자열을 클립보드로 복사(Copy Number) | 
+|   | cs | 업무 제목을 클립보드로 복사(Copy Subject) | 
 |쓰기 화면 | ww | 쓰기 창(프로젝트면 업무 쓰기, 메일이면 메일 쓰기, 캘린더면 캘린더 쓰기)(Write Write) | 
 |   | fw | 간편 업무 쓰기 창(Fast Write) | 
 |   | cc |  댓글 창으로 포커스(Comment Comment) | 
@@ -504,8 +508,8 @@ Dooray! 메일 서비스에서도 소개를 하겠지만, Dooray! 메일을 바�
 |   | 2w | 캘린더 2주 뷰 | 
 |   | 3w | 캘린더 3주 뷰 | 
 |  등록  | Ctrl(Cmd) + Enter | 윈도(맥) 에디터 등록 | 
-|  임시 저장  | Ctrl(Cmd) + s  | 윈도(맥) 임시 저장|
-|  참조할 드라이브 폴더 선택  | Alt + Enter | 에디터에서 [ 로 참조할 드라이브 폴더 선택 | 
+|  임시 저장  | Ctrl(Cmd) + s  | 윈도(맥) 임시 저장 |
+|  참조할 드라이브 폴더 선택  | Alt + Enter | 에디터에서 [ 로 참조할 드라이브 폴더 선택 | 
 |  기타  | ms  | 별 찍기 토글(Mark Star)  | 
 |  | Alt + 위/아래  | 줄 이동(에디터에서 여러 줄 선택 시에도 동작)  | 
 
