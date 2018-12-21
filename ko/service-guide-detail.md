@@ -481,10 +481,14 @@ Dooray! 메일 서비스에서도 소개를 하겠지만, Dooray! 메일을 바�
 
 | 유형   | 단축키  |  기능 |
 |--------|---------|-----------------------------| 
-|업무 읽기 화면 | vn | 새 창(View New window) | 
-|   | vp | 발표 모드(View Presentation mode) | 
-|   | vm | 회의 모드(View Meeting mode) | 
+|업무 읽기 화면 | vn | 새 창(View New window) |
+|   | vp | 발표 모드(View Presentation mode) |
+|   | vm | 회의 모드(View Meeting mode) |
 |   | vw | 넓게 보기 토글(View Wide) | 
+|   | cu | 퍼머넌트 주소를 클립보드로 복사(Copy Url)  |
+|   | cb | 본문을 클립보드로 복사(Copy Body) |
+|   | cn | "(문의)Dooray/56"이 업무 문자열을 클립보드로 복사(Copy Number) | 
+|   | cs | 업무 제목을 클립보드로 복사(Copy Subject) | 
 |쓰기 화면 | ww | 쓰기 창(프로젝트면 업무 쓰기, 메일이면 메일 쓰기, 캘린더면 캘린더 쓰기)(Write Write) | 
 |   | fw | 간편 업무 쓰기 창(Fast Write) | 
 |   | cc |  댓글 창으로 포커스(Comment Comment) | 
