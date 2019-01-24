@@ -161,7 +161,7 @@ Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경
 ![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail02.png)
 <center>[그림]보내는 이름을 선택해 메일 발송</center>  
 
-![메일로 발송된 댓글](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail03.png)
+![메일로 발송된 댓글](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail021.png)
 <center>[그림]메일로 발송된 댓글</center>  
 
 #### 보내는 이름 설정 
