@@ -1,4 +1,4 @@
-## Dooray! > Project > Service Detail Guide 
+## Dooray! > Project > 서비스 상세 가이드  
 
 ## 프로젝트 만들기
 
@@ -140,6 +140,36 @@ Dooray! 메일 서비스에서도 소개를 하겠지만, Dooray! 메일을 바�
 
 - 하위 업무를 추가하고 싶은 업무(상위 업무)에서 ‘하위 업무 추가 / 신규’를 선택합니다. 
 - 상/하위 업무의 관계에 있어 주의할 점이 있습니다. 하위 업무가 모두 ‘완료’가 되었을 때 상위 업무가 자동으로 ‘완료’가 되지 않습니다. 하위 업무가 모드 ‘완료’가 되지 않아도 상위 업무의 상태는 ‘완료’가 될 수 있습니다.
+
+### 외부 사용자와 협업하기
+
+Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경우, 외부 사용자들을 멤버로 추가하지 않고도 함께 업무를 할 수 있습니다. 
+
+#### 업무 담당자, 참조자에 외부 이메일 추가 
+
+- 업무의 담당자, 참조자에 외부 이메일 주소(예.gmail.com)를 추가하면 외부 사용자들에게 업무의 본문이 외부 이메일로 발송됩니다. 외부 이메일에서 회신을 할 경우, 회신한 내용이 댓글로 등록이 되서 한 업무에서 업무 이력관리가 됩니다.
+> 이 때 외부 이메일로 발송된 업무 본문은 편집이 불가합니다. 
+
+![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail.png)
+<center>[그림]외부 이메일 추가</center>  
+
+#### 댓글을 외부 이메일로 발송 
+
+- 댓글로 멤버들끼리 편하게 소통을 하다가, 외부 사용자에게 전달할 내용이 있을 경우 댓글에서 바로 메일을 발송할 수 있습니다. 
+- 댓글을 메일로 발송한 경우, 메일로 발송되었으므로 일반 댓글과 다르게 표시되며 업무 본문과 동일하게 편집이 불가합니다.
+
+![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail02.png)
+<center>[그림]보내는 이름을 선택해 메일 발송</center>  
+
+![메일로 발송된 댓글](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail021.png)
+<center>[그림]메일로 발송된 댓글</center>  
+
+#### 보내는 이름 설정 
+
+- 댓글을 외부 메일로 발송할 때, 보내는 이름을 변경하고 싶다면 프로젝트 설정 > 업무 > 메일 연동에서 보내는 이름을 설정합니다. 이후 댓글에서 메일 발송 시 보내는 이름을 선택해서 사용합니다.
+ 
+![보내는 이름 설정](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail04.png)
+<center>[그림]보내는 이름 설정</center>  
 
 ### 담당자 복수 지정
 
