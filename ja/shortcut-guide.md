@@ -1,4 +1,4 @@
-## Dooray! > Project > 단축키 도움말 가이드  
+## Dooray! > Project > 단축키 가이드  
 - Dooray! 서비스의 단축키는 아래와 같습니다.  
 
 | 유형   | 단축키  |  기능 |
