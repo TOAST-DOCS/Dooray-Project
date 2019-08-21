@@ -88,7 +88,7 @@ Dooray!는 아웃고잉 웹 훅(Outgoing Webhook)기능을 지원합니다. Door
 
 #### 발송 메세지 포맷
 
-- 현재는 Dooray! 와 Slack 포맷을 지원하고 있습니다.
+- 현재는 Dooray!와 Slack 포맷을 지원하고 있습니다.
 
 ####  알림 이벤트 선택
 
