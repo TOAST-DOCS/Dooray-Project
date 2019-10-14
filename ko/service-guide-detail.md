@@ -8,7 +8,7 @@
 ![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/01_pjt_detail_addpjt.png  )
 <center>[그림]내 프로젝트 옆 [+]</center>
 
-![멤버](http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png)
+![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png)
 <center>[그림]프로젝트 추가 </center>                                                                               
 
 ### 프로젝트명
@@ -21,12 +21,12 @@
 
 ### 서비스 별 권한 설정
 업무/드라이브/위키 서비스 별로 권한 설정을 할 수 있습니다. 프로젝트 설정에서 각 서비스 탭으로 들어가 권한을 설정할 수 있습니다.
-![공개 프로젝트](http://static.toastoven.net/prod_dooray_project/detail/03_pjt_detail_project_settings.png)
+![권한 설정](http://static.toastoven.net/prod_dooray_project/detail/03_pjt_detail_project_settings.png)
 <center>[그림] 프로젝트 설정에서 업무/드라이브/위키 탭 선택 후 권한 설정</center>    
 
 ### 업무 권한 설정하기
 읽기, 등록, 편집, 이동/삭제/공유 기능에 대해 각각 권한 옵션을 선택해서 설정할 수 있습니다.
-![공개 프로젝트](http://static.toastoven.net/prod_dooray_project/detail/04_pjt_detail_project_settings.png)
+![업무 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/04_pjt_detail_project_settings.png)
 <center>[그림] 업무 권한 설정 옵션</center>  
 
 ### 읽기 권한
@@ -80,10 +80,10 @@
 업무 설정과 마찬가지로, 프로젝트의 설정 화면에서 위키와 드라이브 탭을 선택한 후 권한 설정을 할 수 있습니다. 
 위키와 드라이브의 권한도 읽기/등록/편집/삭제의 권한을 각각 설정할 수 있습니다.
 
-![프로젝트 설정](http://static.toastoven.net/prod_dooray_project/detail/05_pjt_detail_drive_settings_option.png)
+![드라이브 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/05_pjt_detail_drive_settings_option.png)
 <center>[그림]드라이브 권한 설정 옵션</center>   
 
-![프로젝트 설정](http://static.toastoven.net/prod_dooray_project/detail/06_pjt_detail_wiki_settings_option.png)
+![위키 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/06_pjt_detail_wiki_settings_option.png)
 <center>[그림]위키 권한 설정 옵션</center>   
 
 ## 프로젝트 관리자를 위한 프로젝트 설정
@@ -93,7 +93,7 @@ Dooray! Project에서는 프로젝트별로 1명 이상의 관리자를 지정�
 
 #### 상태
 - 프로젝트 상태를 ‘보관’으로 변경하면 더 이상 새로운 업무를 등록하거나 댓글을 달 수 없습니다.
-![프로젝트 설정](http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_project_settings_2.png)
+![프로젝트 기본 설정](http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_project_settings_2.png)
 <center>[그림]프로젝트 기본 설정</center>   
 
 ### 업무/드라이브/위키의 사용 설정
@@ -107,8 +107,8 @@ Dooray! Project에서는 프로젝트별로 1명 이상의 관리자를 지정�
 
 #### 위키 사용 설정
 - 	위키 탭을 선택하고, 사용 설정 메뉴로 들어가서 설정할 수 있습니다.
-![프로젝트 설정](http://static.toastoven.net/prod_dooray_project/detail/08_pjt_detail_project_drive_wiki.png)
-<center>[그림]업무/드라이브/위키 서비스 별 사용 설정</center>   
+![서비스별 사용 설정](http://static.toastoven.net/prod_dooray_project/detail/08_pjt_detail_project_drive_wiki.png)
+<center>[그림]업무/드라이브/위키 서비스별 사용 설정</center>   
 
 ### 웹 훅
 
