@@ -1,151 +1,136 @@
-## Dooray! > Project > Service Guide 
+﻿## Dooray! > Project > Service Guide 
 
-### 편집기 선택
+### Select an Editor
 
-Dooray! Project에 처음 접속하면 다음과 같은 환영 메시지를 보게 됩니다.
+Dooray! When signing in to the Dooray! Project for the first time, you will see the following welcome message.
 
-![웰컴](http://static.toastoven.net/prod_dooray_project/01_pjt_welcome.png)
-<center>[그림 1]프로젝트 환영 가이드</center>
-
-
-이후 Dooray!에서 매우 중요한 편집기 설정 화면이 나타납니다. 설정한 값은 새로운 업무를 등록하는 창이나, 빠른 업무 등록 창, 댓글 쓰기 창, 스트림의 댓글 쓰기 창 등에서 사용합니다. 설정한 편집기가 마음에 들지않을 때는 언제든지 에디터 우측 끝에 설정 아이콘을 클릭해 디폴트 편집기를 변경할 수 있습니다.
-
-![설정](http://static.toastoven.net/prod_dooray_project/02_pjt_settings.png)
-<center>[그림 2] 에디터 우측 하단 설정</center>
+![Welcome](http://static.toastoven.net/prod_dooray_project/01_pjt_welcome.png)
+<center>[Figure 1]Welcome to Project Guide</center>
 
 
-#### 위지윅(WYSIWYG) 편집기
+And then the Editor setup screen will be displayed, which is very important in Dooray!. The set values are used by Register New Task window, Quick Register New Task window, Write a Comment window, and Write a Comment to Stream window. When you want to change the editor settings, click the Setting icon at the right corner of the Editor to change the default editor anytime.
 
-위지윅 에디터는 일반적으로 사용하는 워드프로세서와 비슷한 환경을 제공합니다. 위지윅으로 작성해도 실제 저장하는 형식은 HTML이 아닌 다음에 설명할 마크다운(Markdown) 형식입니다.
+![Setting](http://static.toastoven.net/prod_dooray_project/02_pjt_settings.png)
+<center>[Figure 2] Setting at the bottom right of Editor</center>
 
-#### 마크다운 편집기
 
-마크다운이란 텍스트 기반의 서식 문서입니다. 위지윅과는 달라 처음에는 생소할 수 있지만, 다음 몇 가지 서식만 익히면 훨씬 빠르게 글을 작성할 수 있습니다.
+#### WYSIWYG Editor
 
-- 제목1\~6까지의 레벨(제목을 위한 글자 크기 조절)
-    - ‘\#’의 개수에 따라 글자 크기가 달라집니다. ‘\#’은 제목1에 해당하고 ‘\#\#\#\#\#\#’은 제목6으로 제목을 위한 가장 작은 글자 크기 서식입니다.
+WYSIWYG Editor provides an environment which is similar to a commonly used word processor. Even if you use WYSIWYG Editor, the actually used format for saving is not HTML but Markdown format, which will be described next.
 
-![웰컴](http://static.toastoven.net/prod_dooray_project/03_pjt_editor.png)
-<center>[그림 3] 에디터 본문 \#제목 예시 </center>
+#### Markdown Editor
 
-- 목록
-  - ‘\*’을 입력하고 공백 한 칸을 입력한 다음에 글을 작성하면 됩니다.
-  - 들여쓰기를 할 때는 \[TAB\]키를 입력하고, 반대로 내어쓰기를 할 때는 \[Shift\]+\[TAB\]을 입력하면 됩니다. 마이크로소프트 워드와 동일한 방식으로 동작합니다.
+Markdown is a document in a text-based format. Different from WYSIWYG, Markdown may be a bit unfamiliar in the beginning; but you can begin to write text much faster after learning a few formats as follows.
 
-![에디터](http://static.toastoven.net/prod_dooray_project/04_pjt_list.png)
-<center>[그림 4] 에디터 본문 \* 입력 예시 </center>
+Level from - Title1\-6 (Adjusting the font size for title)
+    - Depending on the number of ‘\#’, the font size changes. ‘\#’ is for Title1 and ‘\#\#\#\#\#\#’ is for Title6, the smallest font size for title.
 
-자세한 도움말은 다음 링크를 참고해주세요. 
-> [참고]  
+![Welcome](http://static.toastoven.net/prod_dooray_project/03_pjt_editor.png)
+<center>[Figure 3] Example of Entering the Title in the Editor \# </center>
+
+- List
+    - Enter ‘\*’ followed by a blank and then type text.
+    - For indentation, press the \[TAB\] key. For negative indentation, press the \[Shift\]+\[TAB\] keys. It works in the same way as Microsoft Word.
+
+![Editor](http://static.toastoven.net/prod_dooray_project/04_pjt_list.png)
+<center>[Figure 4] Example of typing in the \* body field of the Editor </center>
+
+For more information, see the following link. 
+> [Notes]  
 > [*https://dooray.com/htmls/guides/markdown\_ko\_KR.html*](https://dooray.com/htmls/guides/markdown_ko_KR.html)
 
-### 프로젝트 만들기 
+### Create a Project 
 
-Dooray! Project에서는 업무를 묶어 관리할 수 있는 여러가지 방법을 제공합니다. 그 중에서 가장 일반적인 것은 관련 있는 업무를 프로젝트로 모아 관리하는 것입니다.
-Dooray! 우측 상단의 설정 아이콘을 클릭 후 프로젝트 메뉴에서 ‘프로젝트 추가’를 선택합니다.
+Dooray! Project provides various ways to group tasks for easy management. The most common way is to group and manage relevant tasks as a project. At the top right of Dooray!, click the Setting icon and then select 'Add Project' from the project menu.
 
-![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/05_setting_add_project.png)
-<center>[그림 5] 설정&gt; 프로젝트 &gt;프로젝트 추가 </center>
+![Add a Project](http://static.toastoven.net/prod_dooray_project/05_setting_add_project.png)
+<center>[Figure 5] Setting&gt; Project &gt;Add Project </center>
 
-이미 ‘내 프로젝트’ 가 생성된 경우라면, 옆의 + 아이콘을 클릭해 ‘프로젝트 추가’를 선택합니다. 프로젝트명을 입력하고 ‘추가’를 클릭합니다.
+If 'My Project' has already been created, click the + icon next to the project and select 'Add Project'. Enter a project name and click 'Add'.
 
-![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/06_pjt_lnb_add_project.png)
-<center>[그림 6] 내 프로젝트 추가 </center>
+![Add a Project](http://static.toastoven.net/prod_dooray_project/06_pjt_lnb_add_project.png)
+<center>[Figure 6] Add My Project </center>
 
-### 초대하기
+### Invite a member
 
-프로젝트를 만들면 바로 함께 일할 동료를 초대할 수 있습니다.
+After creating a project, you can invite members immediately. If you are already a member of a project, you can invite members even if you are not a project manager. 
 
-![초대](http://static.toastoven.net/prod_dooray_project/07_pjt_invite.png)
-<center>[그림 7] 프로젝트 멤버 초대하기</center>
+![Invite](http://static.toastoven.net/prod_dooray_project/07_pjt_invite.png)
+<center>[Figure 7] Inviting a Member to the Project </center> 
 
-### 업무 등록하기
+### Register a Task
 
-왼쪽 위에 있는 ‘새 업무’ 버튼을 클릭합니다. 업무 등록 창은 메일 등록 창과 크게 다르지 않습니다. 메일을 작성하듯이 담당자, 제목, 본문을
-작성하면 됩니다.
+Click the 'New Task' button at the top left. The task registration window is almost the same as the Mail registration window. Just like writing an email, type in the owner, title, and body. Select a project and enter your name in the Owner field. Enter one more person. Enter the title and the body simply and then click the 'Save' button. Although we have entered the owner, title, and body in this exercise, you can also register a new task by typing in the title field only.
 
-프로젝트를 선택하고, 담당자에 자기 이름을 입력합니다. 다른 한 사람을 추가로 더 입력합니다. 그리고 제목을 입력하고 본문도 간단히 입력한
-다음에 ‘저장’ 버튼을 클릭합니다. 지금은 기능을 확인하기 위해 담당자, 제목, 본문을 입력했지만, 이 셋 중에서 제목만 입력해도 새로운 업무를
-등록할 수 있습니다.
+### Set the Completion Date
 
-### 완료일 설정하기
+You can set the completion date when registering a new task; however, you can also change or set a completion date after registration. Click Set Completion Date at the top right of the task, and enter the desired date and click Save. The person who has registered the task is not the only one who can modify the completion date. The owner, CC, and any project members can modify the date. If a person requested to complete the task at a certain date, but the deadline cannot be met, the owner can change the completion date. All of these changes are logged as history and can be looked up at any time. 
 
-새로운 업무를 등록하는 시점에 완료일을 설정할 수 있지만, 이미 등록한 다음에도 완료일을 설정하거나 변경할 수 있습니다.
+You can check the history by clicking History between the task body and comment fields.
 
-업무 상단 우측 영역에 완료일 설정을 클릭하면 원하는 날짜를 입력하고 저장하면 됩니다. 완료일은 업무를 등록한 사람만 수정할 수 있지 않습니다. 업무의 담당자, 참조자는 물론이고 프로젝트의 멤버면 누구나 수정할 수 있습니다. 업무 요청자가 해당 날짜로 요청했으나 그것이 어려울 경우, 담당자가 완료일을 변경하면 됩니다. 참고로 이런 모든 변경은 이력이 남아 언제든지 조회할 수 있습니다. 
+![Completion Date](http://static.toastoven.net/prod_dooray_project/08_pjt_day.png)
+<center>[Figure 8] Set and Change the Completion Date</center>
 
-업무 본문 영역과 댓글란 사이에 히스토리를 눌러 확인할 수 있습니다.
+### Modify Task
 
-![완료일](http://static.toastoven.net/prod_dooray_project/08_pjt_day.png)
-<center>[그림 8] 완료일 설정 및 변경</center>
+On the previous Read screen, we have changed the completion date only; however, you can modify all things related to the task at once by clicking the 'Edit' button. Change the title, owner, CC, body and attachments and then click 'Save' to see the changes.
 
-### 업무 수정하기
+### Check My Task List 
 
-앞서 읽기 화면에서 완료일만 수정했지만, ‘편집’ 버튼을 클릭하면 업무에 관련된 모든 사항을 한번에 수정할 수 있습니다.
-제목, 담당자, 참조자, 본문, 첨부 파일 등을 변경하고 ‘저장하기’를 누르면 변경된 내용을 확인할 수 있습니다.
+Dooray! With Dooray! Project, you can check all the tasks where you are assigned as an owner at a glance. My Task Box shows all tasks in which you are included as an owner. However, My Task Box applies the option to filter and exclude completed tasks by default. To check the completed tasks together, you must turn off the filter option.
 
-### 내가 할 업무 목록 확인하기 
+![Completion Date](http://static.toastoven.net/prod_dooray_project/09_pjt_filter.png)
+<center>[Figure 9] Set the Exclude Completed Tasks Filter</center>
 
-Dooray! Project에서는 내가 담당자인 업무를 쉽게 모아볼 수 있습니다.
-담당 업무함에 담당자에 내가 포함되어 있는 모든 업무가 있습니다. 하지만 담당 업무함의 필터에는 이미 완료된 업무는 제외하는 옵션이 기본 적용되어 있어, 이미 끝낸 업무까지 모두 확인하고 싶다면 필터를 꺼야 합니다.
+Tasks can be sorted based on the completion (request) date, registration date, and update data. Various filter options including 'Exclude Completed Tasks' can be applied.
 
-![완료일](http://static.toastoven.net/prod_dooray_project/09_pjt_filter.png)
-<center>[그림 9] 완료 제외 필터 설정</center>
+### Change My Task Status
 
-업무는 완료(요청)일, 등록일, 업데이트일 기준으로 정렬해서 볼 수 있고, ‘완료 업무 제외’를 비롯한 여러 필터 옵션도 적용할 수 있습니다.
+When registering a task, the initial status is 'Registered'. Later, you can change the status to 'In Progress' by clicking the 'Progress' button at the top of the task screen. After completing the task, click the 'Complete' button to change the status. Whenever changing the task status, the color of the owner's name will also be changed. When the task statuses are ‘Registered’, 'In Progress', and 'Completed', the name colors are black, blue, and gray, respectively.
 
-### 내 업무 상태 바꾸기
+![Task Status](http://static.toastoven.net/prod_dooray_project/10_pjt_status.png)
+<center>[Figure 10] Check and Change the Task Status </center>
 
-업무를 등록하면 맨 처음 상태는 ‘등록’입니다. 이후 업무 화면 맨 위에 있는 ‘진행하기’ 버튼을 클릭하여 ‘진행 중’ 상태로 변경할 수 있습니다.
-업무를 끝내면 ‘완료하기’ 버튼을 눌러 상태를 변경합니다.
-업무의 상태를 바꿀 때마다 해당 담당자의 이름 색깔이 바뀝니다. ‘등록’일 때는 검정, ‘진행’일 때는 파랑, ‘완료’일 때는 회색입니다.
+### Communication with Replies
 
-![업무상태](http://static.toastoven.net/prod_dooray_project/10_pjt_status.png)
-<center>[그림 10] 업무 상태 확인 및 변경하기 </center>
+Comment is not just a space to write a simple contents. You can write a very long paragraph or insert an image such as a design draft. When compared with email, the comment has a similar role as Reply to All. When a comment is added, a notification is sent to everyone typed in the registrant, owner, and CC. However, notification may not be sent to some people depending on the settings of each registrant, owner, and CC. However, when a mention is made (e.g. ‘@Hong_Gildong’), a notification is sent to the mentioned user regardless of the setting.
 
-### 댓글로 커뮤니케이션하기
+### Manage Task Box 
 
-댓글은 간단한 내용만 적는 공간이 아닙니다. 굉장히 긴 글을 등록할 수도 있고, 디자인 시안과 같은 이미지를 삽입할 수도 있습니다. 
-이메일과 비교한다면 전체 회신과 비슷한 역할을 합니다.
-댓글을 달면 등록자, 담당자, 참조에 있는 모든 이에게 알림을 보내지만 등록자, 담당자, 참조에 있는 사람의 설정에 따라 알림이 가지 않기도 합니다. 하지만 ‘@홍길동’과 같이 멘션을 할 경우에는 멘션된 사용자에게 무조건 알림을 전송합니다.
+#### Check tasks where I am mentioned: @mentioned task
 
-### 업무함 관리 
+- If you are doing a task as a project member, you can enhance the task efficiency by communicating with the ‘@name' mention in the body or comment. 
+- Without having to check the whole list of tasks, if you just see the tasks that mentioned you, you can easily check all the tasks you should refer to or you are assigned with as an owner. Use the mention feature when you task on a project.
 
-#### 내가 멘션된 업무 확인 : @멘션된 업무
+#### Check tasks where I starred: Starred task
 
-- 프로젝트 구성원으로서 업무 진행 시, 본문 또는 댓글에 ‘@이름’ 멘션으로 소통을 하면 업무 효율성이 높아집니다. 
-- 수 많은 업무 목록들을 모두 확인하지 않고 내가 멘션된 업무만 확인하면 내가 참고할 업무 또는 담당자로 지정된 업무들을 놓치지 않고 확인할 수 있습니다. 프로젝트로 진행 시 멘션을 많이 활용해 보세요.
+- If you have an important task, click the star icon in front of the task title to change the color of the star to yellow. 
+- All starred tasks can be viewed in the Starred Task Box at a glance. Star-mark tasks as important.
 
-#### 내가 별표한 업무 확인 : 별표 업무
+#### Collective View of My Replies: My Comment Box 
 
-- 중요한 업무는 업무 제목 앞에 있는 별표 표시를 선택하면 노란색으로 별표가 변경됩니다. 
-- 별표 체크된 업무들은 별표 업무 함에서 모아 볼 수 있습니다. 중요한 업무는 별표 체크해 보세요.
+- We discuss with others using so many comments and replies in a task. When this happens, you might want to check what comments you have written and catch up with the conversation after your last comment. You don't have to search and find every project task one by one. Just click ‘My Comment Box' to view all of your comments. This is Dooray!'s unique function which is not provided by any other services, which allows you to manage your comments in a simple way.
 
-#### 내가 쓴 댓글 모아보기 : 내가 쓴 댓글함 
+### Check My Task Status
 
-- 업무에 대해 댓글을 많이 주고 받게 되는데, 내가 어떤 댓글을 썼는지, 그 이후 어떤 상황인지 바로 확인하고 싶을 때가 있습니다. 일일히 프로젝트 업무들을 찾아 확인할 필요 없이 ‘내가 쓴 댓글’ 함을 누르면 모두 확인할 수 있습니다. 유사 서비스에서는 제공하지 않는 기능으로 자신이 썼던 댓글들을 관리할 수 있습니다.
+#### Check the status of tasks I registered: Sent Task Box 
 
-### 업무 상태 확인하기
+- If you have registered task to your colleagues, project members or team members, you will wonder how the task is going on. At this time, you can use the 'Sent Task Box'. The ‘My Task Box’ shows the tasks of which owner is you, and the ‘Sent Task Box’ shows the tasks registered by you. 
+- From the ‘Sent Task Box’, see the color of the owner name to get the current status of the task. When the task statuses are ‘Registered’, 'In Progress', and 'Completed', the name colors are black, blue, and gray, respectively. From the task list, you can intuitively understand the task progress status and the personal progress of the task by clicking it.
 
-#### 내가 등록한 업무 상태 확인하기 : 보낸 업무함 
+![Task Status](http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png)
+<center>[Figure 11] Task Status of Sent Task Box and Personal Progress per Task</center>
 
-- 동료나 프로젝트 구성원, 혹은 팀원들에게 업무를 등록했다면 해당 업무의 진척 상황이 궁금할 때가 있습니다. 이 때 ‘보낸 업무함’이 굉장히 유용합니다. ‘담당 업무함’에 내가 담당자인 업무를 모아 놓았다면, ‘보낸 업무함’에는 내가 등록한 업무를 모아 놓았습니다. 
-- ‘보낸 업무함’에서 담당자 이름의 색깔을 보면 현재 어떤 상태인지 알 수 있습니다. ‘등록’은 검정, ‘진행’은 파랑, ‘완료’는 회색입니다. 업무 목록에서 업무별 진행 상태 뿐 아니라, 클릭하여 업무에 대한 개인별 업무 상태도 직관적으로 알 수 있습니다.
+#### Check the task status of a specific project: Dashboard 
 
-![업무상태](http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png)
-<center>[그림 11] 보낸 업무함 업무 상태 및 업무별 개인 상태</center>
+- As a PM (Project Manager), you will wonder how the project you have been put in charge is going on. At this time, you can use the link of each project from 'My Project'.
 
-#### 특정 프로젝트의 업무 상태 확인하기 : 대쉬보드 
+![Dashboard](http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png)
+<center>[Figure 12] Project Dashboard</center>
 
-- PM(Project Manager)이라면 본인이 맡고 있는 프로젝트의 업무 상태가 궁금할 것입니다. 이 때는 ‘내 프로젝트’에 있는 프로젝트별 링크를 이용하면 됩니다.
+- As you see in ‘My Task Box’, you can also filter tasks you want to see. 
 
-![대쉬보드](http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png)
-<center>[그림 12] 프로젝트 대쉬보드</center>
-
-- ‘담당 업무함’과 같이 필터를 이용하여 원하는 업무를 골라서 볼 수도 있습니다. 
-
-![담당 업무함](http://static.toastoven.net/prod_dooray_project/13_pjt_mytaskbox.png)
-<center>[그림 13] 담당 업무함</center>
-
+![My Task Box](http://static.toastoven.net/prod_dooray_project/13_pjt_mytaskbox.png)
+<center>[Figure 13] My Task Box</center>
 
 

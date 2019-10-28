@@ -1,584 +1,549 @@
-## Dooray! > Project > 서비스 상세 가이드  
+﻿## Dooray! > Project > Service Detailed Guide  
 
-## 프로젝트 만들기
+## Create a Project
 
-### 프로젝트 추가
+### Create a Private Project
+
+Private project is the most general type of project, which can be read and written by invited members only. If a person is listed as an owner or a CC or mentioned for a task, the person can read and write for that specific task even if he or she is not invited. Click the [+] icon next to 'My Project' to add a project. When adding a project, set the persons to show the project to Project Members Only.
+
+![Add a Project](http://static.toastoven.net/prod_dooray_project/detail/01_pjt_detail_addpjt.png  )
+<center>[Figure 1] [+]</center> Next to My Project
+
+![Members](http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png)
+<center>[Figure 2]Add a Project &gt; Project Members Only</center>                                                                               
+#### Organization
+- Determine the organization where the project to create will belong when a member belongs to several organizations. If the project belongs to Organization A, the member can collaborate with the members of Organization B.
+- However, the member is managed by the manager of Organization A. If the member belongs to only one organization, this "Organization" item is not shown.
+
+#### Project Name
+- Project Name is used to indicate the work included in the project. For example, if the project name is 'Shopping mall improvement', the #56 work of the project is displayed as ‘Shopping mall improvement/56’.
+
+#### Description
+- Write the contents freely by using markdown or WYSIWYG. From a short message to a long paragraph with images, you can freely write just about anything.
+
+#### Open to
+-  The default value is ‘Project Members Only’. This is a private project that only members invited to the project can read and write. If you want all tenant members to read and write freely, change this setting to 'All Members in Organization'. This project with this permission is called 'Open Project'.
+
+![Open To](http://static.toastoven.net/prod_dooray_project/detail/03_pjt_detail_member01.png)
+<center>[Figure 3]Open To Setting</center>    
+
+### Create an Open Project
+
+In general, most projects are run in private mode. However, open project can be more convenient for a startup with a small number of employees and for a specific purpose such as sharing.
+All tenant users can read and write in an open project even if they are not members of the project.
+
+> For example, open project can be a replacement of a board, such as 'Notice' or 'Sharing Technology'. If you have set a project as private rather than open, you should add a new member to 'Notice' or 'Sharing Technology' project whenever a new member signs up.
+
+When one tenant has several organizations, you can also disclose the project to a specific organization. Choose ‘All Members in Organization' and then the 'Choose Organization' option appears next. Click this to view the list of all organizations of the tenant. You can select an organization for the project.
  
-내 프로젝트 옆의 + 버튼을 이용해서 프로젝트를 추가할 수 있습니다. 프로젝트의 제목과 설명만 입력하고 간단하게 프로젝트를 만들 수 있습니다. 
-![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/01_pjt_detail_addpjt.png  )
-<center>[그림]내 프로젝트 옆 [+]</center>
+ ![Open Project](http://static.toastoven.net/prod_dooray_project/detail/04_pjt_detail_member02.png)
+ <center>[Figure 4]Select Open To</center>    
 
-![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png)
-<center>[그림]프로젝트 추가 </center>                                                                               
+The open project is open to all organizations of the tenant; however, the tenant guests cannot access the project. Any tenant guest must be a member of the open project or an owner or a CC of the open project to access the project.
 
-### 프로젝트명
-프로젝트 이름이고, 프로젝트에 있는 업무를 지칭할 때 사용합니다. 예를들어, 프로젝트명이 ‘쇼핑몰개선’이고 그 프로젝트의 56번 업무는 ‘쇼핑몰개선/56’이라고 표현합니다.
+### Create a Write-only Open Project 
 
-### 설명
-마크다운이나 위지윅 형식으로 자유롭게 내용을 기술합니다. 짧은 내용부터 이미지를 포함한 긴 내용까지 자유롭게 사용할 수 있습니다.
+Write-only Open Project is an open project, but only the issues you have written can be available if you are not the project member. It means you can create an open project to allow non-project members to register tasks. However, if you want to restrict the non-project members from viewing tasks registered by others, an open project will not work. 
+> For example, patent review and legal review can be very sensitive. In these cases, Write-only Open Project can be a convenient solution.
 
-## 권한 설정하기
+#### Open For
 
-### 서비스 별 권한 설정
-업무/드라이브/위키 서비스 별로 권한 설정을 할 수 있습니다. 프로젝트 설정에서 각 서비스 탭으로 들어가 권한을 설정할 수 있습니다.
-![권한 설정](http://static.toastoven.net/prod_dooray_project/detail/03_pjt_detail_project_settings.png)
-<center>[그림] 프로젝트 설정에서 업무/드라이브/위키 탭 선택 후 권한 설정</center>    
+- The default value is ‘All’. In this case, a tenant member can read posts written by not only himself or herself but also others. However,
+ if the setting is changed to ‘Write Only', non-project members can read and write the work registered by them only.
 
-### 업무 권한 설정하기
-읽기, 등록, 편집, 이동/삭제/공유 기능에 대해 각각 권한 옵션을 선택해서 설정할 수 있습니다.
-![업무 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/04_pjt_detail_project_settings.png)
-<center>[그림] 업무 권한 설정 옵션</center>  
+> If your organization have any internal services to review patent or report sexual harassment, you can create a projected project for that. A large service can be replaced with a small feature of Dooray!
+Project.
 
-### 읽기 권한
-업무에 접근할 수 있는 권한입니다.
-- 멤버와 업무 등록자/담당자/참조자 읽기 가능: 프로젝트 멤버는 업무에 접근할 수 있습니다. 혹은 멤버가 아니어도 담당자, 참조자로 지정된 경우면 업무에 접근해서 업무 내용을 읽을 수 있습니다.
--	모두 읽기 가능: 멤버 비멤버 구분 없이 모두 접근해서 업무 내용을 읽을 수 있습니다. 조직이 여러 개면, 조직을 선택할 수 있고, 선택된 조직의 조직원들이 업무 읽기 권한을 갖게 됩니다. 
+![Write Only](http://static.toastoven.net/prod_dooray_project/detail/05_pjt_detail_member03_w.png)
+<center>[Figure 5]Write Only Setting</center>    
 
-### 등록 권한
-- 멤버만 등록 가능: 프로젝트 멤버만 업무를 등록할 수 있습니다. 비멤버는 업무를 등록할 수 없습니다.
--	모두 등록 가능: 멤버 비멤버 구분 없이 모두 접근해서 업무를 등록할 수 있습니다. 조직이 여러 개면, 조직을 선택할 수 있고, 선택된 조직의 조직원들이 업무를 등록할 수 있습니다.
+## Project Settings for Project Manager
 
-### 편집 권한
-- 본인이 등록한 업무만 편집 가능: 내가 등록한 업무만 편집할 수 있습니다. 다른 사람이 등록한 업무에 대해서는 편집할 수 없습니다. 
-- 멤버는 모든 업무 편집 가능: 프로젝트의 멤버만 업무를 편집할 수 있습니다. 프로젝트 멤버라면, 내가 등록하거나 다른 사람이 등록한 모든 업무를 편집할 수 있습니다.
-- 멤버, 비멤버 모든 업무 편집 가능: 멤버와 비멤버 모두 업무 편집 권한을 갖게 됩니다. 멤버라면 해당 프로젝트의 모든 업무에 대해 편집할 수 있고, 비멤버라면 접근할 수 있는(읽기 권한이 있는) 업무에 대해 편집 할 수 있습니다. 
-- 모든 업무 편집 불가능: 멤버, 비멤버 구분 없이 관리자를 제외한 그 누구도 업무 편집을 할 수 없습니다.
-- 편집의 범위: 제목과 본문 편집, 업무 우선순위 조정, 일정과 마일스톤 변경, 태그 등록, 상위/하위 업무 추가, 공지 등록과 내림, 첨부파일의 삭제
+Dooray! Project allows for assigning more than one manager to a project. Difference in permissions between a project manager and a member is nearly negligible. However, only a project manager can touch 'Default Settings' and 'Web Hook' as these settings can have significant effect when settings are changed.
 
-### 첨부파일의 삭제 
-- 본인이 업로드한 첨부파일은 스스로 삭제할 수 있습니다. 
-- 다른 사람이 업로드한 첨부파일의 삭제는 업무의 삭제 권한을 따릅니다. 
-    - 예 1) 본인이 등록한 업무만 편집 가능한 경우, 다른 사람이 올린 첨부 파일은 삭제할 수 없습니다.
-    - 예 2) 멤버는 모든 업무 편집 가능의 경우, 다른 사람이 올린 첨부 파일에 대해 프로젝트 멤버는 삭제할 수 있지만 프로젝트 비멤버는 삭제할 수 없습니다.
-    
-### 이동/삭제/공유하기 권한
-- 업무를 이동하거나 삭제하거나 공유하는 권한은 등록자와 관리자에게만 주어집니다.
+### Default Settings
 
-### 권한 설정 예시
-#### 전체 공개 프로젝트를 만들고 싶을 때 
--	읽기와 등록은 모두 가능으로 선택해주세요. 조직이 여러 개면 공개할 조직을 선택해주세요.
--	편집도 모두 가능하게 하려면 멤버, 비멤버 모두 편집 가능 옵션을 선택해주세요. 
+#### Status
+- When the project status is changed to 'Close', any new work cannot be registered and no comment can be added.
 
-#### 일반 프로젝트를 만들고 싶을 때
-- 읽기는 멤버와 등록자, 담당자, 참조가 가능으로 선택해주세요.
--	등록은 멤버만 가능하도록 선택해주세요.
--	편집은 아래 내용을 참고해서 원하는 방향으로 선택해주세요.
-    -	비멤버가 업무를 읽을 수는 있지만 편집 권한을 주고 싶지 않은 경우: 멤버만 가능으로 편집 권한을 선택해주세요.
-    -	업무를 함께 하는 비멤버에게는 편집 권한을 주고 싶은 경우: 멤버와 비멤버 모두 편집 가능하도록 선택해주세요.
+#### Project Calendar
+-  Set this to ‘Enable' to view the work of the project by completion date on Dooray! Calendar.
 
-#### 문의, 접수, 신고 용도의 프로젝트를 만들고 싶을 때
--	문의, 접수, 신고 용도의 프로젝트는 모두가 등록할 수 있지만 모두가 읽을 수는 없어야 합니다. 
--	읽기는 멤버와 업무 등록자, 담당자, 참조자만 가능하도록 선택해주세요.
--	등록은 모두 가능하도록 선택해주세요. 조직이 여러 개면 공개할 조직을 선택해주세요.
--	편집은 아래 내용을 참고해서 원하는 방향으로 선택해주세요.
-    -	글을 등록한 사람만 편집할 수 있도록 하려면: 등록자만 편집 가능으로 선택해주세요.
-    -	업무를 처리하는 멤버들만 편집할 수 있도록 하려면: 멤버만 편집 가능으로 선택해주세요. 이 경우, 등록자가 비멤버인 경우는 본인이 등록한 글을 편집할 수 없습니다.
-    - 업무를 처리하는 멤버와 등록한 사람 모두 편집할 수 있도록 하려면: 멤버와 비멤버 모두 편집 가능하도록 설정해주세요. 이 경우 업무를 처리하는 멤버들도 편집을 할 수 있고, 등록자가 비멤버여도 본인이 등록한 글을 편집할 수 있습니다. 다만, 등록자 외 다른 비멤버가 참조 된다면, 참조된 비멤버도 편집 권한을 가질 수 있음을 염두 해주세요. 
-    -	아무도 편집하지 못하게 하려면: 모두 편집 불가능으로 선택해주세요. 이 경우 글을 등록한 등록자와 업무를 처리하는 멤버 모두 편집이 불가능합니다. 관리자만 편집을 할 수 있습니다.
+#### Project Mail
+-  Set this to ‘Enable' to give an email address to the project. When an email is sent to the address, the email is registered as a work to the project.
 
-### 위키/드라이브 권한 설정하기
-업무 설정과 마찬가지로, 프로젝트의 설정 화면에서 위키와 드라이브 탭을 선택한 후 권한 설정을 할 수 있습니다. 
-위키와 드라이브의 권한도 읽기/등록/편집/삭제의 권한을 각각 설정할 수 있습니다.
+#### Project Drive  
+-  Set this to ‘Enable' to create the drive for the project in Dooray! Drive and members can share and manage files together.
 
-![드라이브 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/05_pjt_detail_drive_settings_option.png)
-<center>[그림]드라이브 권한 설정 옵션</center>   
+![Project Setting](http://static.toastoven.net/prod_dooray_project/detail/06_pjt_detail_default_setting.png)
+<center>[Figure 6] Default Setting of Project </center>   
 
-![위키 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/06_pjt_detail_wiki_settings_option.png)
-<center>[그림]위키 권한 설정 옵션</center>   
+### Webhook
 
-## 프로젝트 관리자를 위한 프로젝트 설정
-Dooray! Project에서는 프로젝트별로 1명 이상의 관리자를 지정할 수 있습니다. 프로젝트 관리자와 멤버 간에는 권한 차이가 거의 없습니다. 다만 ‘기본 설정’과 ‘웹 훅’은 설정을 변경했을 때 미치는 영향이 크기 때문에 프로젝트 관리자만 할 수 있습니다.
+Dooray! supports the Outgoing Webhook function. Dooray! When a work or comment is registered to the Dooray! Project or a work is changed, the URL with the changed status is sent to users. Since this function allows sending the project contents to any external services, an Outgoing Webhook can only be set by a project manager due the security risk. This can be set via the [Webhook] menu under the Project Setting. On the following Add Webhook screen, the supported message formats for outgoing Dooray! events are Dooray! and Slack formats. On this screen, you can register a Webhook URL to receive notifications.
 
-### 기본 설정
+#### Webhook URL
 
-#### 상태
-- 프로젝트 상태를 ‘보관’으로 변경하면 더 이상 새로운 업무를 등록하거나 댓글을 달 수 없습니다.
-![프로젝트 기본 설정](http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_project_settings_2.png)
-<center>[그림]프로젝트 기본 설정</center>   
+- Send a task or comments registered to a task to the destination of the Webhook URL entered.
 
-### 업무/드라이브/위키의 사용 설정
-#### 업무 사용 설정
-- 업무 탭을 선택하고, 사용 설정 메뉴로 들어가서 설정할 수 있습니다.
--	업무의 사용 설정은 사용함으로만 선택할 수 있습니다. 
--	보드와 플래닝 기능에 대해서는 사용을 원하는 기능을 체크하고 저장합니다.
+#### Outgoing Message Formats
 
-#### 드라이브 사용 설정
--	드라이브 탭을 선택하고 사용 설정 메뉴로 들어가서 설정할 수 있습니다.
+- Currently, Dooray! and Slack formats are supported.
 
-#### 위키 사용 설정
-- 위키 탭을 선택하고, 사용 설정 메뉴로 들어가서 설정할 수 있습니다.
-![서비스별 사용 설정](http://static.toastoven.net/prod_dooray_project/detail/08_pjt_detail_project_drive_wiki.png)
-<center>[그림]업무/드라이브/위키 서비스별 사용 설정</center>   
+####  Select Alert Event
 
-### 웹 훅
+-  Select the alert events you want to receive.
 
-Dooray!는 아웃고잉 웹 훅(Outgoing Webhook)기능을 지원합니다. Dooray! 프로젝트에 업무, 댓글이 등록되거나 업무의 변경된 상태를 추가한 URL로 전달 받을 수 있습니다. 아웃고잉 웹 훅은 프로젝트 내용을 어디든 외부로 전송할 수 있는 보안 위험 때문에 프로젝트 관리자만 설정할 수 있으며, 프로젝트 설정에서 [웹 훅] 메뉴를 통해 설정할 수 있습니다. 아래의 웹 훅 추가 화면에서 Dooray! 이벤트를 내보낼 메시지 포맷은 Dooray!와 Slack의 포맷을 지원하며 알림을 받을 웹 훅 URL을 등록합니다.
+####  Enable or Disable
 
-#### 웹 훅 URL
-
-- 웹 훅 URL로 입력한 곳으로 업무나 업무에 등록된 댓글을 전송합니다.
-
-#### 발송 메세지 포맷
-
-- 현재는 Dooray!와 Slack 포맷을 지원하고 있습니다.
-
-####  알림 이벤트 선택
-
-- 알림 항목 중 선별하여 받을 수 있습니다.
-
-####  사용 여부
-
-- 해당 웹 훅을 잠시 멈추고 싶을 때는 웹 훅을 삭제하지 않고 사용 중인 웹훅 목록에서 ‘편집’을 눌러 사용 여부를 ‘사용 안 함’으로 설정하면 됩니다.
+-  To stop using a Webhook for a while, do not uninstall it but click ‘Edit’ on the Webhook list you are using and set it to ‘Disabled’.
   
-![프로젝트 설정](http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_add_webhook.png)
-<center>[그림 7] 웹 훅 추가 화면 </center>      
+![Project Setting](http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_add_webhook.png)
+<center>[Figure 7]Adding Webhook Screen</center>   
 
-#### 로그 
+#### Log 
 
-- 등록한 웹 훅의 동작 이력은 웹 훅 ‘로그’ 버튼을 눌러 쉽게 확인할 수 있습니다.
+-  To view the history of the registered Webhook, click the ‘Log’ button of the Webhook.
 
-## 업무 등록
+## Register Task
 
-### 프로젝트 없이 업무 등록하기
+### Register a task without a project
 
-Dooray!에서는 보통의 이슈 트래커나 프로젝트 관리 도구와 달리 프로젝트 없이 단발적인 업무를 등록하여 관리할 수 있습니다. ‘새 업무’ 버튼을 클릭합니다. ‘(없음)’을 선택합니다. 제목, 담당자 등을 입력하고 등록합니다. 아직 이렇게 ‘(없음)’으로 등록한 업무를 모아서 보여주는 기능은 없지만 보낸 업무함에서 조회할 수 있습니다.
+Unlike common issue trackers or project management tools, Dooray! allows you to register and manage a short task without a project. Click the 'New Task' button. Select ‘(None)’. Enter the title and the owner to register. For now, there is no function to collect and show tasks registered as ‘(None)’; however, you can lookup the tasks in the Sent Task Box.
 
-### 간편 등록
+### Quick Write
 
-담당자, 본문, 완료일 등은 미정이고 제목만 있는 업무를 등록할 때가 있습니다. 앞서 설명 드린 방법대로 등록하면 되지만 이런 때 사용할 수 있는 굉장히 쉽고 빠른 방법이 있습니다. 프로젝트 이름 옆에 있는 [+] 아이콘을 클릭합니다. 커다른 쓰기창이 아니라 아주 간략한 쓰기 창을 볼 수 있습니다.
+Sometimes you need to register a task which has only a title but its owner, body and completion date have not been filled in yet. Although you can register tasks through the steps described earlier, there is an easier and faster way to do this. Click the [+] icon next to the project name. You can see a very simple Write window instead of a large one.
 
-![간편 쓰기창]( http://static.toastoven.net/prod_dooray_project/detail/08_pjt_detail_w.png)
-<center>[그림 8]간편 쓰기창 </center>   
+![Quick Write Window]( http://static.toastoven.net/prod_dooray_project/detail/08_pjt_detail_w.png)
+<center>[Figure 8]Quick Write Window </center>   
 
-이 레이어 팝업에서 첫 줄은 제목이고 두 번째 줄부터는 본문입니다. 제목만 입력하고 싶다면 첫 줄만 입력하고 ‘등록’ 버튼을 클릭하면 됩니다. 만일 등록 후에 연달아 계속 등록하고 싶다면 ‘저장 후 계속 등록’을 클릭합니다. 이 과정을 단축키를 이용하면 훨씬 더 빠르게 할 수 있습니다. 업무 목록 화면에서 단축키 fw를 입력합니다. 그러면 간략한 쓰기 창이 나타납니다. 제목을 입력하고 \[Ctrl\]+\[Enter\](macOS는\[Cmd\]+\[Enter\])를 입력합니다. ‘저장 후 계속 등록’을 클릭한 것과 동일하게 동작합니다. 만일 담당자 지정까지 한번에 하고 싶다면 제목에 ‘-&gt;@홍길동’을 가하면 담당자 지정까지 가능합니다.
+In this layer popup, the first line is for the title and the next lines are for the body. To enter a title only, fill in the first line only and then click the 'Register' button. To register more tasks in a consecutive way, click ‘Save and Keep Registering’. You can do this faster by using the shortcut key. On the task list screen, type 'fw' for shortcut. A Quick Write window appears. Type the title and press \[Ctrl\]+\[Enter\] (for macOS, \[Cmd\]+\[Enter\]). It works in the same way as clicking ‘Save and Keep Registering’. To also assign the owner at this time, add ‘-&gt;@Hong_Gildong’ to the title.
 
-### 메일을 업무로 등록
+### Register Mail as Task
 
-Dooray! 메일 서비스에서도 소개를 하겠지만, Dooray! 메일을 바로 업무로 등록을 할 수 있습니다. 외부와 메일로 커뮤니케이션을 하다가 메일 본문을 업무로 진행을 해야할 경우가 있습니다. 이럴 경우 본문을 복사해서 다시 Dooray! 프로젝트의 업무로 등록하지 않고 메일 읽기 화면에서 \[…\] 메뉴를 눌러 하위의'업무로 등록' 메뉴를 선택합니다.
+Dooray! Dooray! Mail can be registered as a task. This has been described in Mail Service in detail. Sometimes you may need to register a mail body as a task while communicating via email with external parties. In this case, there is no need to copy and register the body as a task of the Dooray! Project. Just click the \[…\] menu on the Read Mail screen and select the 'Register as Task' menu.
 
-### 하위 업무 등록
+### Register Sub Task
 
-유관된 업무를 하위 업무로 묶는 것은 좋은 방법입니다. Dooray! Project에서는 기존 업무를 하위로 등록하거나 새로운 업무를 하위로 등록하는 두 가지 방법을 제공합니다.
+It is a efficient way to bind related task as a sub-task. Dooray! Project provides two ways of registering a sub-task. You can register an existing task as a sub-task or register a new task as a sub-task.
 
-#### 기존 업무를 하위로 등록하기
+#### Register an existing task as a sub-task
 
-- 제목으로 검색하여 원하는 업무를 지정합니다.
-- 모든 업무를 하위 업무로 지정할 수 없습니다. 하위의 하위를 지원하지 않기 때문에 이미 하위 업무가 있는 업무는 하위 업무로 지정할 수 없습니다. 
+- Search for a title and specify a task as sub-task.
+- It is not available to specify all tasks as sub-task. As a sub-task of a sub-task is not supported, a task which already has a sub-task cannot be specified as a sub-task. 
 
-![하위추가](http://static.toastoven.net/prod_dooray_project/detail/09_pjt_detail_addtask.png)
-<center>[그림 9]상/하위 업무 추가</center>   
+![Add Sub-Task](http://static.toastoven.net/prod_dooray_project/detail/09_pjt_detail_addtask.png)
+<center>[Figure 9]Add Main/Sub-Task</center>   
 
-#### 신규 업무를 하위로 등록하기
+#### Register a new task as a sub-task
 
-- 하위 업무를 추가하고 싶은 업무(상위 업무)에서 ‘하위 업무 추가 / 신규’를 선택합니다. 
-- 상/하위 업무의 관계에 있어 주의할 점이 있습니다. 하위 업무가 모두 ‘완료’가 되었을 때 상위 업무가 자동으로 ‘완료’가 되지 않습니다. 하위 업무가 모드 ‘완료’가 되지 않아도 상위 업무의 상태는 ‘완료’가 될 수 있습니다.
+-  For the task (Main Task) to which a sub-task will be added, select ‘Add/New Sub-Task’. 
+- Please note the following regarding relationship between main and sub-tasks. Even if all sub-tasks have been 'completed', the main task is not automatically 'completed'. Even if not all sub-tasks have been 'completed', the main task can be 'completed'.
 
-### 외부 사용자와 협업하기
+### Collaborate with External Users
 
-Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경우, 외부 사용자들을 멤버로 추가하지 않고도 함께 업무를 할 수 있습니다. 
+To collaborate with external users via Dooray! Project, you don't have to add the external users as your members but can still work together. 
 
-#### 업무 담당자, 참조자에 외부 이메일 추가 
+#### Add external emails to Owner and CC 
 
-- 업무의 담당자, 참조자에 외부 이메일 주소(예.gmail.com)를 추가하면 외부 사용자들에게 업무의 본문이 외부 이메일로 발송됩니다. 외부 이메일에서 회신을 할 경우, 회신한 내용이 댓글로 등록이 되서 한 업무에서 업무 이력관리가 됩니다. 
-- <Span style="color:#FF0000">※ 주) 이 때 외부 이메일로 발송된 업무 본문은 편집이 불가합니다. </span>
+- Add external email addresses (e.g. .gmail.com) to send the body of the task to the external users as an external email. When the users of the external emails reply, the replied messages are registered as comments; thus, the task history can be managed in one task. 
+- <Span style="color:#FF0000">※ Note: At this time, the task body sent to the external email cannot be edited. </span>
 
-![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail.png)
-<center>[그림]외부 이메일 추가</center>  
+![Add External Email](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail.png)
+<center>[Figure ]Add External Email</center>  
 
-#### 댓글을 외부 이메일로 발송 
+#### Send the comment as external emails 
 
-- 댓글로 멤버들끼리 편하게 소통을 하다가, 외부 사용자에게 전달할 내용이 있을 경우 댓글에서 바로 메일을 발송할 수 있습니다. 
-- <Span style="color:#FF0000">※ 주) 댓글을 메일로 발송한 경우, 메일로 발송되었으므로 일반 댓글과 다르게 표시되며 업무 본문과 동일하게 편집이 불가합니다. </span>
+- If you have something to inform to external users while communicating with members via comments, you can directly send them your comments in an email. 
+- <Span style="color:#FF0000">※ Note: When sending a comment via email, the comment is marked in a different way from other comments and it cannot be edited, like the task body, as it has been sent as an email.</span>
 
-![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail02.png)
-<center>[그림]보내는 이름을 선택해 메일 발송</center>  
+![Send Comment as Email](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail02.png)
+<center>[Figure]Select the Sender's Name and Send Email</center>  
 
-![메일로 발송된 댓글](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail021.png)
-<center>[그림]메일로 발송된 댓글</center>  
+![Comment Sent as Email](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail021.png)
+<center>[Figure]Comment Sent as Email</center>  
 
-#### 보내는 이름 설정 
+#### Set the Sender's Name 
 
-- 댓글을 외부 메일로 발송할 때, 보내는 이름을 변경하고 싶다면 프로젝트 설정 > 업무 > 메일 연동에서 보내는 이름을 설정합니다. 이후 댓글에서 메일 발송 시 보내는 이름을 선택해서 사용합니다.
+- If you need to change the sender's name when sending a comment as an external mail, go to Project Setting> Task > Link Mail and set the sender's name. After that, you can select the sender's name when sending a comment as an email.
  
-![보내는 이름 설정](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail04.png)
-<center>[그림]보내는 이름 설정</center>  
+![Set the Sender's Name](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail04.png)
+<center>[Figure] Set the Sender's Name</center>  
 
-### 담당자 복수 지정
+### Specify Multiple Owners
 
-모든 업무에는 되도록 담당자를 한 명을 지정하여 그 업무의 책임을 명확히 하는 것이 좋습니다. 하지만 때에 따라 여러 사람이 한 업무를 하는 경우가 있습니다. 그런 경우 기존 도구에서는 사람별로 업무를 등록해야 해서 매우 불편했습니다. Dooray! Project에서는 이메일처럼 담당자에 여러 사람을 지정할 수 있습니다. 또한 담당자에 있는 각 사람별로 워크플로우를 관리할 수 있습니다.
+It is recommended to make the responsibility of a task clear by assigning only one owner for any one task. However, sometimes several persons have to do one task. With the existing tools, It's a quite cumbersome to register a task to a person one by one. Dooray! Project allows you to assign several members as owners just like Email does. In addition, it allows you to manage workflow for each person listed in the owner field.
 
-#### 담당자와 참조자 진행 상태 확인 
+#### Check the progress of owners and CCs 
 
-- 여러 명을 담당자로 지정할 경우 각 담당자 이름 색깔을 보고 진행 상태를 바로 파악할 수 있도록 하였습니다.
-  등록 상태 : 검정, 진행 상태: 파랑, 완료 상태 : 회색입니다.
+- When several persons are assigned as owners, it is possible to figure out the progress status by looking at the color of each owner's name.
+  Registered: black, In progress: blue, Completed: gray.
 
-![담당자상태](http://static.toastoven.net/prod_dooray_project/detail/10_pjt_detail_add_npeople.png)
-<center>[그림 10]담당자,참조자 여러 명 지정</center>   
+![Owner Status](http://static.toastoven.net/prod_dooray_project/detail/10_pjt_detail_add_npeople.png)
+<center>[Figure 10]Specify Multiple Owners and CCs</center>   
 
-#### 담당자 참조자 변경 
+#### Change Owners and CCs 
 
-- 댓글을 작성하면서 담당자, 참조자를 변경할 경우가 있습니다.
-  댓글에서 -&gt;@홍길동 표기하고 댓글을 입력하면 ‘홍길동’이 해당 업무의 담당자가 되고, 기존 담당자는 참조가 됩니다. 댓글에서 "-&gt;&gt;@홍길동
-  댓글..."을 입력하면 '홍길동이 해당 업무의 담당자로 추가됩니다.
-- 프로젝트 멤버가 아닌 사람도 담당자나 참조로 지정 가능하며, 이 경우, 그 업무에만 읽기/쓰기 권한이 생깁니다.
+- While writing comments you may need to change the owners and CCs.
+  When typing in -&gt;@Hong_gildong and entering the comment, 'Hong_gildong' is assigned as the owner of the task and the existing owner is replaced as a CC. Type in "-&gt;&gt;@Hong_gildong
+  in the comment..." and 'Hong_gildong' is added as another owner of the task.
+- Persons who are not project members can also be assigned as owners or CCs. In this case, the persons have read/write permissions only for the task.
 
-## 본문과 댓글 형식
+## Format of Body and Comment
 
-### 마크다운 작성하기
+### Create a Markdown
 
- https://nhnent.dooray.com/htmls/guides/markdown\_ko\_KR.html에 있는 마크다운 도움말을 확인해 주세요. 
- 해당 페이지에서 바로 연습도 가능합니다. 왼쪽 화면이 마크다운 편집기이며, 우측이 결과 화면입니다.
+ See the Markdown help at https://nhnent.dooray.com/htmls/guides/markdown\_ko\_KR.html. 
+ You can try writing right on this page. The left screen is the Markdown Editor and the right screen is the result screen.
 
-### 업무 참조
+### Task Reference
 
-본문이나 댓글에 다른 업무의 링크를 삽입할 수 있습니다. 다른 업무 읽기 화면에서 브라우저의 URL을 복사해서 본문(혹은 댓글)에 삽입할 수도 있지만 그렇게 할 경우 해당 업무가 다른 프로젝트로 이동했을 때 링크가 유효하지 않게 됩니다. 편집기에서 ‘\[‘를 입력한 후, ‘업무 참조’를 선택합니다. 최근 본 업무 목록이 나타나고, 화살표 키나 마우스를 이용하여 삽입하고 싶은 업무를 선택합니다. 만일 목록에 원하는 업무가 없다면 키워드를 입력하여 제목 검색을 할 수 있습니다.
+You can insert a link of another task in the body or comment. You can copy and paste the browser URL from another task read screen to the body (or comment); however, it makes the link invalid if the task has been moved to another project. In the editor, enter ‘\[‘ and then select ‘Task Reference’. The list of recently viewed tasks is displayed. Select a task to insert using the arrow keys or the mouse. If there is no task you want to insert, you can search for a title by entering its keyword.
 
-![참조]( http://static.toastoven.net/prod_dooray_project/detail/11_pjt_detail_ref_task.png)
-<center>[그림 11]편집기에 [ 입력</center>   
+![Reference]( http://static.toastoven.net/prod_dooray_project/detail/11_pjt_detail_ref_task.png)
+<center>[Figure 11]Input in the [Editor</center>   
 
-![참조2](http://static.toastoven.net/prod_dooray_project/detail/12_pjt_detail_ref_task_select.png)
-<center>[그림 12]참조할 업무 선택</center>   
+![Reference 2](http://static.toastoven.net/prod_dooray_project/detail/12_pjt_detail_ref_task_select.png)
+<center>[Figure 12]Select a Task to Refer</center>   
 
-### 멘션
+### Mention
 
-‘@’를 입력한 다음, 사람 이름이나 멤버 그룹을 입력하여 특정인이나 특정 멤버 그룹을 소환할 수 있습니다. 이 기능을 멘션이라고 합니다. 멘션을 하면 해당 사용자의 설정에 상관없이 알림을 보냅니다. 또한 멘션한 업무의 참조에 추가되어 해당 업무에 대한 읽기/쓰기 권한을 얻습니다. 같은 멘션이라 할지라도 누구를 멘션하냐에 따라 멤버, 나, 손님 세 경우를 시각적으로 다르게 표현합니다. 멘션 기본색은 옅은 파랑색입니다. 하지만 나를 멘션한 것은 진한 파랑색으로 표현하여 당사자가 자기를 멘션했다는 것을 더 잘 인지할 수 있도록 도와줍니다. 또한 손님을 멘션하면 옅은 검정색으로 표현해서 테넌트의 정식 멤버가 아닌 것을 표현합니다.
+Type ‘@’ and enter a person's name or a member group to call for a specific person or member group. This function is called mention. When a user is mentioned, a notification is sent to the user regardless of the user's setting. In addition, the user is added to the CC of the mentioned task and has the read/write permission for the task. Depending on who is mentioned (Member, You, or Guest), a different color is used to visually express the target. The default color of mention is light blue. When you are mentioned, it is displayed in dark blue to show clearly that I am mentioned. If a guest is mentioned, it is displayed in light black to express that the guest is not an official member of the tenant.
 
-![멘션](http://static.toastoven.net/prod_dooray_project/detail/13_pjt_detail_mention.png)
-<center>[그림 13]멘션 시 3가지 케이스</center>   
+![Mention](http://static.toastoven.net/prod_dooray_project/detail/13_pjt_detail_mention.png)
+<center>[Figure 13]Three Cases of Mention</center>   
 
-## 프로젝트 멤버를 위한 프로젝트 설정
+## Project Settings for Project Member
 
-### 멤버
+### Member
 
-멤버를 초대하고, 멤버 그룹을 관리하는 곳입니다.
+You can invite members and manage member groups.
 
-#### 멤버 그룹
+#### Member Group
 
--  ‘그룹 추가’ 버튼을 클릭합니다.
+-  Click the ‘Add Group' button.
 
-![멤버그룹](http://static.toastoven.net/prod_dooray_project/detail/14_pjt_detail_add_group.png)
-<center>[그림 14]프로젝트 설정 &gt; 멤버 &gt; 그룹 추가</center>   
+![Member Group](http://static.toastoven.net/prod_dooray_project/detail/14_pjt_detail_add_group.png)
+<center>[Figure 14]Project Setting &gt; Member &gt; Add Group</center>   
 
-- 그룹 이름을 입력하고, 그룹에 넣고 싶은 멤버를 선택하고, ‘생성’ 버튼을 클릭합니다.
-- 모든 프로젝트에는 프로젝트 멤버 전체를 뜻하는 ‘/all’이라는 멤버 그룹이 있습니다.
-- 하나의 프로젝트에는 여러 직무의 사람들이 함께 합니다. 그 직무별로 멤버 그룹을 만들면 협업이 보다 쉽습니다. 
+- Enter the group name, choose the members for the group, and click the ‘Create’ button.
+- All projects has a member group ‘/all’, which refers to all project members.
+- One project has several persons with various jobs. It is easier to collaborate with them when you create a member group per job. 
 
-> 예를 들어, ‘쇼핑몰개편/디자인’이라는 멤버 그룹을 만들면 디자인 파트에 업무를 줄 때, 디자이너 이름을 기억할 필요가 없습니다. 담당자 입력 칸에
-> ‘/디자인’이라고 입력하면 자동완성 목록에서 ‘쇼핑몰개편/디자인’을 쉽게 선택할 수 있습니다.
-> 이렇게 프로젝트 내에 직무별로 다양한 멤버 그룹을 만들면 타 프로젝트간 업무 협의 때 보다 정확하게 담당자를 찾을 수 있습니다. 대개의 경우 프로젝트 이름은 알기 때문에 담당자 칸에 프로젝트 이름을 입력하면 해당 프로젝트에 있는 멤버 그룹을 볼 수 있습니다. 그 목록에서 ‘/디자인’을 찾아 선택하는 일은 어렵지 않습니다.
-> 기존에 관련 프로젝트의 디자이너를 찾는 것은 매우 어려운 일이었지만 Dooray! Project에서는 멤버 그룹 덕분에 매우 쉽습니다. 이런 멤버 그룹 이름에 대해 테넌트 관리자가 가이드를 해서 규칙성을 띄면 더욱 협업하기 좋습니다.
+> For example, once you have created a member group of ‘Shopping mall improvement/Design’, you don't need to remember every designer's name when allocating the tasks to the design part. Enter 
+> ‘/Design’ in the owner field and you can select ‘Shopping mall improvement/Design’ from the AutoComplete list easily.
+> Like this, creating various member groups by job in a project allows you to find the owner exactly when discussing tasks between projects. In most cases, project names are known. So typing the project name in the owner field will reveal and display the member groups of the project. It is easy to find and select ‘/Design’ from the list.
+> It used to be hard to find designers of relevant projects, but Dooray! Project makes it much easier by providing this member group function. It is more efficient to collaborate if the tenant administrator provides a guide of member group naming convention.
 
-### 마일스톤
+### Milestone
 
-업무 하나하나에 완료일을 지정하여 그 때까지 끝내는 것을 목표로 일할 수 있습니다. 그렇게 개별 완료일을 지정했더라도 특정 날짜를 기준으로 상품을 출시하거나 서비스를 내놓을 때 그 출시 날짜를 기준으로 업무를 관리하고 싶을 때가 있습니다. 그 때 사용하는 것이 마일스톤입니다. ‘마일스톤 추가’ 버튼을 클릭하여 마일스톤을 추가할 수 있습니다. 그리고 추가한 마일스톤으로 업무 목록에서 특정 마일스톤을 필터링해서 보는 것이 가능합니다.
+You may specify the completion date by task to set the target date of the task. Even if you have specified individual completion date, you may need to manage the task based on the release date when a product and service is released on a specific date. Milestone helps you in this case. Click the ‘Add Milestone' button to add a milestone. And then you can filter milestones with the added milestone and view a specific one from the task list.
 
-![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/15_pjt_detail_add_milestone.png)
- <center>[그림 15]프로젝트 설정 > 마일스톤 추가</center>   
-![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/16_pjt_detail_milestone_filtering.png)
- <center>[그림 16]프로젝트 목록 > 마일스톤 필터링</center>   
+![Milestone](http://static.toastoven.net/prod_dooray_project/detail/15_pjt_detail_add_milestone.png)
+ <center>[Figure 15]Project Setting >  Add Milestone</center>   
+![Milestone](http://static.toastoven.net/prod_dooray_project/detail/16_pjt_detail_milestone_filtering.png)
+ <center>[Figure 16]Project Setting >  Filter Milestone</center>   
 
-#### 마일스톤명
+#### Milestone name
 
-- 마일스톤 이름입니다.
+- A milestone name.
 
-#### 기간
+#### Period
 
-- 기간은 지정할 수도 있고, 지정하지 않을 수도 있습니다. 지정할 경우, 해당 기간이 되면 자동으로 번다운 차트가 대쉬 보드에 생깁니다.
+- You can specify the period or not. If you specify a period, a burndown chart is created in the Dashboard during the period.
 
-### 태그
+### Tag
 
-업무를 분류하기 위한 목적으로 사용합니다. ‘태그 추가’ 버튼을 클릭하여 추가할 수 있습니다.
+This is used for classifying tasks. Click the ‘Add Tag' button to add a tag.
 
- ![태그](http://static.toastoven.net/prod_dooray_project/detail/17_pjt_detail_tag.png)
- <center>[그림 17]프로젝트 설정 > 태그</center>  
+ ![Tag](http://static.toastoven.net/prod_dooray_project/detail/17_pjt_detail_tag.png)
+ <center>[Figure 17]Project Setting > Tag</center>  
 
-####  태그명
+#### Tag name
 
-- 태그 이름에 “유형: 이슈”와 같이 “:”을 입력하면 “:” 앞을 그룹으로 인식하여 태그를 그룹핑할 수 있습니다.
-- 태그 그룹을 만들면, 그룹 단위로 반드시 입력하도록 필수 값으로 지정하거나 그룹 중에서 1개만 선택하도록 강제할 수도 있습니다. 정형적인 입력을 받을 때 유용합니다.
+- Input  “:” in the tag name, such as “Type:Issue”, the word before “:” is recognized as a group to group tags.
+- When a tag group is created, you can specify tag name as a required value, or make it mandatory to select only one group from multiple groups. It is useful when a formulaic input is used.
 
-![태그그룹](http://static.toastoven.net/prod_dooray_project/detail/18_pjt_detail_tag_group.png)
-<center>[그림 18]태그 그룹 설정</center>  
+![Tag group](http://static.toastoven.net/prod_dooray_project/detail/18_pjt_detail_tag_group.png)
+<center>[Figure 18]Set a Tag Group</center>  
 
-###  템플릿
+### Template
 
-템플릿은 업무에 적을 수 있는 담당자, 참조, 제목, 본문, 태그, 마일스톤, 우선순위를 미리 지정하는 기능입니다. 이 기능을 이용하면 반복적으로 업무를 등록할 때, 보다 쉽고 빠르게 등록할 수 있습니다. 
+Template helps you to predetermine owners, CCs, title, body, tag, milestones, and priorities. It allows you to register tasks in an easier and faster way when registering tasks repeatedly. 
 
-#### 템플릿 활용
+#### Use of Template
 
-- 템플릿을 이용해서 업무를 등록하는 방법은 두 가지가 있습니다. 쓰기 창을 띄운 다음 ‘템플릿’을 고를 수 있고, 프로젝트 대쉬보드의 템플릿 목록에서 바로 원하는 템플릿 링크를 클릭해서 업무를 등록할 수도 있습니다. 
-- 링크를 다른 곳(예, 메일, 위키 등)에 전달하여 업무를 쉽게 등록하도록 가이드할 수도 있습니다.
+- There are two ways to register tasks by using a template. To register a task, you can open a Write window and then select 'Template'. Or you can click a desired template link from the template list in the Project Dashboard. 
+- In addition, you can forward the link to another services (e.g., Mail, Wiki) for easier registration of the task.
 
-> HR(인사) 업무 프로젝트에서는 휴가 신청, 구매 요청 등의 템플릿을 만들 수 있고, ITSM(IT Service Management)과 같은 프로젝트에서는 장비 신청, 네트워크 ACL 요청 등의 템플릿을 만들어 활용할 수도 있습니다. 템플릿은 Dooray! Project에서 가장 광범위하게 많이 사용하는 기능입니다.
+> For a Human Resource (HR) project, you can create a template such as holiday application and purchase request. For an ITSM (IT Service Management) project, you can create templates such as equipment application and network ACL request. Template is the feature most widely used in Dooray! Project.
 
-![템플릿](http://static.toastoven.net/prod_dooray_project/detail/19_pjt_detail_template.png  )
-<center>[그림 19]쓰기 창에서 템플릿 선택 </center> 
+![Template](http://static.toastoven.net/prod_dooray_project/detail/19_pjt_detail_template.png  )
+<center>[Figure 19]Select a Template in the Write Window</center> 
 
-![템플릿](http://static.toastoven.net/prod_dooray_project/detail/20_pjt_detail_template_list.png )
-<center>[그림 20]프로젝트 대쉬보드 > 템플릿 목록 </center>   
+![Template](http://static.toastoven.net/prod_dooray_project/detail/20_pjt_detail_template_list.png )
+<center>[Figure 20]Project Dashboard > Template List </center>   
                                              
-####  기본 템플릿
+####  Default Template
 
-- 프로젝트에서 템플릿을 고르면 어느 정도는 정형화된 입력을 받을 수 있지만, 업무를 등록하는 사람이 템플릿을 고르지 않으면 원하는 데이터를 얻지 못해서 댓글로 다시 묻고 답하는 과정을 거칠 수 있습니다. 이런 과정을 줄이기 위해 ‘기본 템플릿’ 기능을 제공합니다.
-- 템플릿 설정은 프로젝트 설정 &gt; 템플릿 탭 선택 &gt; 템플릿 추가를 클릭해 템플릿 설정 화면에서 합니다.
+- With a given template from the project, you can quickly use a set of values to a certain extent. However, if a user who registers a task does not select any template, others might not be able to get the necessary data, resulting in a cumbersome process of leaving comments to ask and answer questions. To reduce this cumbersome process, Dooray! Project provides the 'Default Template' function.
+- To set the template, go to Project Setting &gt;, select the Template tab, and &gt; click Add Template to open the Set Template screen.
 
-![템플릿](http://static.toastoven.net/prod_dooray_project/detail/21_pjt_detail_setting_add_template.png)
-<center>[그림 21]프로젝트 설정 > 템플릿</center>   
+![Template](http://static.toastoven.net/prod_dooray_project/detail/21_pjt_detail_setting_add_template.png)
+<center>[Figure 21]Project Setting > Template </center>   
  
-- 템플릿 설정 시, ‘기본 템플릿’을 체크하면 해당 프로젝트에서 쓰기 창을 열면 자동으로 해당 템플릿이 적용됩니다.
+- When setting a template, check the ‘Default Template' box. Then the template is automatically applied when the Write window opens in the project.
   
-![기본템플릿](http://static.toastoven.net/prod_dooray_project/detail/22_pjt_detail_default_template.png)
-<center>[그림 22]기본 템플릿 설정</center>   
+![Default Template](http://static.toastoven.net/prod_dooray_project/detail/22_pjt_detail_default_template.png)
+<center>[Figure 22]Set Default Template</center>   
 
-#### 매크로 
+#### Macro 
 
-- 템플릿을 만들 때 아래의 매크로들을 활용해보세요. 매크로를 통해 자동으로 데이터를 표기할 수 있습니다.
-> 오늘 날짜가 2018/03/29 인 경우, 아래와 같이 매크로를 입력하면 자동으로 해당 데이터로 치환됩니다.
-> ${year} 입력 시, 날짜의 년도를 표시합니다.(예:2018) 
-> ${month} 입력 시, 날짜의 월을 표시합니다.(예:3)
-> ${today} 입력 시, 날짜를 년/월/일 순으로 표시합니다.(예:2018/03/29)
-> ${day} 입력 시, 일자를 표시합니다.(예:29)
-> ${month2} 입력 시, 월을 표시하되 표시 형식이 다릅니다.(예:3) 
-> ${weekNum2} 입력 시, 주차를 표시합니다. 2018년 3월 29일은 5번째 주입니다.(예:5) 
+- Use the following macros while creating a template. Macro allows you to display data automatically.
+> If today's date is 2018/03/29, use the following macro. Then, the macro will be automatically converted into the corresponding data.
+> ${year} Displays the year (e.g. 2018). 
+> ${month} Displays the month (e.g. 3).
+> ${today} Displays in yyyy/mm/dd format (e.g. 2018/03/29).
+> ${day} Displays the date (e.g. 29).
+> ${month2} Displays the month in a different format (e.g. 3). 
+> ${weekNum2} Displays the "n"th week. March 29, 2018 is the 5th week of the month.(e.g. 5). 
 
-- 프로필에 설정된 이름으로 업무 작성 시 아래와 같이 매크로를 입력하면 자동으로 해당 데이터로 치환됩니다.
-> ${name} 입력 시, 이름을 표시합니다.(예:Dooray) 
+- When the department set in the profile is Dooray Planning, the macro will be automatically converted into the corresponding data.
+> ${department} Displays the department (e.g. Dooray Planning). 
 
-- 프로필에 설정된 부서가 Dooray기획 인 경우, 아래와 같이 매크로를 입력하면 자동으로 해당 데이터로 치환됩니다.
-> ${department} 입력 시, 부서를 표시합니다.(예:Dooray 기획) 
+#### Example of Template
 
-#### 템플릿 예시
+- An example of template is given as follows. As shown in the following figure, add and use templates.
+- Add the items which are always used in the meeting minutes in the template and you can load and use the document of the same format more easily. Use the ${today} macro to include today's date in the meeting minutes automatically.  
 
-- 다음은 템플릿 예시입니다. 아래 그림과 같이 템플릿들을 추가해서 활용해보세요.
-- 회의록에 고정으로 들어가는 항목들을 템플릿에 넣어두면 매번 동일한 양식의 문서를 불러와서 활용하기 좋습니다. 특히 회의한 오늘 날짜가 자동으로 들어가도록 ${today} 매크로를 활용해보세요.  
+![Example of Template](http://static.toastoven.net/prod_dooray_project/detail/22-1_pjt_detail_template1.png)
+<center>[Figure 22-1] Meeting Minutes Template</center>   
 
-![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-1_pjt_detail_template1.png)
-<center>[그림 22-1] 회의록 템플릿</center>   
+- Create a weekly meeting template as specified in the following description. You don't need to waste time preparing for a meeting and summarizing the meeting minutes. 
 
-- 주간회의 템플릿은 아래 본문에서 설명한 대로 활용해보세요. 회의 준비와 회의록 정리로 시간을 허비하지 않을 수 있습니다. 
+![Example of Template](http://static.toastoven.net/prod_dooray_project/detail/22-2_pjt_detail_template2.png)
+<center>[Figure 22-2] Weekly Meeting Template</center>   
 
-![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-2_pjt_detail_template2.png)
-<center>[그림 22-2] 주간회의 템플릿</center>   
+- Service QA Items template is used for creating a checklist in the body to test key features of the service. 
 
-- 서비스 QA항목 템플릿은 서비스 주요 기능을 테스트할 때 본문에 체크할 수 있는 항목을 만들어 활용한 예시입니다. 
+![Example of Template](http://static.toastoven.net/prod_dooray_project/detail/22-3_pjt_detail_template3.png)
+<center>[Figure 22-3] Service QA Items Template</center> 
 
-![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-3_pjt_detail_template3.png)
-<center>[그림 22-3] 서비스 QA항목 템플릿</center> 
+- It is useful to create Bug Registration templates by service. You can specify the owner or group of each service easily. Also, you will miss nothing if you gather all information that must be known to be able to verify bugs in the body. Especially, it is very convenient if you create a tag group along with the attributes of the group (required; select only one).
 
-- 버그 등록 템플릿은 서비스별로 만들어두면 편리합니다. 각 서비스별 담당자 혹은 그룹 지정을 쉽게 할 수 있고, 버그 확인을 위해 알아야 할 정보들을 본문에 작성하면 놓치지 않고 확인을 할 수 있습니다. 특히 태그 그룹을 만들고, 그룹의 속성(필수, 한 개만 선택)도 활용하면 편리합니다.
+![Example of Template](http://static.toastoven.net/prod_dooray_project/detail/22-4_pjt_detail_template4.png)
+<center>[Figure 22-4] Bug Registration Template</center> 
 
-![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-4_pjt_detail_template4.png)
-<center>[그림 22-4] 버그 등록 템플릿</center> 
+### Shared Link
 
-### 공유 링크
+Use this to share a task with users who are not in the same tenant. To prevent others from sharing the task registered by you, only you who registered the task or your project manager can share the task. Select ‘Share Additional Task &gt;’. Click 'Add Link'.
 
-같은 테넌트에 있지 않은 사용자에게 특정 업무를 공유하고 싶을 때 사용합니다. 내가 등록한 업무를 다른 사람이 임의로 공유하는 것을 막기 위해, 해당 업무를 등록한 사람이나 프로젝트 관리자만 해당 업무를 공유할 수 있습니다. ‘추가 작업 &gt; 공유하기’를 선택합니다. ‘링크 추가’를 클릭합니다.
+![Share]( http://static.toastoven.net/prod_dooray_project/detail/23_pjt_detail_share_task.png)
+<center>[Figure 23]Share</center>   
 
-![공유하기]( http://static.toastoven.net/prod_dooray_project/detail/23_pjt_detail_share_task.png)
-<center>[그림 23]공유하기</center>   
+#### Share Period
 
-#### 공유 기간
+- Share the task until the specified date. After the period, the link is not valid.
 
-- 해당 날짜까지 공유합니다. 날짜가 지나면 링크는 유효하지 않습니다.
+#### Share Range
 
-#### 공유 범위
+- Set whether to share the attachments or not.
 
-- 첨부 파일까지 공유할 것인지 설정합니다.
+ ![Share Setting](http://static.toastoven.net/prod_dooray_project/detail/24_pjt_detail_share_setting.png)
+ <center>[Figure 24]Share Setting</center>   
 
- ![공유설정](http://static.toastoven.net/prod_dooray_project/detail/24_pjt_detail_share_setting.png)
- <center>[그림 24]공유 설정 </center>   
+When a specific task is shared, Shared is marked at the top of the task. The project manager can view the shared tasks within the project from ‘Project Setting &gt; Shared Link’ at once. The organization administrator can also view the list of all shared tasks within the organization from 'Shared Link' under &gt; Manage Organization &gt; Service Settings on the left side of the screen. 
 
-이렇게 특정 업무를 공유하면 업무 상단에 공유 중이라고 표시가 되고, 프로젝트 관리자는 ‘프로젝트 설정 &gt; 공유 링크’에서 프로젝트 내에 공유된 업무를 한 눈에 파악할 수 있습니다. 조직 관리자도 해당 조직 내 공유된 업무 목록 전체를 화면 우측의 설정 &gt; 조직관리 &gt; 서비스 설정 하위의 ‘공유 링크’에서 확인할 수 있습니다. 
+![Shared Task](http://static.toastoven.net/prod_dooray_project/detail/25_pjt_detail_share_task_list.png)
+<center>[Figure 25]List of Shared Tasks </center>   
 
-![공유업무](http://static.toastoven.net/prod_dooray_project/detail/25_pjt_detail_share_task_list.png)
-<center>[그림 25]공유 업무 목록 </center>   
+## Task Status
 
-## 업무 상태
+### Change the Status
 
-### 상태 변경하기
+Tasks status is either ‘Registered’, ‘In Progress’, or ‘Completed’. A member or guest listed as an owner can click the 'Proceed' button to change the status to 'In Progress'. When it is changed to ‘In Progress’, the 'Proceed' button is changed to the 'Complete' button. Click the ‘Complete' button to change the status to 'Completed'. Whenever the status is changed, the color of owner is changed. The name colors of the task statuses ‘Registered’, 'In Progress', and 'Completed' are black, blue, and gray, respectively.  Therefore, you can view the status of each owner easily even if several persons are specified as owners.
 
-업무는 ‘등록’, ‘진행’, ‘완료’ 세 가지 상태 중 하나입니다. 담당자에 있는 멤버 혹은 손님이 ‘진행하기’ 버튼을 클릭해서 ‘진행’ 상태로 바꿀 수 있습니다. ‘진행’상태가 되면 ‘진행하기’ 버튼이 ‘완료하기’ 버튼으로 바뀝니다. ‘완료하기’ 버튼을 누르면 ‘완료’ 상태가 됩니다. 각 상태가 바뀔 때마다 담당자 이름의 색이 함께 바뀝니다. ‘등록’ 상태일 때는 검정색이고, ‘진행’ 상태일 때는 파란색, ‘완료’ 상태일 때는 ‘회색’입니다.  즉 담당자가 여러 사람이어도 각 담당자별로 어떤 상태인지 쉽게 알 수 있습니다.
+### Distinguish the task status from the owner status
 
-### 업무의 상태와 담당자의 상태 구분하기
+There is one thing you have to know. Dooray! Unlike other issue trackers, Dooray! Project allows you to manage not only task status but also status for each task owner.
+When there is only one task owner, the owner status and the task status are identical. However, if there is more than one owner, the statuses may not be the same.
 
-여기에서 주의할 점이 있습니다. Dooray! Project에서는 보통의 이슈 트래커와 달리 업무의 상태뿐만 아니라 업무 담당자별 상태 관리를 할 수 있습니다.
-업무의 담당자가 한 명일 때는 업무 상태와 해당 업무의 담당자 상태가 같지만, 담당자가 2명 이상이면 그 상태가 일치하지 않을 수 있습니다.
+> For example, if there are Owners A and B for Task #56, the task statuses and statuses of both Owners A and B are
+> ‘Registered’. However, when the Owner A changes the status to ‘In Progress’, the status of Owner A is 'In Progress' but the status of Owner B is still 'Registered'. And the status of Task #56 is changed to ‘In>  Progress’. This is because one of the owners has made a progress. Even if the Owner A changes the status to ‘Completed’, the status of #56 is still 'In Progress’. This is because the Owner B has not completed his part yet. When the status of Owner B is changed to ‘Completed’ and the status of all owners is changed to ‘Completed’, the status of Task #56 is finally changed to 'Completed'.
 
-> 예를 들어, 56번 업무에 A, B 두 사람이 담당자라고 가정할 때, 업무를 등록했을 때 해당 업무의 상태와 담당자인 A의 상태, B의 상태는 모두
-> ‘등록’입니다. 하지만 A가 자신의 상태를 ‘진행’으로 바꾸면, A의 상태는 당연히 ‘진행’이지만 B의 상태는 여전히 ‘등록’입니다. 그리고 56번 업무는 ‘진> 행’ 상태가 됩니다. 담당자 중 한 사람이라도 진행했기 때문입니다. A가 ‘완료’로 변경해도 56번 업무의 상태는 여전히 ‘진행’입니다. B가 아직 마치지 않았기 때문입니다. B의 상태가 ‘완료’가 되어 담당자에 있는 모든 사람의 상태가 ‘완료’가 되면 비로소 56번 업무의 상태도 ‘완료’로 바뀝니다.
+When all owners are in ‘Registered’ status, the task status is 'Registered'. When all owners are in ‘Completed’ status, the task status is 'Completed'. Other task status is 'In Progress'.
 
-모든 담당자가 ‘등록’이면 업무 상태는 ‘등록’이고, 모든 담당자가 ‘완료’이면 업무 상태는 ‘완료’입니다. 그 외 업무 상태는 ‘진행’입니다.
+### Change/Revert the Owner Status
 
-### 담당자 상태 바꾸기/되돌리기
+In some cases, you might know that a task has been completed even if you are not the owner of the task. Then, you can ask the owner to change the task status to 'Complete' via Mail or Messenger, but it is an additional chore. In this case, Dooray! recommends the person who discovered the inappropriate task status to change it appropriately. Anyone who has the permissions for the task can change the status of each owner, even if he or she is not the owner. Click the task status to change the task status to Registered / In Progress / Completed. As permissions are granted to anyone, all history of the actions are logged. Therefore, no one will change the status arbitrarily without consideration.
 
-담당자가 아니지만 해당 업무가 이미 끝났다는 것을 알 때가 있습니다. 이 때 해당 담당자에게 메신저나 메일로 업무의 상태를 바꾸라고 요청할 수 있지만 매우 번거롭습니다. Dooray!에서는 그런 상황에서, 업무 상태가 잘못되었다는 것을 발견한 사람이 바로 고치는 것을 권장합니다. 해당 업무에 대한 권한이 있다면 담당자가 아니어도 누구나 담당자 개별의 상태를 임의로 바꿀 수 있습니다. 업무 상태를 표시한 곳을 클릭하면 담당자별 상태를 등록/진행/완료 어떤 상태로든 바꿀 수 있습니다. 참고로 이렇게 권한을 많이 부여한 만큼 그런 행위에 대한 기록을 모두 남기고 있습니다. 따라서 권한이 있다고 함부로 바꾸는 일은 쉽게 발생하지 않습니다.
+## Change the Task Attributes
 
-## 업무 속성 변경
+#### Change with the ‘Edit' button
 
-#### ‘편집’ 버튼을 이용한 변경
+-  Click the ‘Edit' button to enter or modify all items of a task in a new window. It is useful when two or more items should be modified.
 
-- ‘편집’ 버튼을 클릭하면 새 창에서 업무의 모든 항목을 입력하거나 수정할 수 있습니다. 한번에 두 개 이상의 항목을 수정할 때 유용합니다.
+#### Edit Owner and CC in-Place
 
-#### 담당자, 참조 인플레이스 편집
+- To change the owner and CC only, click the \[Figure\] Pencil icon of the Owner and CC.
 
-- 담당자와 참조만 바꾸고 싶을 때는 담당자, 참조에서 \[그림\] 연필 아이콘을 클릭합니다.
+ ![Edit](http://static.toastoven.net/prod_dooray_project/detail/26_pjt_detail_edit_to.png )
+ <center>[Figure 26]Edit the Owner</center>   
 
- ![편집](http://static.toastoven.net/prod_dooray_project/detail/26_pjt_detail_edit_to.png )
- <center>[그림 26]담당자 편집</center>   
+- Hover over the Owner area to display the 'Be Mine' button. Click the button to move the existing owners to the CC field and only you are left in the Owner field.
+- It is useful when you allocate a task to a member group and a member who will do the task makes the owner clear by clicking the 'Be Mine' button.
 
-- 담당자 영역에 마우스를 올리면 ‘내가 하기’ 버튼이 나타납니다. 해당 버튼을 클릭하면 기존 담당자들은 참조에 추가되고, 나만 담당자에 남게 됩니다.
-- 멤버 그룹에게 업무를 주고, 멤버 그룹 중 실제로 업무를 할 사람이 ‘내가하기’를 눌러 담당자를 명확하게 할 때 사용하면 유용합니다.
+ ![Be Mine](http://static.toastoven.net/prod_dooray_project/detail/27_pjt_detail_edit_to_me.png)
+ <center>[Figure 27]Change the Owner by Using Be Mine</center>   
 
- ![내가하기](http://static.toastoven.net/prod_dooray_project/detail/27_pjt_detail_edit_to_me.png)
- <center>[그림 27]내가하기로 담당자 변경</center>   
+#### Edit the Title In-Place
 
-#### 제목 인플레이스 편집
-
-- 제목에 마우스를 올려 \[그림\] 연필 아이콘을 클릭하면 제목만 편집할 수 있습니다.
+- Hover over the title and click the \[Figure\] Pencil icon to edit the title only.
   
-  ![제목 편집](http://static.toastoven.net/prod_dooray_project/detail/28_pjt_detail_inplace_title.png)
-  <center>[그림 28]제목 편집</center>   
+  ![Edit the Title](http://static.toastoven.net/prod_dooray_project/detail/28_pjt_detail_inplace_title.png)
+  <center>[Figure 28]Edit the Title</center>   
 
-#### 본문 인플레이스 편집
+#### Edit the Body In-Place
 
-- 업무 읽는 화면에서 \[그림\] 연필 아이콘을 클릭하면 본문만 편집할 수 있습니다.
+- Click the \[Figure\] Pencil icon in the task reading window to edit the body only.
 
- ![본문 편집](http://static.toastoven.net/prod_dooray_project/detail/29_pjt_detail_inplace_body.png)
-  <center>[그림 29]본문 편집</center>  
+ ![Edit the Body](http://static.toastoven.net/prod_dooray_project/detail/29_pjt_detail_inplace_body.png)
+  <center>[Figure 29]Edit the Body</center>  
 
--  ‘저장’을 누르면 저장을 하고 바로 읽기 화면으로 바뀌지만, ‘저장 후 계속’을 클릭하면 저장하고 계속 편집 모드를 유지합니다. ‘저장 후 계속’을 클릭했을 때, 임시 저장을 하는 것이 아니라 실제로 서버에 저장하는 것이기 때문에 다른 사람이 확인할 수 있으니 주의해야 합니다.
+-  Click ‘Save’ to save the changes and the screen is switched to the read screen. However, clicking 'Save and Continue' to save changes and keep the edit mode. Since ‘Save and Continue’ does not save changes temporarily but completely on the server, remember that someone else can view the changes.
 
-#### 완료일 인플레이스 편집
+#### Edit the Completion Date In-Place
 
-- 업무 우측 상단 영역에 완료일을 클릭하면 편집할 수 있습니다.
+- Click the completion date on the top right of the task to edit the date.
 
- ![완료일 편집](http://static.toastoven.net/prod_dooray_project/detail/30_pjt_detail_inplace_duedate.png)
- <center>[그림 30]완료일 편집</center>  
+ ![Edit Completion Date](http://static.toastoven.net/prod_dooray_project/detail/30_pjt_detail_inplace_duedate.png)
+ <center>[Figure 30]Edit the Completion Date</center>  
 
-#### 태그 인플레이스 편집
+#### Edit the Tag In-Place
 
-- 제목 바로 아래 \[그림\] 태그+ 를 클릭하면 태그를 편집할 수 있습니다.
-- 그룹으로 묶은 태그는 속성에 따라 한 개만 선택할 수도 있고, 반드시 선택해야하기도 합니다.
+- Click the \[Figure\] Tag+ icon under the title to edit the tag.
+- Depending on the attribute, you can or must select a tag from the grouped tags.
   
-  ![태그 편집](http://static.toastoven.net/prod_dooray_project/detail/31_pjt_detail_inplace_tag.png)
-  <center>[그림 31]태그 편집</center>  
+  ![Edit Tag](http://static.toastoven.net/prod_dooray_project/detail/31_pjt_detail_inplace_tag.png)
+  <center>[Figure 31]Edit the Tag</center>  
 
-#### 마일스톤 인플레이스 편집
+#### Edit the Milestone In-Place
 
-- 상단 영역의 ‘마일스톤’을 클릭하여 마일스톤을 편집할 수 있습니다
+- Click 'Milestone' at the top to edit the milestone.
 
- ![마일스톤 편집](http://static.toastoven.net/prod_dooray_project/detail/32_pjt_detail_inplace_milestone.png)
- <center>[그림 32]마일스톤 편집</center>  
+ ![Edit Milestone](http://static.toastoven.net/prod_dooray_project/detail/32_pjt_detail_inplace_milestone.png)
+ <center>[Figure 32]Edit the Milestone</center>  
 
-#### 다른 프로젝트로 이동
+#### Move to Another Project
 
-- ‘추가 작업 &gt; 프로젝트 이동’을 선택하여 다른 프로젝트로 이동할 수 있습니다. 이동할 때, 이동할 프로젝트의 태그나 마일스톤을 지정하여 한번에 변경하는 것도 가능합니다.
+Select - ‘Additional Task &gt; Move to Project’ to move to another project. When moving, you can specify and change the tag and milestone of the project to move to at once.
 
- ![프로젝트 이동](http://static.toastoven.net/prod_dooray_project/detail/33_pjt_detail_move_project.png)
- <center>[그림 33]프로젝트 이동</center>  
+ ![Move to Project](http://static.toastoven.net/prod_dooray_project/detail/33_pjt_detail_move_project.png)
+ <center>[Figure 33]Move to Project</center>  
 
-### 댓글 작성하기
+### Write a Comment
 
-#### 일반적인 댓글 작성
+#### Write a general comment
 
-- 업무에 대한 피드백을 댓글을 달아 주고 받을 수 있습니다. 댓글에 적는 글은 짧은 글뿐만 아니라 긴 글도 가능합니다. 본문과 댓글에 적을 수 있는 내용과 문서를 꾸밀 수 있는 서식은 동일합니다.
+- You can add a comment as feedback for a task. You can add a long comment as well as a short one. The formats of the body, comment, and document are the same.
 
-#### 멘션을 이용한 담당자 변경
+#### Change the Owner Using Mention
 
-- 담당자를 바꿀 때, 댓글에 업무를 위임한다고 적고 실제 담당자를 바꾸지 않는 경우가 많습니다. Dooray!에서는 이런 문제를 쉽게 해결할 수 있습니다.
-- 멘션 앞에 ‘-&gt;’기호를 붙이면 멘션된 멤버나 손님은 담당자가 되고 기존 담당자는 참조에 추가됩니다. 마치 손가락으로 담당자를 가리키는 모습을
- 연상하면 됩니다.
-- Dooray! Project는 담당자가 2명, 3명이 될 수 있습니다. 담당자를 추가하고 싶을 때는 멘션 앞에 ‘-&gt;&gt;’을 붙입니다.
+- In many cases, when changing an owner, people tend to leave a comment that the task owner has been changed to someone while forgetting to actually change the owner. With Dooray!, you can easily handle this kind of issue.
+- Just add the ‘-&gt;’ symbol before the mention. Then, the mentioned member or guest will become the owner and the previous owner will be relocated into the CC field. Think of the symbol as a finger pointing at the
+ owner.
+- Dooray! A project can have a multiple owners. To add an owner, add ‘-&gt;&gt;’ before the mention.
 
-#### 내가 쓴 댓글 
+#### My Comment 
 
-- 업무에 대해 댓글을 많이 주고 받게 되는데, 내가 어떤 댓글을 썼는지 알기 어려울 때가 종종 있습니다. 이럴 때, 프로젝트 업무함 위에 ‘내가 쓴 댓글’ 함을 누르면 모두 일괄 확인할 수 있습니다. 유사 서비스에서는 제공하지 않는 기능으로 자신이 썼던 댓글들을 관리할 수 있습니다.
+- We discuss with others using so many comments and replies in a task. When this happens, it is often hard to track all the comments you've made. In this case, click the ‘My Comments’ box above the Project Task box to view all of your comments. This is Dooray!'s unique function which is not provided by any other services, which allows you to manage your comments in a simple way.
 
-### 변경 히스토리 
+### Change History 
 
-#### 업무 변경 사항 노출 
+#### Show Changes in Task 
 
-- 업무와 관련된 모든 편집 내용은 히스토리로 제공합니다. 업무 제목, 담당자, 일정, 본문 텍스트, 파일 첨부와 같은 업무 변경 외에도 덧글 변경 사항을 확인하고 싶을 경우 업무 본문 우측 하단에 있는 ‘변경 사항 포함’ 항목을 체크하세요. 본문과 덧글의 모든 변경 정보를 확인할 수 있습니다.
+- All changes related to a task are provided as a history. As well as changes in the task, such as task title, owner, schedule, body text, and file attachments, you can check the changes in comments by checking the 'Include Changes' box at the bottom right of the task body. You can view all changes in the body and comments.
 
-  ![변경 히스토리](http://static.toastoven.net/prod_dooray_project/detail/34_pjt_detail_edit_history.png)
-  <center>[그림 34] 변경 히스토리</center>  
+  ![Change History](http://static.toastoven.net/prod_dooray_project/detail/34_pjt_detail_edit_history.png)
+  <center>[Figure 34] Change History</center>  
 
-### 창 크기 조절
+### Adjust Window Size
 
-#### 새 창 띄우기
+#### Open new window
 
-- 읽기 화면에서 우측 상단의 \[그림\] 새 창 아이콘을 클릭하면 현재 읽고 있는 업무를 새 창으로 띄울 수 있습니다. 단축키는 vn(ViewNew)입니다.
+- On the Read screen, click the \[Figure\] New Window icon at the top right to open the current task in a new window. The shortcut is vn (ViewNew).
 
-#### 창을 넓게 보기
+#### View in Wide Window
 
-- 분할 뷰를 이용할 때 읽기 화면이 좁은 경우가 있습니다. 이 때는 \[그림\] 본문 확대 아이콘을 클릭하여 확장 뷰로 넓게 볼 수 있습니다. 단축키 vw(ViewWide)입니다. 다시 확장 뷰에서 일반 뷰로 돌아가는 것은 아이콘을 다시 클릭하거나 vw을 다시 입력하면 됩니다.
+- The Read screen may be narrow in the split view mode. In that case, click the \[Figure\] Expand Body icon for a wider view. The shortcut is vw (ViewWide). To return to the normal view from the expanded view, click the icon again or enter vw again.
 
-### 화면 모드 변경 
+### Change the Screen Mode 
  
-#### 회의 모드
+#### Meeting Mode
 
-- 빔 프로젝터에 Dooray! 화면을 띄워놓고 회의를 하는 경우가 있습니다. 이때 화면의 글자 크기가 작아서 보기 어렵다면, ‘회의 모드’가 도움이 됩니다.
-- \[그림\] 본문 보기 아이콘을 클릭하고 ‘회의 모드’를 선택합니다. 회의모드는 업무 자체를 제외한 나머지 영역을 모두 없애고 업무 글자 크기를 키워줍니다. \[ESC\]를 누르거나, 화면 맨 아래 ‘닫기’ 버튼을 클릭하여 ‘회의 모드’에서 나갈 수 있습니다. 단축키는 vm입니다.
+- In some case, you may open the Dooray! screen through the beam projector during a meeting. If it is hard to read the screen as the font size is too small, ‘Meeting Mode’ is helpful.
+Click the - \[Figure\] View Body icon and then select ‘Meeting Mode’. The Meeting Mode removes any other areas except for the task body and increases the task body font size. Press \[ESC\] or click the ‘Close’ button at the bottom of the screen to exit the 'Meeting Mode'. The shortcut is vm.
 
-#### 발표 모드
+#### Presentation Mode
 
-- 마크다운으로 작성한 업무를 자동으로 발표용 문서로 만들어주는 기능입니다. 발표 문서를 따로 만들지 않고도 업무 본문을 프리젠테이션 모드로 전환할 수 있습니다.
-- 본문 보기 아이콘을 클릭하고 ‘발표 모드’를 선택합니다. 참고로 단축키는 vp (View Presentation)입니다
+- Presentation Mode generates a task created with Markdown as a presentation document. You can switch the task body to the presentation mode without creating a presentation document separately.
+Click the Figure-  View Body icon and then select ‘Presentation Mode’. The shortcut is vp (View Presentation).
 
-  ![발표 모드](http://static.toastoven.net/prod_dooray_project/detail/35_pjt_detail_vp_mode.png)
-  <center>[그림 35] 발표 모드 선택</center>  
+  ![Presentation Mode](http://static.toastoven.net/prod_dooray_project/detail/35_pjt_detail_vp_mode.png)
+  <center>[Figure 35] Select Presentation Mode</center>  
 
-- 원하는 발표 화면의 스킨을 선택하고 ‘확인’을 클릭하면 발표 화면으로 전환됩니다. 다음 화면 혹은 다음 효과로 이동하는 것은 키보드의 \[\]키를 누르면 됩니다.
-- 만일 내용이 많아 한 화면에 나오지 않을 경우, \[\]을 클릭하면 자동으로 스크롤되어 가려져 있는 다음 내용을 볼 수 있습니다.
-- 발표를 하다 Shift 키 누르면 스팟라이트가 표시되며, Shift + Ctrl 키를 누를 경우 스팟라이트를 확대해주는 돋보기 기능이 제공됩니다.
+- Select the desired skin for the presentation screen and click 'OK' to change the screen to the presentation screen. To move to the next screen or effect, press \[\] key on the keyboard.
+- If there are too much content and it is difficult to view all of them in one screen, click \[\] to scroll automatically to view the next hidden content.
+- Press the Shift key during presentation to display the spotlight. Press the Shift + Ctrl keys to use the magnifier feature which magnifies the spotlight.
 
-### 알림 설정
+### Set Notification
 
-#### 프로젝트, 메일, 캘린더 알림 설정 
+#### Set notifications for Project, Mail, and Calendar 
 
-- Dooray! 프로젝트, 메일, 캘린더 서비스에 대한 알림을 설정할 수 있습니다. 프로젝트 담당, 참조, 보낸 업무별로 알림을 받고자 하는 프로젝트를 선택할 수 있으며 새 업무와 새 댓글 등록 시 알림을 받도록 선택할 수 있습니다. 
-- 메일도 전체 메일 또는 알림을 받고자 하는 메일함을 선택할 수 있으며, 멘션 소식에 대한 알림도 선택할 수 있습니다. 
-- 알림 방법은 모바일 앱,메신저, 외부 메일로 받는 방법을 택할 수 있습니다.
+- Dooray! You can set the notifications of Project, Mail, and Calendar services. You can select a project to receive the notifications per owner, CC, and task sent as well as the notifications for new tasks and comments. 
+- You can select a mail box to receive all mails or notifications as well as notifications for new mentions. 
+- There are three notifications types: notifications via mobile app, messenger, and external email.
 
- ![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/36_pjt_detail_setting.png)
- <center>[그림 36] 알림 설정</center>  
+ ![Set Notifications ](http://static.toastoven.net/prod_dooray_project/detail/36_pjt_detail_setting.png)
+ <center>[Figure 36] Set Notification</center>  
 
-## 단축키 
-- Dooray! 서비스의 단축키는 아래와 같습니다.  
+## Shortcut 
+- Dooray! Service's shortcut are as follows.  
 
-| 유형   | 단축키  |  기능 |
+| Type   | Shortcut  |  Features |
 |--------|---------|-----------------------------| 
-|업무 읽기 화면 | vn | 새 창(View New window) |
-|   | vp | 발표 모드(View Presentation mode) |
-|   | vm | 회의 모드(View Meeting mode) |
-|   | vw | 넓게 보기 토글(View Wide) | 
-|   | cu | 퍼머넌트 주소를 클립보드로 복사(Copy Url)  |
-|   | cb | 본문을 클립보드로 복사(Copy Body) |
-|   | cn | "(문의)Dooray/56"이 업무 문자열을 클립보드로 복사(Copy Number) | 
-|   | cs | 업무 제목을 클립보드로 복사(Copy Subject) | 
-|쓰기 화면 | ww | 쓰기 창(프로젝트면 업무 쓰기, 메일이면 메일 쓰기, 캘린더면 캘린더 쓰기)(Write Write) | 
-|   | fw | 간편 업무 쓰기 창(Fast Write) | 
-|   | cc |  댓글 창으로 포커스(Comment Comment) | 
-|   | wt | 업무 쓰기 창(Write Task) | 
-|   | wm | 메일 쓰기 창(Write Mail) | 
-|   | we | 일정 쓰기 창(Write event) | 
-|   | wk | 주소록 쓰기 창 | 
-|서비스 이동 | gs |  스트림 열기(Go Stream) | 
-|   | gp |  프로젝트 탭(Go Project) | 
-|   | gm| 메일 탭(Go Mail) | 
-|   | gc |  캘린더 탭(Go Calendar) | 
-|   | gd | 드라이브 탭(Go Drive) | 
-|   | gk |  주소록 탭 | 
-|캘린더| cd | 캘린더 일간 뷰 | 
-|   | cw | 캘린더 주간 뷰 | 
-|   | cm | 캘린더 월간 뷰 | 
-|   | c2 | 캘린더 2주 뷰 | 
-|   | c3 | 캘린더 3주 뷰 | 
-|  등록  | Ctrl(Cmd) + Enter | 윈도(맥) 에디터 등록 | 
-|  임시 저장  | Ctrl(Cmd) + s  | 윈도(맥) 임시 저장 |
-|  참조할 드라이브 폴더 선택  | Alt + Enter | 에디터에서 [ 로 참조할 드라이브 폴더 선택 | 
-|  기타  | ms  | 별 찍기 토글(Mark Star)  | 
-|  | Alt + 위/아래  | 줄 이동(에디터에서 여러 줄 선택 시에도 동작)  | 
+|Read Task screen | vn | View New window |
+|   | vp | View Presentation mode |
+|   | vm | View Meeting mode |
+|   | vw | View Wide | 
+|   | cu | Copy the permanent address to Clipboard (Copy Url)  |
+|   | cb | Copy the body to Clipboard (Copy Body) |
+|   | cn | "(Query)Dooray/56" copies the task string to Clipboard (Copy Number) | 
+|   | cs | Copy the task subject to Clipboard (Copy Subject) | 
+|Write screen | ww | Write window (Write task for Project, Write mail for Mail, Write calendar for Calendar) (Write Write) | 
+|   | fw | Fast task write window (Fast Write) | 
+|   | cc |  Focus to Comment window (Comment Comment) | 
+|   | wt | Write task window (Write Task) | 
+|   | wm | Write mail window (Write Mail) | 
+|   | we | Write event window (Write Event) | 
+|   | wk | Write contacts window | 
+|Go to Service | gs |  Open the stream (Go Stream) | 
+|   | gp |  Project tab (Go Project) | 
+|   | gm| Mai tab (Go Mail) | 
+|   | gc |  Calendar tab (Go Calendar) | 
+|   | gd | Drive tab (Go Drive) | 
+|   | gk |  Contacts tab | 
+|Calendar| cd | Calendar daily view | 
+|   | cw | Calendar weekly view | 
+|   | cm | Calendar monthly view | 
+|   | c2 | Calendar 2-week view | 
+|   | c3 | Calendar 3-week view | 
+|  Register  | Ctrl(Cmd) + Enter | Register Windows (Mac) Editor | 
+|  Save as Draft  | Ctrl(Cmd) + s  | Save as Draft in Windows (Mac) |
+|  Select a drive folder to reference  | Alt + Enter | Select a drive folder to refer to in Editor with [ | 
+|  Others  | ms  | Toggle to mark a star (Mark Star)  | 
+|  | Alt + Up/Down  | Go to line (also available when selecting multiple lines in Editor)  | 
 
 
 
