@@ -1,12 +1,13 @@
 ## Dooray! > Project > サービス詳細ガイド
 
 ## プロジェクト作成
+
 ### プロジェクト追加
 個人プロジェクトの下にある「+」ボタンからプロジェクトを追加することができます。プロジェクトのタイトルと説明を入力すれば簡単にプロジェクトを作ることができます。 
-![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/01_pjt_detail_addpjt.png  )
+![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_01_jp.png)
 <center>[図1] プロジェクト追加</center>
 
-![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/02_pjt_detail_member.png)
+![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_02_jp.png)
 <center>[図2] プロジェクト追加 </center>                                                                               
 
 ### プロジェクト名
@@ -18,17 +19,17 @@
 ## 権限設定
 ### ダッシュボード権限設定
 ダッシュボードからプロジェクトに設定されたサービスの内訳を一目で確認することができます。また、サービス別に権限オプションを選択してダッシュボードを設定することができます。
-![권한 설정](http://static.toastoven.net/prod_dooray_project/detail/03_pjt_detail_project_settings.png)
+![권한 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_03_jp.png)
 <center>[図3] ダッシュボード権限設定</center>  
 
 ### サービス別権限設定
 タスク/ドライブ/ウィキのサービス別に権限設定が行えます。プロジェクト設定画面の各サービスタブで権限を設定できます。
-![권한 설정](http://static.toastoven.net/prod_dooray_project/detail/03_pjt_detail_project_settings.png)
+![권한 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_04_jp.png)
 <center>[図4] 権限設定</center>    
 
 ### タスク権限設定
 読込、登録、編集、移動/削除/共有機能について、権限オプションを選択してそれぞれ設定できます。
-![업무 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/04_pjt_detail_project_settings.png)
+![업무 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_05_jp.png)
 <center>[図5] 権限設定オプション</center>  
 
 ### 読込権限
@@ -84,10 +85,10 @@
 タスクの権限設定と同様に、プロジェクトの設定画面で「ドライブ」「ウィキ」タブから権限設定が行えます。
 ドライブとウィキも、読込、登録、編集、削除の権限をそれぞれ設定することができます。
 
-![드라이브 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/05_pjt_detail_drive_settings_option.png)
+![드라이브 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_06_jp.png)
 <center>[図6] ドライブ権限設定</center>   
 
-![위키 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/06_pjt_detail_wiki_settings_option.png)
+![위키 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_07_jp.png)
 <center>[図7] ウィキ権限設定</center>   
 
 ## プロジェクト設定(プロジェクト管理者向け)
@@ -96,7 +97,7 @@ Doorayプロジェクトではプロジェクト別に管理者を1名以上指�
 ### 基本設定
 #### ステータス
 - プロジェクトのステータスを「保管」に変更すると、その後新しいタスクやコメントは登録できません。
-![프로젝트 기본 설정](http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_project_settings_2.png)
+![프로젝트 기본 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_08_jp.png)
 <center>[図8] プロジェクト基本設定</center>   
 
 ### タスク/ドライブ/ウィキの使用設定
@@ -118,7 +119,7 @@ Doorayプロジェクトではプロジェクト別に管理者を1名以上指�
 
 ### ウィキ使用設定
 「ウィキ」タブを選択し、使用設定メニューで操作できます。
-![프로젝트 기본 설정](http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_project_settings_2.png)
+![프로젝트 기본 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_09_jp.png)
 <center>[図9] サービス別使用設定</center>   
 
 ### Webフック
@@ -136,7 +137,7 @@ Doorayでは発信Webフック(Outgoing Webhook)機能をサポートします�
 
 #### 使用可否
 - 該当のWebフックをしばらく止めたいときは、Webフックを削除せずに、使用可否を「使用しない」に設定するとよいでしょう。 
-![프로젝트 설정](http://static.toastoven.net/prod_dooray_project/detail/07_pjt_detail_add_webhook.png)
+![프로젝트 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_10_jp.png)
 <center>[図10] Webフック追加画面 </center>   
 
 #### ログ 
@@ -148,7 +149,7 @@ Doorayは通常のイシュートラッカーやプロジェクト管理ツー�
 
 ### 簡単登録
 担当者、本文、期日などが未定の状態でも、タイトルのみでタスクを登録できます。上の手順でも登録できますが、もっと簡単に登録できる方法があります。プロジェクト名のそばにある「+」アイコンをクリックします。大きな作成画面を開かなくても手軽に登録することができます。
-![간편 쓰기창]( http://static.toastoven.net/prod_dooray_project/detail/08_pjt_detail_w.png)
+![간편 쓰기창]( http://static.toastoven.net/prod_dooray_project/detail/Project_detail_11_jp.png)
 <center>[図11] 簡単登録</center>   
 
 簡単登録画面の最初の行はタイトルとして、2行目からは本文として登録されます。タイトルだけ入力したければ最初の行を入力して「登録」ボタンをクリックします。登録後、続けて登録したければ「保存後、続けて登録」をクリックします。この過程でショートカットキーを使えば、はるかに速く登録できます。タスクリスト画面でショートカットキー「fw」を入力すると、簡単登録画面が起動します。タイトルを入力して[Ctrl]+[Enter](macOSは[Cmd]+[Enter])を入力します。「保存後、続けて登録」をクリックしたときと同じように動作します。タイトルに「->@名前」を加えると、担当者のアサインまで一度で行えます。
@@ -162,7 +163,7 @@ Doorayメールサービスでも紹介しますが、Doorayメールをすぐ�
 #### 既存のタスクをサブタスクに登録する
 - タイトルで検索し、希望するタスクを指定します。
 - すべてのタスクをサブタスクに指定することはできません。サブタスクに対しては下位タスクを支援しないため、すでにサブタスクになっているものには、サブタスクをつけることができません。
-![하위추가](http://static.toastoven.net/prod_dooray_project/detail/09_pjt_detail_addtask.png)
+![하위추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_12_jp.png)
 <center>[図12] サブタスク追加</center>   
 
 #### 新規タスクをサブタスクとして登録する
@@ -175,20 +176,20 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 #### タスク担当者、参照者に外部メールアドレスを追加
 - タスクの担当者、参照者に外部のメールアドレス(例: gmail.com)を追加すれば、タスクの本文が外部メールに送信されます。外部メールから返信すると、返信内容がコメントに登録され、タスクで履歴を管理することができます。
 - <Span style="color:#FF0000">※ このとき、外部メールで送信されたタスク本文は編集できません。</span>
-![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail.png)
+![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_13_jp.png)
 <center>[図13] 外部メール追加</center>  
 
 #### コメントを電子メールで送信
 -	Doorayプロジェクトではコメントを用いてメンバー間でコミュニケーションができますが、外部ユーザーに伝達したい内容がある場合、コメントから送信先を選択してすぐにメールを送信することができます。
 -	「プロジェクト設定 > タスク > タスクメール連動」から送受信用に使用できるメールアドレスを作成できます。
-![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail.png)
+![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_14_jp.png)
 <center>[図14] プロジェクトメール設定</center>  
 - <Span style="color:#FF0000">※ コメントをメールで送信した場合、メールに送信されるため一般のコメントとは表示が異なり、タスク本文と同様に編集はできません。</span>
 
-![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail02.png)
+![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_15_jp.png)
 <center>[図15] 送信先のメールアドレスを選択してコメント登録</center>  
 
-![메일로 발송된 댓글](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail021.png)
+![메일로 발송된 댓글](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_16_jp.png)
 <center>[図16] メールで送信されたコメント</center>  
 
 #### 担当者の複数指定
@@ -197,7 +198,7 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 ### タスクの進行状態を確認
 担当者を複数指定した場合、各担当者の名前の色から進行状態をすぐに把握できるようにしました。登録：緑、進行：青、完了：グレーです。
 
-![담당자상태](http://static.toastoven.net/prod_dooray_project/detail/10_pjt_detail_add_npeople.png)
+![담당자상태](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_17_jp.png)
 <center>[図17] 担当者複数指定</center>   
 
 #### 参照者
@@ -216,13 +217,13 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 ### タスク参照
 本文やコメントに他のタスクのリンクを挿入することができます。他のタスクの読込画面からブラウザーのURLをコピーして本文(あるいはコメント)に挿入することもできますが、対象のタスクが別のプロジェクトに移動したとき、リンクは無効になります。エディタで'['と入力し、「タスク参照」を選択します。最近アクセスしたタスクリストが表示されるので、矢印キーやマウスを使って挿入したいタスクを選択しましょう。リストに挿入したいタスクが表示されない場合、キーワードを入力してタイトル検索ができます。
 
-![참조]( http://static.toastoven.net/prod_dooray_project/detail/11_pjt_detail_ref_task.png)
+![참조]( http://static.toastoven.net/prod_dooray_project/detail/Project_detail_18_jp.png)
 <center>[図18] エディタに [ と入力</center>   
 
 ### メンション
 「@」を入力した後、名前やメンバーグループを入力して、特定のユーザーやメンバーグループに周知ができます。この機能をメンションと言い、メンションを実行すると対象者の設定に関係なく通知を行います。またメンションされたユーザーは、該当のタスクの参照者に追加され、そのタスクに対して読込/編集権限が付与されます。誰をメンションするかによって、メンバー、自分、ゲストの3パターンに分けて視覚的に表現します。メンションの基本色は薄い青色です。自分がメンションされた場合は、濃い青色で表し、自分がメンションされたことを認知できるようにサポートします。またゲストをメンションした場合はグレーで表し、テナントの正式メンバーではないことを示唆します。
 
-![멘션](http://static.toastoven.net/prod_dooray_project/detail/13_pjt_detail_mention.png)
+![멘션](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_19_jp.png)
 <center>[図19] メンション例</center>   
 
 ## プロジェクト設定(プロジェクトメンバー向け)
@@ -231,7 +232,7 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 
 #### メンバーグループ
 - 「グループ追加」ボタンをクリックします。
-![멤버그룹](http://static.toastoven.net/prod_dooray_project/detail/14_pjt_detail_add_group.png)
+![멤버그룹](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_20_jp.png)
 <center>[図20] プロジェクト設定 > メンバー > グループ追加</center>   
 - グループ名を入力し、グループに入れたいメンバーを選択して「追加」ボタンをクリックします。
 -	すべてのプロジェクトにはプロジェクトメンバー全体を意味する「/all」というメンバーグループがあります。
@@ -244,9 +245,9 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 
 ### マイルストーン
 タスクの1つ1つに期日を指定し、それまでに終わらせることを目標にして働くことができます。しかし、このように個別に期日を指定していても、特定の日付に商品を発売したり、サービスをリリースするときは、発売日を基準にタスクを管理したいでしょう。このようなときに有用な機能がマイルストーンです。「マイルストーン追加」ボタンからマイルストーンを追加できます。タスクにマイルストーンを登録しておけば、タスクリストから特定のマイルストーンにフィルタリングして確認できます。
-![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/15_pjt_detail_add_milestone.png)
+![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_21_jp.png)
  <center>[図21] プロジェクト設定 > タスク > マイルストーン追加</center>   
-![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/16_pjt_detail_milestone_filtering.png)
+![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_22_jp.png)
  <center>[図22] タスクリストのフィルタリング</center>   
 
 #### マイルストーン
@@ -257,7 +258,7 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 
 ### タグ
 タスクを分類する目的に使用します。「タグ追加」ボタンをクリックして追加できます。
- ![태그](http://static.toastoven.net/prod_dooray_project/detail/17_pjt_detail_tag.png)
+ ![태그](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_23_jp.png)
  <center>[図23] プロジェクト設定 > タスク > タグ</center>  
 
 #### タグ名
@@ -273,19 +274,19 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 
 > 人事/総務関連のプロジェクトであれば、休暇申請、購買申請などのテンプレートを、ITSM(IT Service Management)のようなプロジェクトであれば、機器貸出申請、ネットワークACL申請などのテンプレートを作って活用できるでしょう。テンプレートはDoorayプロジェクトで最も広範囲に利用される機能です。
 
-![템플릿](http://static.toastoven.net/prod_dooray_project/detail/19_pjt_detail_template.png  )
+![템플릿](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_24_jp.png)
 <center>[図24] タスク登録画面でテンプレート選択</center> 
 
-![템플릿](http://static.toastoven.net/prod_dooray_project/detail/20_pjt_detail_template_list.png )
+![템플릿](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_25_jp.png)
 <center>[図25] ダッシュボード > テンプレートリスト</center>   
                                              
 #### 基本テンプレート
 - プロジェクトでテンプレートを選択すれば、ある程度定型化された入力を受け取ることができます。しかし、タスクを登録するユーザーがテンプレートを選択しなければ必要なデータは得られず、別途コミュニケーションが必要になります。このような過程を減らすために「基本テンプレート」機能を提供しています。
 -	テンプレート設定は「プロジェクト設定 > タスク > テンプレート > テンプレート追加」をクリックして、テンプレート設定画面から行います。
-![템플릿](http://static.toastoven.net/prod_dooray_project/detail/21_pjt_detail_setting_add_template.png)
+![템플릿](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_26_jp)
 <center>[図26]　テンプレート追加</center>   
 - テンプレート設定時、「基本テンプレート」にチェックをすると、対象プロジェクトでタスク登録画面を開いたとき、自動で該当のテンプレートが適用されます。
-![기본템플릿](http://static.toastoven.net/prod_dooray_project/detail/22_pjt_detail_default_template.png)
+![기본템플릿](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_27_jp.png)
 <center>[図27] 基本テンプレート設定</center>   
 
 #### マクロ 
@@ -308,28 +309,28 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 - 次はテンプレートのサンプルです。下の図のようにテンプレートを追加して活用してみてください。
 - 議事録に固定で入る項目をテンプレートに入れておくと、毎回同じ様式の文書を読み込んで活用できます。特に会議の日付が自動で入るように、${today}マクロを活用してみてください。
 
-![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-1_pjt_detail_template1.png)
+![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_28_jp.png)
 <center>[図28] 議事録テンプレート</center>   
 
 - 週次で発生する会議用のテンプレートは、下図のように活用してみましょう。会議準備と議事録の整理にかかる時間を節約できます。
 
-![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-2_pjt_detail_template2.png)
+![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_29_jp.png)
 <center>[図29] 週次会議テンプレート</center>   
 
 - サービスQAなどテスト業務で使用するテンプレートには、本文にチェックリストを挿入すると便利です。
 
-![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-3_pjt_detail_template3.png)
+![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_30_jp.png)
 <center>[図30] チェックリスト</center> 
 
 - バグ報告のテンプレートはサービス別に作っておくと効果的です。サービス別の担当者またはグループ指定が簡単に行えます。また、バグの確認に必要な情報を本文に作成しておけば、漏れなく確認することができるでしょう。タググループを作って、グループのプロパティ(必須/1つだけ選択)も活用すると便利です。
 
-![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/22-4_pjt_detail_template4.png)
+![템플릿 예시](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_31_jp.png)
 <center>[図31] バグ報告テンプレート</center> 
 
 ### 共有リンク
 プロジェクトメンバーではないユーザーに特定のタスクを共有したいとき、「共有する」機能を使ってタスクをリンクで共有することができます。共有権限はプロジェクト設定で指定できます。
 
-![공유하기]( http://static.toastoven.net/prod_dooray_project/detail/23_pjt_detail_share_task.png)
+![공유하기]( http://static.toastoven.net/prod_dooray_project/detail/Project_detail_32_jp.png)
 <center>[図32] タスク共有</center>   
 
 -	共有したいタスクで「…」メニューから「共有する」を選択します。
@@ -337,7 +338,7 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 -	リンク作成時に、共有期間、共有項目、共有範囲を指定できます。
 
 
- ![공유설정](http://static.toastoven.net/prod_dooray_project/detail/24_pjt_detail_share_setting.png)
+![공유설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_33_jp.png)
  <center>[図33] 共有リンク作成</center>   
  
 #### 共有期間
@@ -352,7 +353,7 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 このように特定のタスクを共有すると、タスク上段に「共有中」と表示され、プロジェクト管理者は「プロジェクト設定 > タスク > 共有リンク」から、プロジェクト内で共有されたタスクを確認することができます。
 組職管理者も、「設定 > 組職管理 > サービス管理 >共有リンク」から、対象の組職内で共有されたすべてのタスクを確認することができます。
 
- ![공유설정](http://static.toastoven.net/prod_dooray_project/detail/24_pjt_detail_share_setting.png)
+ ![공유설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_34_jp.png)
  <center>[図34] 共有リンクリスト</center>   
 
 ## タスクのステータス
@@ -360,13 +361,13 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 プロジェクトは「登録」、「進行中」、「完了」の3つのステータスを基本に提供します。
 3つの基本ステータスに、必要に応じてプロジェクトに最適化されたステータスを追加で設定できます。
 
-![공유설정](http://static.toastoven.net/prod_dooray_project/detail/24_pjt_detail_share_setting.png)
+![공유설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_35_jp.png)
  <center>[図35] ステータス追加</center>  
 
 ### ステータス変更
 タスクにアクセス可能なメンバーなら誰でもスタータス変更が可能です。
 
-![공유설정](http://static.toastoven.net/prod_dooray_project/detail/24_pjt_detail_share_setting.png)
+![공유설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_36_jp.png)
  <center>[図36]</center>  
 - タスクの左上から自分のスタータスを変更できます。
 - タスク全体のステータスを変更できます。
@@ -389,8 +390,8 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 #### 担当者/参照者の編集
 - 担当者と参照者だけを変更したい場合は、担当者、参照者にある鉛筆アイコンをクリックします。
 
- ![편집](http://static.toastoven.net/prod_dooray_project/detail/26_pjt_detail_edit_to.png )
- <center>[図37] 担当者編集</center>   
+![편집](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_37_jp.png)
+<center>[図37] 担当者編集</center>   
 
 - 担当者領域にマウスオーバーすると「自分にアサイン」ボタンが現れます。ボタンをクリックすると、既存の担当者は参照者に追加され、自分だけが担当者に残ります。
 - タスクの担当者にはメンバーグループをアサインし、実際にタスクを処理するメンバーが「自分にアサインする」を使って担当者を明確にする、というように利用できます。
@@ -398,14 +399,14 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 #### タイトルのインプレイス編集
 - タイトルにマウスオーバーして鉛筆アイコンをクリックすると、タイトルだけ編集できます。
   
-  ![제목 편집](http://static.toastoven.net/prod_dooray_project/detail/28_pjt_detail_inplace_title.png)
-  <center>[図38] タイトル編集</center>   
+![제목 편집](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_38_jp.png)
+<center>[図38] タイトル編集</center>   
 
 #### 本文のインプレイス編集
 - タスクの読込画面から鉛筆アイコンをクリックすると、本文だけ編集できます。
 
- ![본문 편집](http://static.toastoven.net/prod_dooray_project/detail/29_pjt_detail_inplace_body.png)
-  <center>[図39] 本文編集</center>  
+![본문 편집](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_39_jp.png)
+<center>[図39] 本文編集</center>  
 
 -  「保存」をクリックすると、保存をしてすぐに読込画面に切り替わりますが、「保存後続ける」をクリックすると、保存後も編集モードが維持されます。「保存後続ける」をクリックしたときは、一時保存ではなく実際にサーバーに保存されるので、他人にも保存した内容が表示されます。
 
@@ -413,26 +414,26 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 - タスク右上領域で期日を設定できます。
 - 基本は期日「未定」で登録されます。期日「なし」で設定すると、タスクのステータスと担当者のステータス設定が行えません。
 
- ![완료일 편집](http://static.toastoven.net/prod_dooray_project/detail/30_pjt_detail_inplace_duedate.png)
- <center>[図40] 期日編集</center>  
+![완료일 편집](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_40_jp.png)
+<center>[図40] 期日編集</center>  
 
 #### タグのインプレイス編集
 - タイトルのすぐ下にある「タグ」をクリックすると、タグを編集できます。
 - グループで括ったタグは、属性に応じて単一選択や必須選択にすることができます。
   
-  ![태그 편집](http://static.toastoven.net/prod_dooray_project/detail/31_pjt_detail_inplace_tag.png)
-  <center>[図41] タグ編集</center>  
+![태그 편집](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_41_jp.png)
+<center>[図41] タグ編集</center>  
 
 #### マイルストーンのインプレイス編集
 - 右上領域の「マイルストーン」をクリックすると、マイルストーンを編集できます
 
- ![마일스톤 편집](http://static.toastoven.net/prod_dooray_project/detail/32_pjt_detail_inplace_milestone.png)
- <center>[図42] マイルストーン編集</center>  
+![마일스톤 편집](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_42_jp.png)
+<center>[図42] マイルストーン編集</center>  
 
 #### 別プロジェクトへタスクを移動
 - 「…」メニューから「プロジェクトの移動」を選択して、他のプロジェクトにタスクを移動させることができます。移動するとき、移動先のプロジェクトのタグやマイルストーンを指定して一度に変更することも可能です。
 
- ![프로젝트 이동](http://static.toastoven.net/prod_dooray_project/detail/33_pjt_detail_move_project.png)
+![프로젝트 이동](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_43_jp.png)
  <center>[図43] タスク移動</center>  
 
 ### コメント作成
@@ -451,8 +452,8 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 #### タスクの変更内容を表示
 - タスクに関連するすべての編集内容は「履歴」で提供します。タイトル、担当者、スケジュール、本文テキスト、ファイル添付といった変更のほかに、タグやステータスの変更履歴も確認したい場合は、タスク本文の右下にある「変更内容を含む」をチェックしてください。本文とコメントすべての変更内容を確認することができます。
 
-  ![변경 히스토리](http://static.toastoven.net/prod_dooray_project/detail/34_pjt_detail_edit_history.png)
-  <center> [図44] 変更履歴</center>  
+![변경 히스토리](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_44_jp.png)
+<center> [図44] 変更履歴</center>  
 
 ### ウィンドウサイズの調整
 #### 新しいウィンドウを起動
@@ -470,8 +471,8 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 -	マークダウンで作成したタスクを自動で発表用の文書に変換する機能です。発表用に資料を別途作成しなくても、タスク本文をプレゼンテーション用の資料に切り替えることができます。
 - PCアイコンをクリックして「発表モード」を選択します。ショートカットキーは、vp(ViewPresentation)です。
 
-  ![발표 모드](http://static.toastoven.net/prod_dooray_project/detail/35_pjt_detail_vp_mode.png)
-  <center>[図45] 発表モード選択</center>  
+![발표 모드](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_45_jp.png)
+<center>[図45] 発表モード選択</center>  
 
 - お好みのスキンを選択し、「開始」をクリックすると発表画面に切り替わります。キーボードの矢印キーで次の画面に移動できます。
 - 内容が多く一画面に出力されない場合でも、矢印キーを押すと自動でスクロールされ、次の内容を見ることができます。
@@ -483,8 +484,8 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 - メールも全体メールまたは通知を受けたいメールボックスを選択することができ、メンションに対する通知も選択ができます。
 - 通知方法は、モバイルアプリ、メッセンジャー、外部メールから選択できます。
 
- ![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/36_pjt_detail_setting.png)
- <center>[図46] 通知設定</center>  
+![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_46_jp.png)
+<center>[図46] 通知設定</center>  
 
 ### ストリーム設定 
 #### プロジェクト/メール/カレンダー/ドライブ/ウィキ ストリーム設定
@@ -492,8 +493,7 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 -	メールも全体メールまたはストリームを受けたいメールボックスを選択することができ、メンションに対するストリームも選択ができます。
 -	すべてのサービスで自分がメンションされたイベントを常に受信するように設定することができます。
 
-![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/36_pjt_detail_setting.png)
-![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/36_pjt_detail_setting.png)
+![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_47_jp.png)
  <center> [図47] ストリーム設定</center>  
 
 ## ショートカットキー
