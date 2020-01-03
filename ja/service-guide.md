@@ -6,7 +6,7 @@ Doorayプロジェクトに初めて接続すると、次のようなウェル�
 ![프로젝트](http://static.toastoven.net/prod_dooray_project/01_pjt_welcome.png)
 <center>[図1] ウェルカムメッセージ</center>
 その後、Doorayで非常に重要なエディタの設定画面が表示されます。 設定した値は、新しいタスクを登録するウィンドウや、簡易タスク登録ウィンドウ、コメント作成ウィンドウ、ストリームのコメントウィンドウなどで使用します。設定したエディタを変更したい場合は、エディタ右下の設定アイコンをクリックして基本エディタを変更することができます。
-![프로젝트](http://static.toastoven.net/prod_dooray_project/02_pjt_settings.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_2_jp)
 <center>[図2] エディタ設定</center>
 
 #### ウィジウィグ（WYSIWYG）
@@ -16,13 +16,13 @@ Doorayプロジェクトに初めて接続すると、次のようなウェル�
 マークダウンとはテキストベースの書式文書です。ウィジウィグとは異なり最初は戸惑うかもしれませんが、次のようないくつかの書式さえ覚えれば、はるかに早く文章を作成することができます。
 - タイトル1～6までのレベル(タイトル用に文字の大きさを調節する)
     -「#」の個数によって文字のサイズが変わります。「#」はタイトル1で最も文字サイズが大きく、「######」はタイトル6で、最も小さいタイトル用の文字サイズの書式です。  
-![프로젝트](http://static.toastoven.net/prod_dooray_project/03_pjt_editor.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_3_jp)
 <center>[図3] エディタ本文 #タイトル例</center>
 - リスト
   -「*」を入力し、空白一行を入力してから文を作成するとリストになります。
   - インデントするときは、[TAB]キーを入力し、インデントを解除するときは、[Shift]+[TAB]を入力します。Microsoft OfficeのWordと同じように動作します。
   
-![프로젝트](http://static.toastoven.net/prod_dooray_project/04_pjt_list.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_4_jp)
 <center>[図4] エディタ本文 *入力例</center>
 詳しいヘルプは次のリンクをご参考ください。 
 > [参照]  
@@ -30,16 +30,16 @@ Doorayプロジェクトに初めて接続すると、次のようなウェル�
 
 ### プロジェクト作成 
 Doorayプロジェクトではタスクをまとめて管理できる様々な方法を提供します。その中でも最も一般的なものは、関連するタスクをプロジェクトに集めて管理することです。Dooray右上の設定アイコンをクリックして、プロジェクトメニューから「プロジェクト追加」を選択します。
-![프로젝트](http://static.toastoven.net/prod_dooray_project/05_setting_add_project.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_5_jp)
 <center>[図5] 設定　> プロジェクト > プロジェクト追加</center>
 
 すでに、「個人プロジェクト」が作成されていれば、隣の「+」アイコンをクリックして、「プロジェクト」を選択すると、簡単にプロジェクトを追加することができます。 プロジェクト名を入力し、「追加」をクリックします。
-![프로젝트](http://static.toastoven.net/prod_dooray_project/06_pjt_lnb_add_project.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_6_jp)
 <center>[図6] プロジェクト追加</center>
 
 ### 招待
 プロジェクトを作成したら、一緒に働くメンバーを招待しましょう。
-![프로젝트](http://static.toastoven.net/prod_dooray_project/07_pjt_invite.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_7_jp)
 <center>[図7] メンバー招待</center>
 
 ### タスク登録
@@ -48,7 +48,7 @@ Doorayプロジェクトではタスクをまとめて管理できる様々な�
 ### 期日設定
 新しいタスクを登録する時点で期日を設定できますが、登録後でも期日を設定したり、変更したりできます。期日の設定は、タスク右上にある期日設定をクリックし、目的の日付を選択して保存するだけです。期日はタスクの登録者以外にもタスクの参照者、プロジェクトメンバーなら誰でも修正できます。 タスクの登録者が設定した期日までに対応が難しい場合は、担当者が期日を変更します。なお、これらのすべての変更は履歴として残り、いつでも照会することができます。
 変更履歴は、タスク本文の領域とコメント欄の間にある「履歴」から確認できます。
-![프로젝트](http://static.toastoven.net/prod_dooray_project/08_pjt_day.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_8_jp)
 <center>[図8] 期日設定/変更</center>
 
 ### タスク修正
@@ -57,7 +57,7 @@ Doorayプロジェクトではタスクをまとめて管理できる様々な�
 ### 担当タスクの確認
 Doorayプロジェクトでは自分が担当者にアサインされているタスクを簡単に集めることができます。
 下図のようにフィルター設定から、自分が担当者になっているタスクをすぐに確認できます。
-![프로젝트](http://static.toastoven.net/prod_dooray_project/09_pjt_filter.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_9_jp)
 <center>[図9] フィルター設定</center>
 
 個人のステータスのほかにも、フィルターで様々なオプションを適用できます。
@@ -65,7 +65,7 @@ Doorayプロジェクトでは自分が担当者にアサインされている�
 ### ステータス変更
 タスクを登録すると最初のステータスは「登録」で表示されます。 その後、タスク画面の一番上にある「進行中」ボタンをクリックして、「進行中」の状態に変更することができます。タスクが完了したら、「完了」ボタンをクリックしてステータスを変更します。タスクのステータスを変更すると担当者の名前の色が変わります。「登録」は緑、「進行中」は青、「完了」はグレーで表示されます。
 
-![프로젝트](http://static.toastoven.net/prod_dooray_project/10_pjt_status.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_10_jp)
 <center>[図10] タスクのステータス変更/確認方法</center>
 
 ### コメントでコミュニケーション
@@ -87,12 +87,12 @@ Doorayプロジェクトでは自分が担当者にアサインされている�
 #### 自分が登録したタスクのステータスを確認：登録したタスク
 - 同僚やプロジェクトメンバー、あるいはチームメンバーにタスクを登録している場合、そのタスクの進捗状況が気になりませんか？このようなとき「登録したタスク」を活用しましょう。 「担当タスク」には自分が担当者にアサインされているタスクが集まり、「登録したタスク」には自分が登録したタスクが集まります。
 - 「登録したタスク」から担当者名の色を見れば、現在どのような状態かすぐに分かります。「登録」は緑、「進行中」は青、「完了」はグレーで表示されます。リストからタスク別の進行状態が分かるだけでなく、クリックしてタスクに対する担当者別のステータスも直観的に把握することができます。
-![프로젝트](http://static.toastoven.net/prod_dooray_project/11_pjt_sent_task.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_11_jp)
 <center>[図11] 登録したタスクのステータスや担当者別のステータス確認</center>
 
 #### 特定プロジェクトのステータスを確認：ダッシュボード 
 - ダッシュボードからプロジェクトやタスクの現状を簡単に把握することができます。
-![프로젝트](http://static.toastoven.net/prod_dooray_project/12_pjt_dashboard.png)
+![프로젝트](http://static.toastoven.net/prod_dooray_project/Project_12_jp)
 <center>[図12] ダッシュボード</center>
 
 - 登録されたタスクをもとに、バーンダウンチャート、進捗率、メンバーのタスク状況、プロジェクトテンプレートが確認できます。「メンバー別進捗」フィルターを使って直感的にタスクの現状を確認することができます。
