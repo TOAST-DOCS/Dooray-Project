@@ -42,6 +42,3 @@ GitLab Settings > IntegrationページにコピーしたDoorayの連動URLを入
 - close, closes, closed
 - resolve, resolves, resolved
 - 解決、完了
-
-
-
