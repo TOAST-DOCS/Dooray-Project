@@ -9,17 +9,17 @@ Dooray「設定 > サービス連動 > サービス追加」から「GitHub」�
 
 Bot名を入力して、連動URLをコピーした後、連動させるプロジェクトを選択して保存します。 
 
-![연동](http://static.toastoven.net/prod_dooray_project/01_project_integration.png)
+![연동](http://static.toastoven.net/prod_dooray_project/01_project_integration_jp.png)
 <center>[図1] Doorayサービス連動設定</center>
 
 Bot連動URLをコピーしたら、連動したいサービスにWebフックをかけましょう。GitHubの設定ページに移動します。Webhooks & servicesメニューをクリックしてWebフックを追加します。
 
-![연동](http://static.toastoven.net/prod_dooray_project/02_project_integration.png)
+![연동](http://static.toastoven.net/prod_dooray_project/02_project_integration_jp.png)
 <center>[図2] GitHub設定</center>
 
 Payload URLにコピーしたDoorayの連動URLを入力して保存します。
 
-![연동](http://static.toastoven.net/prod_dooray_project/03_project_integration.png)
+![연동](http://static.toastoven.net/prod_dooray_project/03_project_integration_jp.png)
 <center>[図3] Webフック追加</center>
 
 これでGitHubにコミットをプッシュするとき、コミットメッセージに「fix#my-dooray-project/1234」というフレーズがあれば、「#my-dooray-project/123」のタスクにプッシュ通知がコメントとして登録されます。プルリクエストをつけてマージすれば、対象のタスクは通知コメントと一緒に自動で完了します。
@@ -27,12 +27,12 @@ Payload URLにコピーしたDoorayの連動URLを入力して保存します。
 #### GitLab連動
 Dooray「設定 > サービス連動 > サービス追加」から「GitLab」を選択して、「連動追加」ボタンをクリックします。GitLabのイベント発生時に連動させるDoorayサービスを選択します。
 
-![연동](http://static.toastoven.net/prod_dooray_project/043_project_integration.png)
+![연동](http://static.toastoven.net/prod_dooray_project/04_project_integration_jp.png)
 <center>[図4] Doorayサービス連動設定</center>
 
 GitLab Settings > IntegrationページにコピーしたDoorayの連動URLを入力し、トリガーを選択します。 トリガーはチェックボックスでチェックしたものが連動されます。連動するトリガーを選択して、Add webhookボタンをクリックします。 
 
-![연동](http://static.toastoven.net/prod_dooray_project/05_project_integration.png)
+![연동](http://static.toastoven.net/prod_dooray_project/05_project_integration_jp.png)
 <center>[図5] Webフック追加</center>
 
 コミットをプッシュするとき、メッセージに「fix#my-dooray-project/1234」というフレーズを入力すると、「my-dooray-projec」プロジェクトの「1234」のタスクにプッシュ通知がコメントとして登録されます。プルリクエストをつけてマージすれば、対象のタスクは通知コメントと一緒に自動で完了します。
