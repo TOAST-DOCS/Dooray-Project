@@ -4,6 +4,7 @@
 
 ### プロジェクト追加
 個人プロジェクトの下にある「+」ボタンからプロジェクトを追加することができます。プロジェクトのタイトルと説明を入力すれば簡単にプロジェクトを作ることができます。 
+
 ![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_01_jp.png)
 <center>[図1] プロジェクト追加</center>
 
@@ -19,16 +20,19 @@
 ## 権限設定
 ### ダッシュボード権限設定
 ダッシュボードからプロジェクトに設定されたサービスの内訳を一目で確認することができます。また、サービス別に権限オプションを選択してダッシュボードを設定することができます。
+
 ![권한 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_03_jp.png)
 <center>[図3] ダッシュボード権限設定</center>  
 
 ### サービス別権限設定
 タスク/ドライブ/ウィキのサービス別に権限設定が行えます。プロジェクト設定画面の各サービスタブで権限を設定できます。
+
 ![권한 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_04_jp.png)
 <center>[図4] 権限設定</center>    
 
 ### タスク権限設定
 読込、登録、編集、移動/削除/共有機能について、権限オプションを選択してそれぞれ設定できます。
+
 ![업무 권한 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_05_jp.png)
 <center>[図5] 権限設定オプション</center>  
 
@@ -97,6 +101,7 @@ Doorayプロジェクトではプロジェクト別に管理者を1名以上指�
 ### 基本設定
 #### ステータス
 - プロジェクトのステータスを「保管」に変更すると、その後新しいタスクやコメントは登録できません。
+
 ![프로젝트 기본 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_08_jp.png)
 <center>[図8] プロジェクト基本設定</center>   
 
@@ -119,6 +124,7 @@ Doorayプロジェクトではプロジェクト別に管理者を1名以上指�
 
 ### ウィキ使用設定
 「ウィキ」タブを選択し、使用設定メニューで操作できます。
+
 ![프로젝트 기본 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_09_jp.png)
 <center>[図9] サービス別使用設定</center>   
 
@@ -137,6 +143,7 @@ Doorayでは発信Webフック(Outgoing Webhook)機能をサポートします�
 
 #### 使用可否
 - 該当のWebフックをしばらく止めたいときは、Webフックを削除せずに、使用可否を「使用しない」に設定するとよいでしょう。 
+
 ![프로젝트 설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_10_jp.png)
 <center>[図10] Webフック追加画面 </center>   
 
@@ -149,6 +156,7 @@ Doorayは通常のイシュートラッカーやプロジェクト管理ツー�
 
 ### 簡単登録
 担当者、本文、期日などが未定の状態でも、タイトルのみでタスクを登録できます。上の手順でも登録できますが、もっと簡単に登録できる方法があります。プロジェクト名のそばにある「+」アイコンをクリックします。大きな作成画面を開かなくても手軽に登録することができます。
+
 ![간편 쓰기창]( http://static.toastoven.net/prod_dooray_project/detail/Project_detail_11_jp.png)
 <center>[図11] 簡単登録</center>   
 
@@ -163,6 +171,7 @@ Doorayメールサービスでも紹介しますが、Doorayメールをすぐ�
 #### 既存のタスクをサブタスクに登録する
 - タイトルで検索し、希望するタスクを指定します。
 - すべてのタスクをサブタスクに指定することはできません。サブタスクに対しては下位タスクを支援しないため、すでにサブタスクになっているものには、サブタスクをつけることができません。
+
 ![하위추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_12_jp.png)
 <center>[図12] サブタスク追加</center>   
 
@@ -176,14 +185,17 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 #### タスク担当者、参照者に外部メールアドレスを追加
 - タスクの担当者、参照者に外部のメールアドレス(例: gmail.com)を追加すれば、タスクの本文が外部メールに送信されます。外部メールから返信すると、返信内容がコメントに登録され、タスクで履歴を管理することができます。
 - <Span style="color:#FF0000">※ このとき、外部メールで送信されたタスク本文は編集できません。</span>
+
 ![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_13_jp.png)
 <center>[図13] 外部メール追加</center>  
 
 #### コメントを電子メールで送信
 -	Doorayプロジェクトではコメントを用いてメンバー間でコミュニケーションができますが、外部ユーザーに伝達したい内容がある場合、コメントから送信先を選択してすぐにメールを送信することができます。
 -	「プロジェクト設定 > タスク > タスクメール連動」から送受信用に使用できるメールアドレスを作成できます。
+
 ![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_14_jp.png)
 <center>[図14] プロジェクトメール設定</center>  
+
 - <Span style="color:#FF0000">※ コメントをメールで送信した場合、メールに送信されるため一般のコメントとは表示が異なり、タスク本文と同様に編集はできません。</span>
 
 ![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_15_jp.png)
@@ -232,8 +244,10 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 
 #### メンバーグループ
 - 「グループ追加」ボタンをクリックします。
+
 ![멤버그룹](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_20_jp.png)
 <center>[図20] プロジェクト設定 > メンバー > グループ追加</center>   
+
 - グループ名を入力し、グループに入れたいメンバーを選択して「追加」ボタンをクリックします。
 -	すべてのプロジェクトにはプロジェクトメンバー全体を意味する「/all」というメンバーグループがあります。
 -	1つのプロジェクトに様々な職務のメンバーが含まれる場合は、職務別にメンバーグループを作っておくと協業や管理がしやすいでしょう。
@@ -245,8 +259,10 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 
 ### マイルストーン
 タスクの1つ1つに期日を指定し、それまでに終わらせることを目標にして働くことができます。しかし、このように個別に期日を指定していても、特定の日付に商品を発売したり、サービスをリリースするときは、発売日を基準にタスクを管理したいでしょう。このようなときに有用な機能がマイルストーンです。「マイルストーン追加」ボタンからマイルストーンを追加できます。タスクにマイルストーンを登録しておけば、タスクリストから特定のマイルストーンにフィルタリングして確認できます。
+
 ![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_21_jp.png)
  <center>[図21] プロジェクト設定 > タスク > マイルストーン追加</center>   
+
 ![마일스톤](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_22_jp.png)
  <center>[図22] タスクリストのフィルタリング</center>   
 
@@ -258,7 +274,8 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 
 ### タグ
 タスクを分類する目的に使用します。「タグ追加」ボタンをクリックして追加できます。
- ![태그](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_23_jp.png)
+
+![태그](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_23_jp.png)
  <center>[図23] プロジェクト設定 > タスク > タグ</center>  
 
 #### タグ名
@@ -283,9 +300,12 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 #### 基本テンプレート
 - プロジェクトでテンプレートを選択すれば、ある程度定型化された入力を受け取ることができます。しかし、タスクを登録するユーザーがテンプレートを選択しなければ必要なデータは得られず、別途コミュニケーションが必要になります。このような過程を減らすために「基本テンプレート」機能を提供しています。
 -	テンプレート設定は「プロジェクト設定 > タスク > テンプレート > テンプレート追加」をクリックして、テンプレート設定画面から行います。
+
 ![템플릿](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_26_jp)
 <center>[図26]　テンプレート追加</center>   
+
 - テンプレート設定時、「基本テンプレート」にチェックをすると、対象プロジェクトでタスク登録画面を開いたとき、自動で該当のテンプレートが適用されます。
+
 ![기본템플릿](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_27_jp.png)
 <center>[図27] 基本テンプレート設定</center>   
 
@@ -336,7 +356,6 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 -	共有したいタスクで「…」メニューから「共有する」を選択します。
 -	共有リンクを作成するため「リンク追加」をクリックします。
 -	リンク作成時に、共有期間、共有項目、共有範囲を指定できます。
-
 
 ![공유설정](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_33_jp.png)
  <center>[図33] 共有リンク作成</center>   
