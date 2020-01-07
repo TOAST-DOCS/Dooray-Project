@@ -49,7 +49,7 @@ Dooray! Project에서는 업무를 묶어 관리할 수 있는 여러가지 방�
 즐겨찾는 프로젝트 옆의 + 아이콘을 클릭해 ‘프로젝트 추가’를 할 수 있습니다. 프로젝트명을 입력하고 ‘추가’를 클릭합니다.
 
 ![프로젝트 추가](http://static.toastoven.net/prod_dooray_project/06_pjt_lnb_add_project.png)
-<center>[그림 6] 내 프로젝트 추가 </center>
+<center>[그림 6] 프로젝트 추가 </center>
 
 ### 초대하기
 
