@@ -511,7 +511,7 @@ Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경
 - 메일도 전체 메일 또는 스트림을 받고자 하는 메일함을 선택할 수 있으며, 멘션 소식에 대한 스트림도 선택할 수 있습니다.
 - 모든 서비스에 내가 멘션된 소식은 항상 받을 수 있도록 설정할 수 있습니다. 
 
- ![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/36_2_pjt_detail_setting.png)
+ ![알림 설정](http://static.toastoven.net/prod_dooray_project/detail/37_pjt_detail_setting.png)
  <center>[그림]스트림 설정 > 스트림 확인</center>  
 
 ## 단축키 
