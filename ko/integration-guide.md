@@ -39,7 +39,7 @@ Dooray! 메신저 대화방>  설정 > 서비스 연동 > 서비스 추가 > Git
 ![연동](http://static.toastoven.net/prod_dooray_project/043_project_integration.png)
 <center>[그림 4]Dooray! 서비스 연동 설정</center>
 
-GitLab Settings > Integration 페이지에 복사한 Dooray hook 연동 URL을 입력하고, Trigger를 선택합니다. 트리거는 아래 파랜색 체크한 것들이 연동됩니다. 연동할 트리거를 선택 후 Add webhook 버튼을 클릭합니다. 
+GitLab Settings > Integration 페이지에 복사한 Dooray hook 연동 URL을 입력하고, Trigger를 선택합니다. 트리거는 아래 파란색 체크한 것들이 연동됩니다. 연동할 트리거를 선택 후 Add webhook 버튼을 클릭합니다. 
 
 ![연동](http://static.toastoven.net/prod_dooray_project/05_project_integration.png)
 <center>[그림 5]웹 훅 추가</center>
