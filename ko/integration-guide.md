@@ -2,7 +2,9 @@
 
 ### 서비스 연동 
 
-Dooray!에서는 외부 서비스와의 연동을 위해 Dooray! 프로젝트의 이벤트를 외부 서비스로 알려주는 아웃고잉 웹 훅뿐 아니라 외부 다양한 서비스를 Dooray!로 연동할 수 있는 인커밍(Incoming) 훅을 제공합니다. 인커밍 연동이란 자주 사용하는 개발, 배포, 소스 관리, 성능 관리 도구들을 Dooray!에 연동하는 것으로 외부 서비스들의 다양한 변경 사항들을 Dooray! 프로젝트 또는 Dooray! 메신저 대화방으로 쌓는 방법입니다.  Dooray!에서는 Jenkins, GitHub, Gitlab, Trello, NewRelic, JIRA, Bitbucket, IFTTT, Grafana, Dooray! Incoming 연동을 지원하고 있습니다. Dooray! 프로젝트에는 GitHub, GitLab, Bitbucket,  Azure DevOps 서비스 연동이 가능하며, Dooray! 메신저 에서는 Jenkins, GitHub, GitLab, Trello, NewRelic, JIRA, Bitbucket, IFTTT, Grafana, Incoming, Sonarqube 서비스 연동이 가능합니다.  
+Dooray!에서는 외부 서비스와의 연동을 위해 Dooray! 프로젝트의 이벤트를 외부 서비스로 알려주는 아웃고잉 웹 훅뿐 아니라 외부 다양한 서비스를 Dooray!로 연동할 수 있는 인커밍(Incoming) 훅을 제공합니다. 인커밍 연동이란 자주 사용하는 개발, 배포, 소스 관리, 성능 관리 도구들을 Dooray!에 연동하는 것으로 외부 서비스들의 다양한 변경 사항들을 Dooray! 프로젝트 또는 Dooray! 메신저 대화방으로 쌓는 방법입니다. 
+Dooray!에서는 Jenkins, GitHub, Gitlab, Trello, NewRelic, JIRA, Bitbucket, IFTTT, Grafana, Dooray! Incoming 연동을 지원하고 있습니다. 
+Dooray! 프로젝트에는 GitHub, GitLab, Bitbucket,  Azure DevOps 서비스 연동이 가능하며, Dooray! 메신저 에서는 Jenkins, GitHub, GitLab, Trello, NewRelic, JIRA, Bitbucket, IFTTT, Grafana, Incoming, Sonarqube 서비스 연동이 가능합니다.  
 
 프로젝트 업무로 인커밍 훅을 받기 위해서는 Dooray! 설정 > 서비스 연동 > 서비스 추가에서 연동할 서비스를 선택합니다. 메신저 대화방으로 인커밍 훅을 받기 위해서는 Dooraya! 메신저 설정 > 서비스 연동 > 서비스 추가에서 연동할 프로젝트를 선택합니다. 즉 해당 서비스의 소식을 받을 곳으로 연동 URL은 각 서비스의 웹 훅 설정에서 추가해야 합니다.
 
