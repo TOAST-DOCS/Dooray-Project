@@ -287,7 +287,7 @@ Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경
 > HR(인사) 업무 프로젝트에서는 휴가 신청, 구매 요청 등의 템플릿을 만들 수 있고, ITSM(IT Service Management)과 같은 프로젝트에서는 장비 신청, 네트워크 ACL 요청 등의 템플릿을 만들어 활용할 수도 있습니다. 템플릿은 Dooray! Project에서 가장 광범위하게 많이 사용하는 기능입니다.
 
 ![템플릿](http://static.toastoven.net/prod_dooray_project/detail/19_pjt_detail_template.png  )
-<center>[그림]쓰기 창에서 템플릿 선택 </center> 
+<center>[그림] 쓰기 창에서 템플릿 선택 </center> 
 
 ![템플릿](http://static.toastoven.net/prod_dooray_project/detail/20_pjt_detail_template_list.png )
 <center>[그림] 프로젝트 대쉬보드 > 템플릿 목록 </center>   
@@ -389,7 +389,7 @@ Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경
 ### 업무 상태 변경하기
 업무에 접근이 가능한 멤버 누구나 업무 상태 변경이 가능합니다. 
 ![업무상태](http://static.toastoven.net/prod_dooray_project/detail/project_setting2.png)
-<center>[그림]업무 상태 변경</center>   
+<center>[그림] 업무 상태 변경</center>   
 - 업무의 좌측 상단에서 나의 업무 상태 편집이 가능합니다.
 - 업무의 우측 상단에서는 업무 상태와 담당자의 업무 상태 편집이 가능합니다.
 
