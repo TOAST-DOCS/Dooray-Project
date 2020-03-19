@@ -125,6 +125,17 @@ Dooray! Project에서는 프로젝트별로 1명 이상의 관리자를 지정�
 ![서비스별 사용 설정](http://static.toastoven.net/prod_dooray_project/detail/08_pjt_detail_project_drive_wiki.png)
 <center>[그림] 업무/드라이브/위키 서비스별 사용 설정</center>   
 
+### 프로젝트 삭제
+프로젝트 삭제는 테넌트 소유자 / 테넌트 관리자 / 조직 관리자만 가능합니다.
+해당 프로젝트 관리자는 '보관'으로 변경만 가능합니다. 
+따라서 프로젝트 삭제를 원하시면 조직관리 화면에 접근 가능한 관리자에게 요청해 주세요. 
+
+관리자는 [조직 관리] 메뉴에서 프로젝트를 삭제할 수 있습니다. 
+![프로젝트 삭제](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_02_ko.png)
+<center>[그림] 프로젝트 삭제</center> 
+
+영구 삭제를 원하시면 삭제 탭(위 화면 참고)에서 [영구 삭제] 버튼을 눌러주세요.
+
 ### 웹 훅
 Dooray!는 아웃고잉 웹 훅(Outgoing Webhook)기능을 지원합니다. Dooray! 프로젝트에 업무, 댓글이 등록되거나 업무의 변경된 상태를 추가한 URL로 전달받을 수 있습니다. 아웃고잉 웹 훅은 프로젝트 내용을 어디든 외부로 전송할 수 있는 보안 위험 때문에 프로젝트 관리자만 설정할 수 있으며, 프로젝트 설정에서 [웹 훅] 메뉴를 통해 설정할 수 있습니다. 아래의 웹 훅 추가 화면에서 Dooray! 이벤트를 내보낼 메시지 포맷은 Dooray!와 Slack의 포맷을 지원하며 알림을 받을 웹 훅 URL을 등록합니다.
 
