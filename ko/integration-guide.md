@@ -59,4 +59,4 @@ Bot 연동 URL을 복사하였으면, 연동하고자 하는 서비스에 웹 �
 <center>[그림] Azure DevOps 설정</center>
 
 ![연동](http://static.toastoven.net/prod_dooray_project/Project_02_ko.png)
-<center>[그림] Azure DevOps 설정</center>
+<center>[그림] 웹 훅 추가</center>
