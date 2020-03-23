@@ -54,9 +54,10 @@ commit 시 fix이외에도 다음과 같은 단어를 사용하면 자동 댓글
 
 #### Azure DevOps 프로젝트 업무에 연동하기 
 
-Bot 연동 URL을 복사하였으면, 연동하고자 하는 서비스에 웹 훅을 걸어야 합니다. Azure DevOps의 설정 페이지로 이동합니다. service hooks 메뉴를 눌러 웹 훅을 생성합니다.
+Bot 연동 URL을 복사하였으면, 연동하고자 하는 서비스에 웹 훅을 걸어야 합니다. Azure DevOps의 설정 페이지로 이동합니다. service hooks 메뉴를 눌러 웹 훅을 추가합니다.
 ![연동](http://static.toastoven.net/prod_dooray_project/Project_01_ko.png)
 <center>[그림] Azure DevOps 설정</center>
 
+Payload URL에 복사한 Dooray hook 연동 URL을 입력 후 저장합니다.
 ![연동](http://static.toastoven.net/prod_dooray_project/Project_02_ko.png)
 <center>[그림] 웹 훅 추가</center>
