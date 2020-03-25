@@ -44,7 +44,7 @@ GitLab Settings > Integration 페이지에 복사한 Dooray hook 연동 URL을 �
 ![연동](http://static.toastoven.net/prod_dooray_project/05_project_integration.png)
 <center>[그림] 웹 훅 추가</center>
 
-commit을 push할 때 message에 "fix#my-dooray-project/1234" 라는 문구를 입력하면 my-dooray-project 프로젝트의 1234번 업무에 push 알림이 댓글로 등록됩니다. 만약 pull request를 올려 merge될 경우, 해당 태스크는 알림 댓글과 함께 자동으로 완료 됩니다. 
+commit을 push할 때 message에 "fix #my-dooray-project/1234" 라는 문구를 입력하면 my-dooray-project 프로젝트의 1234번 업무에 push 알림이 댓글로 등록됩니다. 만약 pull request를 올려 merge될 경우, 해당 태스크는 알림 댓글과 함께 자동으로 완료 됩니다. 
 
 commit 시 fix이외에도 다음과 같은 단어를 사용하면 자동 댓글, 완료 처리가 활성화됩니다. 
 - fix, fixes, fixed
@@ -61,3 +61,12 @@ Bot 연동 URL을 복사하였으면, 연동하고자 하는 서비스에 웹 �
 Payload URL에 복사한 Dooray hook 연동 URL을 입력 후 저장합니다.
 ![연동](http://static.toastoven.net/prod_dooray_project/Project_02_ko.png)
 <center>[그림] 웹 훅 추가</center>
+
+test를 통해 훅이 오는지 확인 후 finish를 선택해 주세요. 
+commit을 push할 때 message에 "fix #my-dooray-project/1234" 라는 문구를 입력하면 my-dooray-project 프로젝트의 1234번 업무에 push 알림이 댓글로 등록됩니다. 만약 pull request를 올려 merge될 경우, 해당 태스크는 알림 댓글과 함께 자동으로 완료 됩니다. 
+
+commit 시 fix이외에도 다음과 같은 단어를 사용하면 자동 댓글, 완료 처리가 활성화됩니다. 
+- fix, fixes, fixed
+- close, closes, closed
+- resolve, resolves, resolved
+- 해결, 완료 
