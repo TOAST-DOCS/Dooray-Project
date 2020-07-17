@@ -6,13 +6,13 @@ Dooray!에서는 외부 서비스와의 연동을 위해 Dooray! 프로젝트의
 Dooray!에서는 Jenkins, GitHub, Gitlab, Trello, NewRelic, JIRA, Bitbucket, IFTTT, Grafana, Dooray! Incoming 연동을 지원하고 있습니다. 
 Dooray! 프로젝트에는 GitHub, GitLab, Bitbucket,  Azure DevOps 서비스 연동이 가능하며, Dooray! 메신저 에서는 Jenkins, GitHub, GitLab, Trello, NewRelic, JIRA, Bitbucket, IFTTT, Grafana, Incoming, Sonarqube 서비스 연동이 가능합니다.  
 
-프로젝트 업무로 인커밍 훅을 받기 위해서는 Dooray! 설정 > 서비스 연동 > 서비스 추가에서 연동할 서비스를 선택합니다. 메신저 대화방으로 인커밍 훅을 받기 위해서는 Dooraya! 메신저 설정 > 서비스 연동 > 서비스 추가에서 연동할 프로젝트를 선택합니다. 즉 해당 서비스의 소식을 받을 곳으로 연동 URL은 각 서비스의 웹 훅 설정에서 추가해야 합니다.
+프로젝트 업무로 인커밍 훅을 받기 위해서는 프로젝트 설정 > 업무 > 서비스 연동 > 서비스 추가에서 연동할 서비스를 선택합니다. 메신저 대화방으로 인커밍 훅을 받기 위해서는 Dooray! 메신저 설정 > 서비스 연동 > 서비스 추가에서 연동할 프로젝트를 선택합니다. 즉 해당 서비스의 소식을 받을 곳으로 연동 URL은 각 서비스의 웹 훅 설정에서 추가해야 합니다.
 
 다음은 GitHub 프로젝트에서 Push 이벤트 발생 시, Dooray! 프로젝트로 등록되게 하는 방법입니다.  
 
 #### 프로젝트 업무에 서비스 연동하기 
 
-Dooray! 설정 > 서비스 연동 > 서비스 추가 > GitHub ‘연동 추가’ 버튼을 클릭합니다. GitHub 이벤트 발생 시 연동하고자 하는 Dooray! 서비스를 선택합니다. Dooray! 프로젝트 중 하나를 선택해 Git 이벤트를 선택한 프로젝트 댓글로 받습니다. 연동 대화방을 선택하고 싶은 경우에는 메신저 설정에서 서비스 연동을 추가하면 됩니다. 
+프로젝트 설정 > 업무 > 서비스 연동 > 서비스 추가 > GitHub ‘연동 추가’ 버튼을 클릭합니다. GitHub 이벤트 발생 시 연동하고자 하는 Dooray! 서비스를 선택합니다. Dooray! 프로젝트 중 하나를 선택해 Git 이벤트를 선택한 프로젝트 댓글로 받습니다. 연동 대화방을 선택하고 싶은 경우에는 메신저 설정에서 서비스 연동을 추가하면 됩니다. 
 Bot 이름을 정하고 연결할 프로젝트를 체크한 후 추가 버튼을 클릭합니다. 추가 후 생성된 연동 URL을 복사합니다.
 
 ![연동](http://static.toastoven.net/prod_dooray_project/09_project_integration.png)
