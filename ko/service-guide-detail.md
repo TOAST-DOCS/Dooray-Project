@@ -208,8 +208,13 @@ Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경
 ![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail01.png)
 <center>[그림] 프로젝트 메일 설정</center> 
 
+- 담당자와 참조자에 외부메일이 있는 경우, 댓글저장 버튼 우측 화살표를 클릭 해 메일발송을 할 수 있습니다.
 ![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail02.png)
 <center>[그림] 보내고자 하는 이메일의 이름을 선택해 메일 발송</center>  
+
+- [주의] 담당자와 참조자에 외부메일이 없는 경우는 메일발송 할 수 없기 때문에 화살표가 나타나지 않습니다.
+![댓글 저장](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_save.png)
+<center>[그림] 외부메일이 없는 경우 댓글저장 버튼</center> 
 
 ![메일로 발송된 댓글](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail021.png)
 <center>[그림] 메일로 발송된 댓글</center>  
