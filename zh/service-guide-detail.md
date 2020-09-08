@@ -190,6 +190,9 @@ Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경
 - 댓글로 멤버들끼리 편하게 소통을 하다가, 외부 사용자에게 전달할 내용이 있을 경우 댓글에서 바로 메일을 발송할 수 있습니다. 
 - <Span style="color:#FF0000">※ 주의) 댓글을 메일로 발송한 경우, 메일로 발송되었으므로 일반 댓글과 다르게 표시되며 업무 본문과 동일하게 편집이 불가합니다. </span>
 
+![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail01.png)
+<center>[그림] 프로젝트 메일 설정</center> 
+
 - 담당자와 참조자에 외부메일이 있는 경우, 댓글저장 버튼 우측 화살표를 클릭 해 메일발송을 할 수 있습니다.
 ![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail02.png)
 <center>[그림] 보내고자 하는 이메일의 이름을 선택해 메일 발송</center>  
