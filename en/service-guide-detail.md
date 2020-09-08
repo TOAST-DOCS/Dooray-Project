@@ -158,8 +158,13 @@ To collaborate with external users via Dooray! Project, you don't have to add th
 - If you have something to inform to external users while communicating with members via comments, you can directly send them your comments in an email. 
 - <Span style="color:#FF0000">※ Note: When sending a comment via email, the comment is marked in a different way from other comments and it cannot be edited, like the task body, as it has been sent as an email.</span>
 
+If you have an external mail in To or CC, you can send the mail by clicking the arrow to the right of the Save Comments button.
 ![Send Comment as Email](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail02.png)
 <center>[Figure]Select the Sender's Name and Send Email</center>  
+
+- [Caution] If there is no external mail in To or CC, the arrow does not appear because you cannot send mail.
+![save comment](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_save.png)
+<center>[Figure] Save comment button if no external mail is available</center> 
 
 ![Comment Sent as Email](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_external_mail021.png)
 <center>[Figure]Comment Sent as Email</center>  
