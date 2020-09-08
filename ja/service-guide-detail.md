@@ -192,14 +192,20 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 #### コメントを電子メールで送信
 -	Doorayプロジェクトではコメントを用いてメンバー間でコミュニケーションができますが、外部ユーザーに伝達したい内容がある場合、コメントから送信先を選択してすぐにメールを送信することができます。
 -	「プロジェクト設定 > タスク > タスクメール連動」から送受信用に使用できるメールアドレスを作成できます。
+- <Span style="color:#FF0000">※ コメントをメールで送信した場合、メールに送信されるため一般のコメントとは表示が異なり、タスク本文と同様に編集はできません。</span>
 
 ![외부 이메일 추가](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_14_jp.png)
 <center>[図14] プロジェクトメール設定</center>  
 
-- <Span style="color:#FF0000">※ コメントをメールで送信した場合、メールに送信されるため一般のコメントとは表示が異なり、タスク本文と同様に編集はできません。</span>
 
+- To または CC に外部メールがある場合は、Save Comments ボタンの右側にある矢印をクリックしてメールを送信できます。
 ![댓글 메일 발송](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_15_jp.png)
 <center>[図15] 送信先のメールアドレスを選択してコメント登録</center>  
+
+-【注意】ToやCCに外部メールがない場合は、メールを送ることができないので矢印が表示されません。
+![댓글 저장](http://static.toastoven.net/prod_dooray_project/detail/pjt_detail_save.png)
+<center>[Figure] 利用可能な外部メールがない場合は、コメントを保存ボタン</center> 
+
 
 ![메일로 발송된 댓글](http://static.toastoven.net/prod_dooray_project/detail/Project_detail_16_jp.png)
 <center>[図16] メールで送信されたコメント</center>  
