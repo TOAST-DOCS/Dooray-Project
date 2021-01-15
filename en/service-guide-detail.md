@@ -24,8 +24,6 @@ Private project is the most general type of project, which can be read and writt
 #### Open to
 -  The default value is ‘Project Members Only’. This is a private project that only members invited to the project can read and write. If you want all tenant members to read and write freely, change this setting to 'All Members in Organization'. This project with this permission is called 'Open Project'.
 
-![Open To](http://static.toastoven.net/prod_dooray_project/detail/03_pjt_detail_member01.png)
-<center>[Figure 3]Open To Setting</center>    
 
 ### Create an Open Project
 
@@ -36,8 +34,6 @@ All tenant users can read and write in an open project even if they are not memb
 
 When one tenant has several organizations, you can also disclose the project to a specific organization. Choose ‘All Members in Organization' and then the 'Choose Organization' option appears next. Click this to view the list of all organizations of the tenant. You can select an organization for the project.
  
- ![Open Project](http://static.toastoven.net/prod_dooray_project/detail/04_pjt_detail_member02.png)
- <center>[Figure 4]Select Open To</center>    
 
 The open project is open to all organizations of the tenant; however, the tenant guests cannot access the project. Any tenant guest must be a member of the open project or an owner or a CC of the open project to access the project.
 
@@ -54,8 +50,7 @@ Write-only Open Project is an open project, but only the issues you have written
 > If your organization have any internal services to review patent or report sexual harassment, you can create a projected project for that. A large service can be replaced with a small feature of Dooray!
 Project.
 
-![Write Only](http://static.toastoven.net/prod_dooray_project/detail/05_pjt_detail_member03_w.png)
-<center>[Figure 5]Write Only Setting</center>    
+ 
 
 ## Project Settings for Project Manager
 
@@ -75,8 +70,6 @@ Dooray! Project allows for assigning more than one manager to a project. Differe
 #### Project Drive  
 -  Set this to ‘Enable' to create the drive for the project in Dooray! Drive and members can share and manage files together.
 
-![Project Setting](http://static.toastoven.net/prod_dooray_project/detail/06_pjt_detail_default_setting.png)
-<center>[Figure 6] Default Setting of Project </center>   
 
 ### Webhook
 
