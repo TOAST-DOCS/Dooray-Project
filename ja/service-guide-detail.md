@@ -229,7 +229,7 @@ Doorayプロジェクトを通じて外部ユーザーと協業する際、外�
 
 ## 本文と書き込み形式
 ### マークダウン作成
-マークダウンヘルプを確認してください。[詳しく](https://nhnent.dooray.com/htmls/guides/markdown_ko_KR.html )
+マークダウンヘルプを確認してください。[詳しく](https://dooray.com/htmls/guides/markdown_ja_JP.html )
 該当のページですぐに練習できます。画面の左側がマークダウンエディタで、右側が結果画面です。
 
 ### タスク参照
