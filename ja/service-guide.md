@@ -31,7 +31,7 @@ Doorayプロジェクトに初めて接続すると、次のようなウェル�
 
 詳しいヘルプは次のリンクをご参考ください。 
 > [参照]  
-> [*https://dooray.com/htmls/guides/markdown\_ko\_KR.html*](https://dooray.com/htmls/guides/markdown_ko_KR.html)
+> [*https://dooray.com/htmls/guides/markdown_ja_JP.html*](https://dooray.com/htmls/guides/markdown_ja_JP.html)
 
 ### プロジェクト作成 
 Doorayプロジェクトではタスクをまとめて管理できる様々な方法を提供します。その中でも最も一般的なものは、関連するタスクをプロジェクトに集めて管理することです。Dooray右上の設定アイコンをクリックして、プロジェクトメニューから「プロジェクト追加」を選択します。
