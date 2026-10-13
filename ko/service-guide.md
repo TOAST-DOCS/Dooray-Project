@@ -61,7 +61,7 @@ Dooray! Project에서는 업무를 묶어 관리할 수 있는 여러가지 방�
 ### 프로젝트 메일 연동하기
 
 Dooray!프로젝트를 통해 외부 사용자들과 협업을 하고자 할 경우, 프로젝트 이메일을 생성하여 업무를 메일로 주고받을 수 있습니다. 
-상세 안내는 [외부 사용자와 협업하기](https://docs.toast.com/ko/Dooray/Project/ko/service-guide-detail/#_40)를 참고해주세요.  
+상세 안내는 [외부 사용자와 협업하기](https://docs.nhncloud.com/ko/Dooray/Project/ko/service-guide-detail/#_40)를 참고해주세요.  
 
 ![메일 연동](http://static.toastoven.net/prod_dooray_project/Project_05_ko.png)
 <center>[그림] 프로젝트 메일 연동하기</center> 
